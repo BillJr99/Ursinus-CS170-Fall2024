@@ -39,7 +39,7 @@ info:
         - Create another variable called step that increments by 1 when you press B, and decrements by 1 when you press A.  Then, calculate frequency using the formula above.
         - Modify this program to use a loop to play a crescendo of 10 notes when the A+B button is pressed, by setting <code>step</code> to <code>step + 1</code>, calling calculateFrequencies, and playing the resulting tone.
         - Modify this program to play a second (different) note when P2 is pressed.  You'll need a new variable to keep track of the frequency and step.
-        - Modify the program to allow the user to do something to change the beat (like shaking the microbit).  Start with one-eighth beat, and keep adding one-eighth until the beat reaches 2; then go back to one-eighth.  Hint: you can use an <code>if</code> statement to &quot;wrap around&quot; the value if it is 2, and add one-eighth to it otherwise (this is called an <code>else</code> statement)!
+        - "Modify the program to allow the user to do something to change the beat (like shaking the microbit).  Start with one-eighth beat, and keep adding one-eighth until the beat reaches 2; then go back to one-eighth.  Hint: you can use an <code>if</code> statement to &quot;wrap around&quot; the value if it is 2, and add one-eighth to it otherwise (this is called an <code>else</code> statement)!"
         
 tags:
   - microbit
