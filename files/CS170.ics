@@ -127,7 +127,7 @@ DTSTAMP:20220906T000000Z
 DTSTART;VALUE=DATE:20220906
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/FlowerClassifier
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -136,7 +136,7 @@ DTSTAMP:20220907T000000Z
 DTSTART;VALUE=DATE:20220907
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/Microbit
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
