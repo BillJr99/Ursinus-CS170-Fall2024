@@ -25,7 +25,7 @@ info:
         <br>
         <img src="../files/activity-tinfoilpiano/pinout.png" alt="Pinout for the micro:bit to use headphones and allegator clips to tin foil pads">
       questions: 
-        - The micro:bit comes with 5 pins: P0, P1, P2, a 3-Volt connection, and an electrical ground.  We can measure the current on P0, P1, and P2, related to the voltage difference between the pin and ground.  With alligator clips, connect two pieces of tin foil to ground and P1.
+        - "The micro:bit comes with 5 pins: P0, P1, P2, a 3-Volt connection, and an electrical ground.  We can measure the current on P0, P1, and P2, related to the voltage difference between the pin and ground.  With alligator clips, connect two pieces of tin foil to ground and P1."
         - You can hook up headphones if you like, but the micro:bit v2 has speakers built in!
         - When the P1 pin is pressed (that is, when you touch the P1 tin foil while touching the ground tin foil), play a sound.
     - title: "Changing the Sound"
