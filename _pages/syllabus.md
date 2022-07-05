@@ -113,10 +113,19 @@ textbooks:
   freelyavailable: false
 
 objectives:
-- objective: "lorem ipsum"
+- objective: "To implement algorithms using the Python programming language"
+- objective: "To use appropriate variables to represent and manipulate data"
+- objective: "To use logic conditionals to make decisions in a computer program"
+- objective: "To use loops to create appropriate repetition in a computer program"
+- objective: "To abstract code into functions for re-use"
+- objective: "To reuse external library functionality to extend the capabilities of a program"
+- objective: "To collaborate with others in the creation of computer programs"
 
 goals:
-- goal: "lorem ipsum"
+- goal: "To apply programming as a vehicle to make computing and technology accessible to a broad variety of application domains in the sciences and humanities"
+- goal: "To use design thinking and empathetic computing practices to identify and to address diverse stakeholder groups and needs"
+- goal: "To design algorithms and computer programs to solve problems across a variety of domains"
+- goal: "To interface computer programs with data from the external environment"
 
 grade_breakdown:
 - category: "Programming Assignments"
@@ -161,19 +170,22 @@ letter_grades:
 schedule:
 - week: "0"
   date: "0"
-  title: ""
+  title: "Course Overview"
+  link: "../Ursinus-CS173-Overview"
 - week: "0"
   date: "1"
-  title: ""
+  title: "Course Overview Continued: What is Computer Science?"  
 - week: "0"
   date: "2"
-  title: ""
+  title: "Course Overview Continued: What is Computer Science?"  
 - week: "0"
   date: "3"
-  title: ""
+  title: "Course Overview Continued: The Development Environment and Post-It Pandemonium"   
+  link: "./DrawingCanvas"
 - week: "1"
   date: "0"
-  title: ""
+  title: "Exploring Computing Concepts with Unplugged Activities"
+  link: "./Presentations/UnpluggedIcebreakers"
 - week: "1"
   date: "1"
   title: ""
