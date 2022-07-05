@@ -46,7 +46,7 @@ info:
         <br>
         <a title="Cmglee, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Linear_congruential_generator_visualisation.svg"><img width="512" alt="Linear congruential generator visualisation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Linear_congruential_generator_visualisation.svg/512px-Linear_congruential_generator_visualisation.svg.png"></a>
       questions: 
-        - The <a href=\"https://en.wikipedia.org/wiki/Linear_congruential_generator\">Linear Congruential Generator</a> is one way to generate a pseudo-random number computationally.  Choose a starting value and generate 3 random numbers using this formula.
+        - "The <a href=\"https://en.wikipedia.org/wiki/Linear_congruential_generator\">Linear Congruential Generator</a> is one way to generate a pseudo-random number computationally.  Choose a starting value and generate 3 random numbers using this formula."
         - What would happen if two people used the same starting value (called a &quot;seed&quot;)?
         - How might video games generate a seed?
     - title: "Introduction to the micro:bit"

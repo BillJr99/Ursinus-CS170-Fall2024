@@ -25,7 +25,7 @@ info:
       questions: 
         - How do you think Tiles or Apple AirTag devices might work?
         - What equipment do you think these devices require?
-        - What features of the micro:bit might help us locate our item?  As a hint, think of the game <a href=\"https://en.wikipedia.org/wiki/Marco_Polo_(game)\">Marco Polo</a>.
+        - "What features of the micro:bit might help us locate our item?  As a hint, think of the game <a href=\"https://en.wikipedia.org/wiki/Marco_Polo_(game)\">Marco Polo</a>."
         - Develop a flowchart for the Marco Polo or Hide-and-Seek game (who says what, and who does what).  For this flowchart, let's decide if we're getting &quot;warmer&quot; or &quot;colder&quot; at each step.
     - title: "Designing an Algorithm with a Flowchart and Implementing the Algorithm"
       model: |
