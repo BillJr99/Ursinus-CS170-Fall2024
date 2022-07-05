@@ -28,6 +28,7 @@ info:
         - "The micro:bit comes with 5 pins: P0, P1, P2, a 3-Volt connection, and an electrical ground.  We can measure the current on P0, P1, and P2, related to the voltage difference between the pin and ground.  With alligator clips, connect two pieces of tin foil to ground and P1."
         - You can hook up headphones if you like, but the micro:bit v2 has speakers built in!
         - When the P1 pin is pressed (that is, when you touch the P1 tin foil while touching the ground tin foil), play a sound.
+        - "<strong>Be very careful never to connect the 3V pad to ground.  Only connect the P0, P1, and P2 pads to ground!</strong>"
     - title: "Changing the Sound"
       model: |
         <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\)</span>
