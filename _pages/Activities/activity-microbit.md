@@ -25,7 +25,17 @@ info:
         </footer>
         </blockquote>
       questions: 
-        - lorem ipsum  
+        - Pick three numbers from 1 to 10 at random, and write them on the board.
+        - What do you notice about the distribution of those numbers?
+        - How did you come up with those numbers?  How did you ensure they were truly quot;random?&quot;
+        - What does it mean to be &quot;random?&quot;
+    - title: "Pseudorandom Number Generation"
+      model: |
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nl_62s1xqCo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      questions: 
+        - How do computers pick numbers &quot;at random?&quot;
+        - How do they decide when to spawn certain &quot;random&quot; events?
+        - Is this video game player really good at the game?
     - title: "Introduction to the micro:bit"
       model: |
         <div style="text-align: left;">
