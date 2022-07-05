@@ -35,6 +35,7 @@ info:
         - The radio received event can send a number!  Send a different number for each person.  How should we store this special &quot;radio number?&quot;
         - Modify the program so that each person can pick their unique radio number by incrementing the variable by 1 every time the A button is pressed.  Perhaps display it on the screen so you know which radio number you will use (and make sure no-one else is using it).
         - When you press the other button, show one of the values from the array on screen.  You can use another variable for this.
+        - Why send <code>hello = radio_number</code> rather than just the radio number like we did before?  Either way works, but what additional flexibility do you gain by using this block?
         - How can you modify this program so that instead of showing the number of messages you've received, you show instead the number of seconds you were near one another?  What would you need to do to figure out a conversion between messages seen and time?  As a hint: can you guess how long someone was speaking by counting the number of words you heard them say?  How might you do this?
 
 tags:
