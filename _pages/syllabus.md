@@ -10,7 +10,7 @@ info:
   - section: "A"
   course_title: "Programming for the World Around Us"
   credit_hours: "4 Semester Hours"
-  course_homepage: "https://www.billmongan.com/Ursinus-CS170-Spring2021/"
+  course_homepage: "https://www.billmongan.com/Ursinus-CS170-Fall2022/"
   class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS170%20Fall%202022
   ical: files/CS170.ics
   course_prerequisites: "None."
@@ -61,10 +61,10 @@ info:
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
     <div style="width: 100%; display: table-row;">
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="Nicoguaro / CC BY (https://creativecommons.org/licenses/by/4.0)" href="https://commons.wikimedia.org/wiki/File:Iris_dataset_scatterplot.svg"><img width="100%" style="display:block;"  alt="Iris dataset scatterplot" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Iris_dataset_scatterplot.svg/512px-Iris_dataset_scatterplot.svg.png"></a>
+            <img width="100%" style="display:block;" src="https://upload.wikimedia.org/wikipedia/en/a/a3/Micro-bit_v1_%26_v2.JPG" alt="Microbit">
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-            <img width="100%" style="display:block;" alt="TAP Class Diagram" src="https://www.billmongan.com/files/media/software-clusternav/clusternav.jpg">
+            <img width="100%" style="display:block;" src="https://github.com/billjr99/thunder-and-lightning-v2/raw/master/.github/makecode/blocks.png" alt="Thunder and Lightning Timer Program Blocks for Microbit">
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
             <img width="100%" style="display:block;" alt="SimBaby Wireless Respiratory Analysis with the Smart Fabric Bellyband" src="https://www.billmongan.com/files/media/software-iotframework/simbaby.jpg">
