@@ -29,13 +29,22 @@ info:
         - What do you notice about the distribution of those numbers?
         - How did you come up with those numbers?  How did you ensure they were truly quot;random?&quot;
         - What does it mean to be &quot;random?&quot;
-    - title: "Pseudorandom Number Generation"
+    - title: "Computers and Random Numbers"
       model: |
         <iframe width="560" height="315" src="https://www.youtube.com/embed/nl_62s1xqCo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       questions: 
         - How do computers pick numbers &quot;at random?&quot;
         - How do they decide when to spawn certain &quot;random&quot; events?
         - Is this video game player really good at the game?
+    - title: "Pseudorandom Number Generation"
+      model: |
+        <img src="/files/activity-microbit/PRNG.png" alt="Pseudonumber Random Number Generator (PRNG) formula">
+        <br>
+        <a title="Cmglee, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Linear_congruential_generator_visualisation.svg"><img width="512" alt="Linear congruential generator visualisation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Linear_congruential_generator_visualisation.svg/512px-Linear_congruential_generator_visualisation.svg.png"></a>
+      questions: 
+        - The <a href=\"https://en.wikipedia.org/wiki/Linear_congruential_generator\">Linear Congruential Generator</a> is one way to generate a pseudo-random number computationally.  Choose a starting value and generate 3 random numbers using this formula.
+        - What would happen if two people used the same starting value (called a &quot;seed&quot;)?
+        - How might video games generate a seed?
     - title: "Introduction to the micro:bit"
       model: |
         <a href="https://en.wikipedia.org/wiki/File:Micro-bit_v1_%26_v2.JPG#/media/File:Micro-bit_v1_&amp;_v2.JPG"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Micro-bit_v1_%26_v2.JPG/1200px-Micro-bit_v1_%26_v2.JPG" alt="Micro-bit v1 &amp; v2.JPG: Creative Commons Zero, Public Domain Dedication"></a>
@@ -54,7 +63,11 @@ info:
         </ul>
         </div>
       questions: 
-        - lorem ipsum
+        - Using the micro:bit, create variables for a, b, c, and X: call them <code>multiplier</code>, <code>adder</code>, <code>modulus</code>, and <code>current</code>.
+        - Give them any values you want by setting their values in <code>on start</code>.
+        - When the user presses the A button, set the value of the X variable (<code>current</code>) using the formula, and show X on the screen.
+        - On start, show the value of X on the screen
+        - When you're done, click on the Python tab at the top.  What do you notice about each block from the original program?
 
 tags:
   - datatypes
