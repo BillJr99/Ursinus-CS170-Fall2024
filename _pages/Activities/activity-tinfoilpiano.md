@@ -30,7 +30,7 @@ info:
         - When the P1 pin is pressed (that is, when you touch the P1 tin foil while touching the ground tin foil), play a sound.
     - title: "Changing the Sound"
       model: |
-        <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\\)</span>
+        <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\)</span>
       questions: 
         - A note's pitch is determined by its frequency.  Each successive note can be calculated as a &quot;half step&quot; above or below a base frequency.  The formula is given above.  Using a calculator, what is the frequency of the note right above Middle C (which is 440 Hz), and the note right below Middle C?
         - "What note do these two frequencies correspond to?  Use <a href=\"https://pages.mtu.edu/~suits/notefreqs.html\">this table</a> to look up a note by its frequency."
