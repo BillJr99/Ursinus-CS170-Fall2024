@@ -190,7 +190,7 @@ DTSTAMP:20220919T000000Z
 DTSTART;VALUE=DATE:20220919
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/SocialVicinity
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
