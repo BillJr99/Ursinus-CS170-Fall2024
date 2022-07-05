@@ -6,7 +6,7 @@ excerpt: "CS170: Programming for the World Around Us - Hide and Seek with the mi
 
 info:
   teacher_highlights:
-    - "Teachers can set up a MakeCode Classroom environment by activating this <a href=\"/files/activity-hideandseek/hideandseek-20220705-0243-microbit-classroom-resume-activity.html\">template</a>."
+    - "Teachers can set up a MakeCode Classroom environment by activating this <a href=\"../files/activity-hideandseek/hideandseek-20220705-0243-microbit-classroom-resume-activity.html\">template</a>."
   goals: 
     - To use the radio interface of the micro:bit
     - To design a workflow and algorithm to play Hide and Seek with two micro:bit devices
