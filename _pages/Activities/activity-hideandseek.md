@@ -11,6 +11,8 @@ info:
     - To use the radio interface of the micro:bit
     - To design a workflow and algorithm to play Hide and Seek with two micro:bit devices
     - To implement an algorithm using the micro:bit block language
+    - To create button events using the micro:bit
+    - To use <code>if</code> statements to make decisions in a program
   models:
     - title: "Hide and Seek using the micro:bit"
       model: |
@@ -52,6 +54,7 @@ info:
 tags:
   - microbit
   - radio
+  - conditionals
   
 ---
 

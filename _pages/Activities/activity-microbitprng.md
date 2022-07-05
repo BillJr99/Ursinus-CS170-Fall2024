@@ -17,6 +17,8 @@ info:
     - To develop an algorithm to generate pseudorandom numbers with a computer
     - To implement an algorithm using the micro:bit blocks language
     - To create and use a GitHub account to save your micro:bit MakeCode project
+    - To create and manipulate variables in a computer program
+    - To implement a mathematical formula using code
   models:
     - title: "Random Numbers"
       model: |
