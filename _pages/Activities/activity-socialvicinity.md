@@ -29,6 +29,7 @@ info:
         <a title="No machine-readable author provided. Jarkko Piiroinen assumed (based on copyright claims)., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Array1.svg"><img width="256" alt="Array1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Array1.svg/256px-Array1.svg.png"></a>
       questions: 
         - "You can create &quot;arrays&quot; of data to do this automatically!  In python, this creates a table for each of 5 of your friends, each set to 0 words: <code>friends = [0,0,0,0,0]</code>"
+        - Where do you see tables like this in your own life?
         - What should you do each time you receive a radio message from a friend?
         - How can you keep track of which person you're communicating with?
         - The radio received event can send a number!  Send a different number for each person.  How should we store this special &quot;radio number?&quot;
