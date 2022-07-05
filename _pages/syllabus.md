@@ -196,7 +196,7 @@ schedule:
   link: "./Activities/Microbit"
 - week: "1"
   date: "3"
-  title: ""
+  title: "Introduction to the micro:bit and Random Number Generation"
 - week: "2"
   date: "0"
   title: ""

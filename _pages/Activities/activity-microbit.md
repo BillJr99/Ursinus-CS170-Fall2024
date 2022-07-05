@@ -66,11 +66,13 @@ info:
         - Using the micro:bit, create variables for a, b, c, and X: call them <code>multiplier</code>, <code>adder</code>, <code>modulus</code>, and <code>current</code>.
         - Give them any values you want by setting their values in <code>on start</code>.
         - When the user presses the A button, set the value of the X variable (<code>current</code>) using the formula, and show X on the screen.
-        - On start, show the value of X on the screen
+        - Is it ok that the X variable appears on the left and the right side of the equals sign?  Why or why not?
+        - On start, show the value of X on the screen.
         - When you're done, click on the Python tab at the top.  What do you notice about each block from the original program?
 
 tags:
-  - datatypes
+  - microbit
+  - prng
   
 ---
 
