@@ -42,7 +42,7 @@ info:
         - Is this video game player really good at the game?
     - title: "Pseudorandom Number Generation"
       model: |
-        <img src="/files/activity-microbitprng/PRNG.png" alt="Pseudonumber Random Number Generator (PRNG) formula">
+        <img src="../files/activity-microbitprng/PRNG.png" alt="Pseudonumber Random Number Generator (PRNG) formula">
         <br>
         <a title="Cmglee, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Linear_congruential_generator_visualisation.svg"><img width="512" alt="Linear congruential generator visualisation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Linear_congruential_generator_visualisation.svg/512px-Linear_congruential_generator_visualisation.svg.png"></a>
       questions: 

@@ -6,7 +6,7 @@ excerpt: "CS170: Programming for the World Around Us - Hide and Seek with the mi
 
 info:
   teacher_highlights:
-    - Teachers can set up a MakeCode Classroom environment by activating this <a href=\"/files/activity-hideandseek/hideandseek-20220705-0243-microbit-classroom-resume-activity.html\">template</a>.
+    - "Teachers can set up a MakeCode Classroom environment by activating this <a href=\"/files/activity-hideandseek/hideandseek-20220705-0243-microbit-classroom-resume-activity.html\">template</a>."
   goals: 
     - To use the radio interface of the micro:bit
     - To design a workflow and algorithm to play Hide and Seek with two micro:bit devices
@@ -29,7 +29,7 @@ info:
         - Develop a flowchart for the Marco Polo or Hide-and-Seek game (who says what, and who does what).  For this flowchart, let's decide if we're getting &quot;warmer&quot; or &quot;colder&quot; at each step.
     - title: "Designing an Algorithm with a Flowchart and Implementing the Algorithm"
       model: |
-        <img src="/files/activity-hideandseek/flowchart.png" alt="An algorithm flowchart for the Hide-and-Seek game">
+        <img src="../files/activity-hideandseek/flowchart.png" alt="An algorithm flowchart for the Hide-and-Seek game">
       questions: 
         - What is unique about the diamond shapes on this flowchart?
         - Using MakeCode, represent the strength of the radio signal as a variable.
