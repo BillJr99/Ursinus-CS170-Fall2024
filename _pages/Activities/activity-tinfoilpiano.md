@@ -32,10 +32,10 @@ info:
       model: |
         <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\)</span>
       questions: 
-        - A note's pitch is determined by its frequency.  Each successive note can be calculated as a &quot;half step&quot; above or below a base frequency.  The formula is given above.  Using a calculator, what is the frequency of the note right above Middle C (which is 440 Hz), and the note right below Middle C?
+        - A note's pitch is determined by its frequency.  Each successive note can be calculated as a &quot;half step&quot; above or below a base frequency.  The formula is given above.  Using a calculator, what is the frequency of the note right above Middle C (which is 262 Hz), and the note right below Middle C?
         - "What note do these two frequencies correspond to?  Use <a href=\"https://pages.mtu.edu/~suits/notefreqs.html\">this table</a> to look up a note by its frequency."
         - "Using the <a href=\"https://www.onlinemictest.com/tuners/pitch-detector/\">online pitch detector</a>, sing &quot;do-re-me&quot; into the computer.  What notes do you hear?  What frequencies are they?  Do higher frequencies correspond to higher pitched sounds or lower pitched sounds?"
-        - Create a variable called <code>frequency</code>, and on start, set it to some note (like Middle C).  Play that note when P1 is pressed.
+        - Create a variable called <code>frequency</code>, and on start, set it to some note (like Middle C, or Concert A, which is 440 Hz).  Play that note when P1 is pressed.
         - Create another variable called step that increments by 1 when you press B, and decrements by 1 when you press A.  Then, calculate frequency using the formula above.
         - Modify this program to use a loop to play a crescendo of 10 notes when the A+B button is pressed, by setting <code>step</code> to <code>step + 1</code>, calling calculateFrequencies, and playing the resulting tone.
         - Modify this program to play a second (different) note when P2 is pressed.  You'll need a new variable to keep track of the frequency and step.
