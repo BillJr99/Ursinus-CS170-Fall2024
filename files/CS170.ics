@@ -109,7 +109,7 @@ DTSTAMP:20220902T000000Z
 DTSTART;VALUE=DATE:20220902
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./DrawingCanvas
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Presentations/UnpluggedIcebreakers
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -118,7 +118,7 @@ DTSTAMP:20220905T000000Z
 DTSTART;VALUE=DATE:20220905
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Presentations/UnpluggedIcebreakers
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./DrawingCanvas
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
