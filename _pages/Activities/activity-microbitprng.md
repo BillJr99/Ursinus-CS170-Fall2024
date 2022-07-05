@@ -1,10 +1,13 @@
 ---
 layout: activity
-permalink: /Activities/Microbit
-title: "CS170: Programming for the World Around Us - The micro:bit"
-excerpt: "CS170: Programming for the World Around Us - The micro:bit"
+permalink: /Activities/MicrobitPRNG
+title: "CS170: Programming for the World Around Us - The micro:bit and Pseudorandom Number Generators"
+excerpt: "CS170: Programming for the World Around Us - The micro:bit and Pseudorandom Number Generators"
 
 info:
+  additional_reading:
+    - title: "Saving MakeCode Projects on GitHub"
+      link: "https://makecode.microbit.org/github/getting-started"
   goals: 
     - To introduce the microbit as a programming device
     - To explain why computers cannot generate truly random numbers
@@ -13,6 +16,7 @@ info:
     - To provide examples of mechanisms that computers use to seed PRNGs
     - To develop an algorithm to generate pseudorandom numbers with a computer
     - To implement an algorithm using the micro:bit blocks language
+    - To create and use a GitHub account to save your micro:bit MakeCode project
   models:
     - title: "Random Numbers"
       model: |
@@ -38,7 +42,7 @@ info:
         - Is this video game player really good at the game?
     - title: "Pseudorandom Number Generation"
       model: |
-        <img src="/files/activity-microbit/PRNG.png" alt="Pseudonumber Random Number Generator (PRNG) formula">
+        <img src="/files/activity-microbitprng/PRNG.png" alt="Pseudonumber Random Number Generator (PRNG) formula">
         <br>
         <a title="Cmglee, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Linear_congruential_generator_visualisation.svg"><img width="512" alt="Linear congruential generator visualisation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Linear_congruential_generator_visualisation.svg/512px-Linear_congruential_generator_visualisation.svg.png"></a>
       questions: 
@@ -69,6 +73,7 @@ info:
         - Is it ok that the X variable appears on the left and the right side of the equals sign?  Why or why not?
         - On start, show the value of X on the screen.
         - When you're done, click on the Python tab at the top.  What do you notice about each block from the original program?
+        - Save your project to a GitHub account; you can create one for free!
 
 tags:
   - microbit
