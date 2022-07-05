@@ -79,6 +79,7 @@ instructors:
   phone: "610-409-3410"
   office: "Pfahler Hall 101L"
   webpage_url: "http://www.billmongan.com"
+  officehourssignup: "https://app.cal.com/billmongan/10min"
   picture: /images/profile.png
   officehours:
   - day: "M"
