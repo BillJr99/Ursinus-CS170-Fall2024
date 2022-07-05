@@ -61,7 +61,7 @@ info:
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
     <div style="width: 100%; display: table-row;">
         <div style="display: table-cell; padding:5px; width:33%;">
-            <img width="100%" style="display:block;" src="https://upload.wikimedia.org/wikipedia/en/a/a3/Micro-bit_v1_%26_v2.JPG" alt="Microbit">
+            <a href="https://en.wikipedia.org/wiki/File:Micro-bit_v1_%26_v2.JPG#/media/File:Micro-bit_v1_&amp;_v2.JPG"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Micro-bit_v1_%26_v2.JPG/1200px-Micro-bit_v1_%26_v2.JPG" alt="Micro-bit v1 &amp; v2.JPG: Creative Commons Zero, Public Domain Dedication" width="100%" style="display:block;"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
             <img width="100%" style="display:block;" src="https://github.com/billjr99/thunder-and-lightning-v2/raw/master/.github/makecode/blocks.png" alt="Thunder and Lightning Timer Program Blocks for Microbit">
@@ -184,14 +184,16 @@ schedule:
   link: "./DrawingCanvas"
 - week: "1"
   date: "0"
-  title: "Exploring Computing Concepts with Unplugged Activities"
+  title: "Computing in Context: Exploring Computing Concepts with Unplugged Activities"
   link: "./Presentations/UnpluggedIcebreakers"
 - week: "1"
   date: "1"
-  title: ""
+  title: "Computing in Context: Classifying Flowers"
+  link: "./Activities/FlowerClassifier"
 - week: "1"
   date: "2"
-  title: ""
+  title: "Introduction to the micro:bit and Random Number Generation"
+  link: "./Activities/Microbit"
 - week: "1"
   date: "3"
   title: ""
