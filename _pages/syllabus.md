@@ -17,7 +17,7 @@ info:
   course_start_date: "2022/08/29"
   course_end_date: "2022/12/09"
   course_description: "An introduction to programming and computer science as a tool for solving problems, automating work, and analyzing and working with data. The course introduces Python and studies its applications in various domains including bioinformatics, the physical sciences, business, and humanities by looking at a variety of problems drawn from these domains. The lab will involve the implementation of algorithms and analysis on data sets drawn from these areas. Also, the ethics of data use are covered via discussion of relevant articles and media. No prior programming experience is assumed. Offered every Fall. Three hours of lecture and one hour of laboratory per week. Four semester hours. (S, R) Note: CS-170Q may not be used as elective credits for computer science majors or minors."
-  welcome_message: "Welcome to CS170Q!"
+  welcome_message: "Welcome to CS170Q!  In this class, we will experience computing from a broad context, and explore the power of technology through computer programming.  Computing is ubiquitous and has enabled revolutionary advances in many disciplines and domains, and we will create programs and systems that benefit a diverse set of stakeholders.  We will also investigate practices to ensure that we are inclusive in our development of these systems to maximize benefit and to mitigate the risk of harm."
   class_meets_days:
     isM: true
     isT: true
