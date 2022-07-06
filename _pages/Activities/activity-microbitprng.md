@@ -69,7 +69,7 @@ info:
         </ul>
         </div>
       questions: 
-        - Using the micro:bit, create variables for a, b, c, and X: call them <code>multiplier</code>, <code>adder</code>, <code>modulus</code>, and <code>current</code>.
+        - "Using the micro:bit, create variables for a, b, c, and X: call them <code>multiplier</code>, <code>adder</code>, <code>modulus</code>, and <code>current</code>."
         - Give them any values you want by setting their values in <code>on start</code>.
         - When the user presses the A button, set the value of the X variable (<code>current</code>) using the formula, and show X on the screen.
         - Is it ok that the X variable appears on the left and the right side of the equals sign?  Why or why not?
