@@ -258,12 +258,6 @@ schedule:
 - week: "6"
   date: "2"
   title: ""
-- week: "6"
-  date: "3"
-  title: ""
-- week: "7"
-  date: "0"
-  title: ""
 - week: "7"
   date: "1"
   title: ""
@@ -409,6 +403,7 @@ university:
     kdate: "2023/05/12"
     kdisplay: false    
   fallholidays:
+  - date: "2022/10/17"
   - date: "2022/11/24"
   - date: "2022/11/25"
   - date: "2022/11/26" 
