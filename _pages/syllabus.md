@@ -259,9 +259,6 @@ schedule:
   date: "2"
   title: ""
 - week: "7"
-  date: "1"
-  title: ""
-- week: "7"
   date: "2"
   title: ""
 - week: "7"
@@ -404,6 +401,7 @@ university:
     kdisplay: false    
   fallholidays:
   - date: "2022/10/17"
+  - date: "2022/10/18"
   - date: "2022/11/24"
   - date: "2022/11/25"
   - date: "2022/11/26" 
