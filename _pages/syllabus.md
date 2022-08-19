@@ -532,8 +532,8 @@ schedule:
     submission_types: "written"    
 - week: "14"
   date: "0"
-  title: "Data Encodings: Telling Time with WWVB"
-  link: "./Activities/WWVB"
+  title: "Graphics with Turtle"
+  link: "./Activities/TurtleGraphics"
   deliverables:
   - dtitle: "Lab: Flower Classification Due"
     dlink: "./Labs/FlowerClassification"
@@ -548,6 +548,7 @@ schedule:
 - week: "14"
   date: "2"
   title: "Data Encodings: Telling Time with WWVB"
+  link: "./Activities/WWVB"
   deliverables:
   - dtitle: "Final Project: Submission and Presentation Due"
     dlink: "./Project/FinalProject"
