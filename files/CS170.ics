@@ -918,7 +918,7 @@ DTSTAMP:20221205T000000Z
 DTSTART;VALUE=DATE:20221205
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/WWVB\nDeliverable: Lab: Flower Classification Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/FlowerClassification
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/TurtleGraphics\nDeliverable: Lab: Flower Classification Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/FlowerClassification
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -954,7 +954,7 @@ DTSTAMP:20221207T000000Z
 DTSTART;VALUE=DATE:20221207
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Project: Submission and Presentation Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Project/FinalProject
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/WWVB\nDeliverable: Final Project: Submission and Presentation Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Project/FinalProject
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
