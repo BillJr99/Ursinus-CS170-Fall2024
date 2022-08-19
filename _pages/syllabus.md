@@ -172,7 +172,7 @@ schedule:
 - week: "0"
   date: "0"
   title: "Course Overview"
-  link: "../Ursinus-CS173-Overview"
+  link: "../Ursinus-CS170-Overview"
 - week: "0"
   date: "1"
   title: "Course Overview Continued: What is Computer Science?"  
