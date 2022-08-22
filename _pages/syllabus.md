@@ -294,7 +294,7 @@ schedule:
   link: "./Activities/TinFoilPiano"
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Handed Out"
-    dlink: "./ServiceLearning/Proposal"
+    dlink: "./Projects/ServiceLearning/Proposal"
     points: 10     
     submission_types: "written"
   - dtitle: "Lab: Accessible Hide and Seek with Sound Due"
@@ -343,7 +343,7 @@ schedule:
   title: "Iteration in Python"
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Due"
-    dlink: "./ServiceLearning/Proposal"
+    dlink: "./Projects/ServiceLearning/Proposal"
     points: 10     
     submission_types: "written"  
 - week: "7"
@@ -351,14 +351,14 @@ schedule:
   title: "Iteration in Python"
   deliverables:  
   - dtitle: "Service Learning Project: First Draft Handed Out"
-    dlink: "./ServiceLearning/FirstDraft"
+    dlink: "./Projects/ServiceLearning/FirstDraft"
     points: 40
 - week: "7"
   date: "3"
   title: "Iteration in Python"
   deliverables:  
   - dtitle: "Class Participation: First Journal Check Handed Out"
-    dlink: "./ClassParticipation/JournalCheck"
+    dlink: "./Assignments/ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"
 - week: "8"
@@ -394,7 +394,7 @@ schedule:
   title: "Functions in Python"
   deliverables:  
   - dtitle: "Class Participation: First Journal Check Due"
-    dlink: "./ClassParticipation/JournalCheck"
+    dlink: "./Assignments/ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"  
 - week: "9"
@@ -424,17 +424,17 @@ schedule:
     rlink: false       
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
-    dlink: "./ServiceLearning/FirstDraft"
+    dlink: "./Projects/ServiceLearning/FirstDraft"
     points: 40    
   - dtitle: "Service Learning Project: Final Draft Handed Out"
-    dlink: "./ServiceLearning/FinalDraft"
+    dlink: "./Projects/ServiceLearning/FinalDraft"
     points: 50
 - week: "10"
   date: "0"
   title: "Lists in Python"
   deliverables:  
   - dtitle: "Final Project: Proposal Handed Out"
-    dlink: "./Project/Proposal"
+    dlink: "./Projects/FinalProject/Proposal"
     points: 10
     submission_types: "written" 
   - dtitle: "Lab: Flower Classification Due"
@@ -490,7 +490,7 @@ schedule:
   title: "Dictionaries in Python"
   deliverables:
   - dtitle: "Final Project: Proposal Due"
-    dlink: "./Project/Proposal"
+    dlink: "./Projects/FinalProject/Proposal"
     points: 10  
     submission_types: "written"  
 - week: "12"
@@ -499,7 +499,7 @@ schedule:
   link: "./Activities/GraphicsSound"     
   deliverables:  
   - dtitle: "Final Project: Submission and Presentation Handed Out"
-    dlink: "./Project/FinalProject"
+    dlink: "./Projects/FinalProject"
     points: 90
   - dtitle: "Lab: Refeeding Timer Sensor Due"
     dlink: "./Labs/RefeedingTimerSensor"
@@ -519,7 +519,7 @@ schedule:
   title: "Graphics and Sound"
   deliverables:  
   - dtitle: "Class Participation: Second Journal Check Handed Out"
-    dlink: "./ClassParticipation/JournalCheck"
+    dlink: "./Assignments/ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"  
 - week: "13"
@@ -538,10 +538,10 @@ schedule:
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
   deliverables:
   - dtitle: "Service Learning Project: Final Draft Due"
-    dlink: "./ServiceLearning/FinalDraft"
+    dlink: "./Projects/ServiceLearning/FinalDraft"
     points: 50  
   - dtitle: "Class Participation: Second Journal Check Due"
-    dlink: "./ClassParticipation/JournalCheck"
+    dlink: "./Assignments/ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"    
 - week: "14"
@@ -561,7 +561,7 @@ schedule:
   title: "Data Encodings: Telling Time with WWVB"
   deliverables:
   - dtitle: "Final Project: Submission and Presentation Due"
-    dlink: "./Project/FinalProject"
+    dlink: "./Projects/FinalProject"
     points: 90   
 - week: "14"
   date: "3"
