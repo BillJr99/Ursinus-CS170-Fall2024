@@ -108,8 +108,8 @@ textbooks:
   authors: "Cay Horstmann"
   edition: "3rd Edition"
   isbn: "978-1-119-49853-7"
-  link: https://www.wiley.com/en-us/Python+For+Everyone%2C+3rd+Edition-p-9781119498537
-  image: https://media.wiley.com/product_data/coverImage300/50/11197399/1119739950.jpg
+  link: https://ursinus.bncollege.com/c/Python-for-Everyone-Enhanced/p/MBS_2300072_dg?currentCampus=33&currentTerm=33_1_22_F&currentCourse=33_1_22_F_40_170Q_1
+  image: https://bookinfo.mbsdirect.net/TextbookInfo/Covers/M002300072.gif
   isrequired: true 
   freelyavailable: false
 
