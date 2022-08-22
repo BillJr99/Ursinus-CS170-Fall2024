@@ -231,15 +231,18 @@ schedule:
     points: 100     
 - week: "2"
   date: "2"
-  title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
-  link: "./Activities/HideAndSeek"
+  title: "Introduction to VSCode"
+  link: "./Activities/VSCode"
+  readings:
+  - rtitle: "Horstmann Ch. 2"
+    rlink: false   
 - week: "2"
   date: "3"
-  title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
+  title: "Representing Numbers and Text in Python"
+  link: "./Activities/PythonNumbersText"
 - week: "3"
   date: "0"
-  title: "Tin Foil Piano with micro:bit Using Functions and Loops"
-  link: "./Activities/TinFoilPiano"
+  title: "Representing Numbers and Text in Python"
   deliverables:  
   - dtitle: "Lab: Random Dice Rolling Due"
     dlink: "./Labs/MicrobitDice"
@@ -253,14 +256,18 @@ schedule:
     points: 100     
 - week: "3"
   date: "2"
-  title: "Tin Foil Piano with micro:bit Using Functions and Loops"
+  title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
+  link: "./Activities/HideAndSeek"  
 - week: "3"
   date: "3"
-  title: "Social Vicinity Tracker with micro:bit Using Arrays"
-  link: "./Activities/SocialVicinity"
+  title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
 - week: "4"
   date: "0"
-  title: "Social Vicinity Tracker with micro:bit Using Arrays"
+  title: "Conditionals in Python"
+  link: "./Activities/PythonConditionals"
+  readings:
+  - rtitle: "Horstmann Ch. 3"
+    rlink: false       
   deliverables:  
   - dtitle: "Lab: Accessible Hide and Seek with Sound Due"
     dlink: "./Labs/HideAndSeekSound"
@@ -274,15 +281,14 @@ schedule:
     points: 100     
 - week: "4"
   date: "2"
-  title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
-  link: "./Activities/ZeroKnowledgeCoinFlip"
+  title: "Conditionals in Python"
 - week: "4"
   date: "3"
-  title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
+  title: "Conditionals in Python"
 - week: "5"
   date: "0"
-  title: "Protocols: Rock-Paper-Scissors with the micro:bit"
-  link: "./Activities/RockPaperScissors"
+  title: "Tin Foil Piano with micro:bit Using Functions and Loops"
+  link: "./Activities/TinFoilPiano"
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Handed Out"
     dlink: "./ServiceLearning/Proposal"
@@ -300,31 +306,31 @@ schedule:
     points: 100       
 - week: "5"
   date: "2"
-  title: "Protocols: Rock-Paper-Scissors with the micro:bit"
+  title: "Tin Foil Piano with micro:bit Using Functions and Loops"
   deliverables:  
   - dtitle: "Programming Assignment: Battleship Handed Out"
     dlink: "./Assignments/Battleship"
     points: 100   
 - week: "5"
   date: "3"
-  title: "From micro:bit to Python: Variables"
-  link: "./Activities/MicrobitPythonVariables"
+  title: "Tin Foil Piano with micro:bit Using Functions and Loops"
 - week: "6"
   date: "0"
-  title: "From micro:bit to Python: Conditionals"
-  link: "./Activities/MicrobitPythonConditionals"
+  title: "Iteration in Python"
+  link: "./Activities/PythonIteration"
+  readings:
+  - rtitle: "Horstmann Ch. 4"
+    rlink: false     
   deliverables:
   - dtitle: "Lab: Voting Receipts Due"
     dlink: "./Labs/VotingReceipts"
     points: 100    
 - week: "6"
   date: "1"
-  title: "Using Visual Studio Code"
-  link: "./Activities/VSCode"
+  title: ""
 - week: "6"
   date: "2"
-  title: "From micro:bit to Python: Functions"
-  link: "./Activities/MicrobitPythonFunctions"
+  title: "Iteration in Python"
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Due"
     dlink: "./ServiceLearning/Proposal"
@@ -332,11 +338,7 @@ schedule:
     submission_types: "written"  
 - week: "7"
   date: "2"
-  title: "Representing Numbers and Text in Python"
-  link: "./Activities/PythonNumbersText"
-  readings:
-  - rtitle: "Horstmann Ch. 2"
-    rlink: false     
+  title: "Iteration in Python"
   deliverables:  
   - dtitle: "Programming Assignment: Battleship Due"
     dlink: "./Assignments/Battleship"
@@ -346,7 +348,7 @@ schedule:
     points: 40
 - week: "7"
   date: "3"
-  title: "Representing Numbers and Text in Python"
+  title: "Iteration in Python"
   deliverables:  
   - dtitle: "Class Participation: First Journal Check Handed Out"
     dlink: "./ClassParticipation/JournalCheck"
@@ -354,7 +356,8 @@ schedule:
     submission_types: "written"  
 - week: "8"
   date: "0"
-  title: "Representing Numbers and Text in Python"
+  title: "Functions in Python"
+  link: "./Activities/PythonFunctions"  
 - week: "8"
   date: "1"
   title: "Lab: Flesch-Kincaid Reading Level"
@@ -364,14 +367,10 @@ schedule:
     points: 100   
 - week: "8"
   date: "2"
-  title: "Representing Numbers and Text in Python"
+  title: "Functions in Python"
 - week: "8"
   date: "3"
-  title: "Conditionals in Python"
-  link: "./Activities/PythonConditionals"
-  readings:
-  - rtitle: "Horstmann Ch. 3"
-    rlink: false     
+  title: "Functions in Python"
   deliverables:  
   - dtitle: "Class Participation: First Journal Check Due"
     dlink: "./ClassParticipation/JournalCheck"
@@ -379,7 +378,8 @@ schedule:
     submission_types: "written"  
 - week: "9"
   date: "0"
-  title: "Conditionals in Python"
+  title: "Social Vicinity Tracker with micro:bit Using Arrays"
+  link: "./Activities/SocialVicinity"
   deliverables:
   - dtitle: "Lab: Flesch-Kincaid Reading Level Due"
     dlink: "./Labs/FleschKincaidReadingLevel"
@@ -393,18 +393,15 @@ schedule:
     points: 100    
 - week: "9"
   date: "2"
-  title: "Conditionals in Python"
+  title: "Social Vicinity Tracker with micro:bit Using Arrays"
   deliverables:  
   - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
     dlink: "./Assignments/FederalistPapers"
     points: 100   
 - week: "9"
-  date: "3"
-  title: "Iteration in Python"
-  link: "./Activities/PythonIteration"
-  readings:
-  - rtitle: "Horstmann Ch. 4"
-    rlink: false     
+  date: "3"  
+  title: "Lists in Python"
+  link: "./Activities/PythonLists"  
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./ServiceLearning/FirstDraft"
@@ -414,7 +411,7 @@ schedule:
     points: 50
 - week: "10"
   date: "0"
-  title: "Iteration in Python"
+  title: "Lists in Python"
   deliverables:  
   - dtitle: "Final Project: Proposal Handed Out"
     dlink: "./Project/Proposal"
@@ -432,7 +429,7 @@ schedule:
     points: 100    
 - week: "10"
   date: "2"
-  title: "Iteration in Python"
+  title: "Lists in Python"
   deliverables:  
   - dtitle: "Programming Assignment: The Federalist Papers Due"
     dlink: "./Assignments/FederalistPapers"
@@ -442,14 +439,14 @@ schedule:
     points: 100 
 - week: "10"
   date: "3"
-  title: "Functions in Python"
-  link: "./Activities/PythonFunctions"
+  title: "Files in Python"
+  link: "./Activities/PythonFileIO"  
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
     rlink: false     
 - week: "11"
   date: "0"
-  title: "Functions in Python"
+  title: "Files in Python"
   deliverables:
   - dtitle: "Lab: Turtle Maze Handed Out"
     dlink: "./Labs/TurtleMaze"
@@ -463,11 +460,11 @@ schedule:
     points: 100      
 - week: "11"
   date: "2"
-  title: "Functions in Python"
+  title: "Dictionaries in Python"
+  link: "./Activities/PythonDictionaries"
 - week: "11"
   date: "3"
-  title: "Lists in Python"
-  link: "./Activities/PythonLists"
+  title: "Dictionaries in Python"
   readings:
   - rtitle: "Horstmann Ch. 6.1-6.5"
     rlink: false     
@@ -478,7 +475,8 @@ schedule:
     submission_types: "written"  
 - week: "12"
   date: "0"
-  title: "Lists in Python"
+  title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
+  link: "./Activities/ZeroKnowledgeCoinFlip"
   deliverables:  
   - dtitle: "Lab: Unit Testing Due"
     dlink: "./Labs/UnitTesting"
@@ -488,15 +486,14 @@ schedule:
     points: 90
 - week: "12"
   date: "1"
-  title: "Lists in Python"  
+  title: ""
   deliverables:  
   - dtitle: "Programming Assignment: Cryptography Due"
     dlink: "./Assignments/Cryptography"
     points: 100   
 - week: "13"
   date: "0"
-  title: "Files in Python"
-  link: "./Activities/PythonFileIO"
+  title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
   readings:
   - rtitle: "Horstmann Ch. 7.1-7.2"
     rlink: false      
@@ -514,11 +511,11 @@ schedule:
     points: 100   
 - week: "13"
   date: "2"
-  title: "Files in Python"
+  title: "Protocols: Rock-Paper-Scissors with the micro:bit"
+  link: "./Activities/RockPaperScissors"
 - week: "13"
   date: "3"
-  title: "Dictionaries in Python"
-  link: "./Activities/PythonDictionaries"
+  title: "Protocols: Rock-Paper-Scissors with the micro:bit"
   readings:
   - rtitle: "Horstmann Ch. 8.1-8.2"
     rlink: false      
