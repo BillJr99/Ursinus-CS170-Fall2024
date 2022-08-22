@@ -130,9 +130,9 @@ goals:
 
 grade_breakdown:
 - category: "Programming Assignments"
-  weight: "30%"
+  weight: "25%"
 - category: "Labs"
-  weight: "30%"
+  weight: "35%"
 - category: "Service Learning Project"
   weight: "15%"
 - category: "Final Project"
@@ -258,6 +258,10 @@ schedule:
   date: "2"
   title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
   link: "./Activities/HideAndSeek"  
+  deliverables:  
+  - dtitle: "Programming Assignment: Semitone Frequency Generator Handed Out"
+    dlink: "./Assignments/Semitone"
+    points: 100    
 - week: "3"
   date: "3"
   title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
@@ -308,9 +312,12 @@ schedule:
   date: "2"
   title: "Tin Foil Piano with micro:bit Using Functions and Loops"
   deliverables:  
-  - dtitle: "Programming Assignment: Battleship Handed Out"
-    dlink: "./Assignments/Battleship"
-    points: 100   
+  - dtitle: "Programming Assignment: Semitone Frequency Generator Due"
+    dlink: "./Assignments/Semitone"
+    points: 100        
+  - dtitle: "Programming Assignment: Cryptography Handed Out"
+    dlink: "./Assignments/Cryptography"
+    points: 100     
 - week: "5"
   date: "3"
   title: "Tin Foil Piano with micro:bit Using Functions and Loops"
@@ -344,9 +351,6 @@ schedule:
   date: "2"
   title: "Iteration in Python"
   deliverables:  
-  - dtitle: "Programming Assignment: Battleship Due"
-    dlink: "./Assignments/Battleship"
-    points: 100  
   - dtitle: "Service Learning Project: First Draft Handed Out"
     dlink: "./ServiceLearning/FirstDraft"
     points: 40
@@ -376,9 +380,16 @@ schedule:
   - dtitle: "Lab: Unit Testing Handed Out"
     dlink: "./Labs/UnitTesting"
     points: 100     
+  - dtitle: "Programming Assignment: Cryptography Due"
+    dlink: "./Assignments/Cryptography"
+    points: 100     
 - week: "8"
   date: "2"
   title: "Functions in Python"
+  deliverables:
+  - dtitle: "Programming Assignment: Battleship Handed Out"
+    dlink: "./Assignments/Battleship"
+    points: 100   
 - week: "8"
   date: "3"
   title: "Functions in Python"
@@ -404,11 +415,7 @@ schedule:
     points: 100   
 - week: "9"
   date: "2"
-  title: "Social Vicinity Tracker with micro:bit Using Arrays"
-  deliverables:  
-  - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
-    dlink: "./Assignments/FederalistPapers"
-    points: 100   
+  title: "Social Vicinity Tracker with micro:bit Using Arrays" 
 - week: "9"
   date: "3"  
   title: "Lists in Python"
@@ -444,13 +451,13 @@ schedule:
 - week: "10"
   date: "2"
   title: "Lists in Python"
-  deliverables:  
-  - dtitle: "Programming Assignment: The Federalist Papers Due"
+  deliverables:
+  - dtitle: "Programming Assignment: Battleship Due"
+    dlink: "./Assignments/Battleship"
+    points: 100   
+  - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
     dlink: "./Assignments/FederalistPapers"
-    points: 100       
-  - dtitle: "Programming Assignment: Cryptography Handed Out"
-    dlink: "./Assignments/Cryptography"
-    points: 100 
+    points: 100      
 - week: "10"
   date: "3"
   title: "Files in Python"
@@ -500,11 +507,14 @@ schedule:
     points: 100       
 - week: "12"
   date: "1"
-  title: "Graphics and Sound"
-  deliverables:  
-  - dtitle: "Programming Assignment: Cryptography Due"
-    dlink: "./Assignments/Cryptography"
-    points: 100     
+  title: "Graphics and Sound" 
+  deliverables:
+  - dtitle: "Programming Assignment: The Federalist Papers Due"
+    dlink: "./Assignments/FederalistPapers"
+    points: 100    
+  - dtitle: "Programming Assignment: Random Computer Art Handed Out"
+    dlink: "./Assignments/ComputerArt"
+    points: 100       
 - week: "13"
   date: "0"
   title: "Graphics and Sound"
@@ -557,6 +567,11 @@ schedule:
 - week: "14"
   date: "3"
   title: "Data Encodings: Telling Time with WWVB" 
+  deliverables:
+  - dtitle: "Programming Assignment: Random Computer Art Due"
+    dlink: "./Assignments/ComputerArt"
+    points: 100       
+  
 university:
   semester: "Fall"
   academicyear: "2022-23"
