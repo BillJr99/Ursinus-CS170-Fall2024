@@ -130,13 +130,13 @@ goals:
 
 grade_breakdown:
 - category: "Programming Assignments"
-  weight: "35%"
+  weight: "30%"
 - category: "Labs"
-  weight: "20%"
+  weight: "30%"
 - category: "Service Learning Project"
   weight: "15%"
 - category: "Final Project"
-  weight: "20%"
+  weight: "15%"
 - category: "Class Participation and Quizzes"
   weight: "10%"
 
@@ -224,11 +224,11 @@ schedule:
     points: 100  
 - week: "2"
   date: "1"
-  title: "Lab: Random Dice Rolling with the micro:bit"
-  deliverables:  
-  - dtitle: "Lab: Random Dice Rolling Handed Out"
-    dlink: "./Labs/MicrobitDice"
-    points: 100     
+  title: "Lab: Flesch-Kincaid Reading Level"
+  deliverables:
+  - dtitle: "Lab: Flesch-Kincaid Reading Level Handed Out"
+    dlink: "./Labs/FleschKincaidReadingLevel"
+    points: 100    
 - week: "2"
   date: "2"
   title: "Introduction to VSCode"
@@ -243,17 +243,17 @@ schedule:
 - week: "3"
   date: "0"
   title: "Representing Numbers and Text in Python"
-  deliverables:  
-  - dtitle: "Lab: Random Dice Rolling Due"
-    dlink: "./Labs/MicrobitDice"
+  deliverables:
+  - dtitle: "Lab: Flesch-Kincaid Reading Level Due"
+    dlink: "./Labs/FleschKincaidReadingLevel"
     points: 100     
 - week: "3"
   date: "1"
-  title: "Lab: Accessible Hide and Seek with Sound"
+  title: "Lab: Random Dice Rolling with the micro:bit"
   deliverables:  
-  - dtitle: "Lab: Accessible Hide and Seek with Sound Handed Out"
-    dlink: "./Labs/HideAndSeekSound"
-    points: 100     
+  - dtitle: "Lab: Random Dice Rolling Handed Out"
+    dlink: "./Labs/MicrobitDice"
+    points: 100          
 - week: "3"
   date: "2"
   title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
@@ -267,18 +267,18 @@ schedule:
   link: "./Activities/PythonConditionals"
   readings:
   - rtitle: "Horstmann Ch. 3"
-    rlink: false       
+    rlink: false  
   deliverables:  
-  - dtitle: "Lab: Accessible Hide and Seek with Sound Due"
-    dlink: "./Labs/HideAndSeekSound"
-    points: 100       
+  - dtitle: "Lab: Random Dice Rolling Due"
+    dlink: "./Labs/MicrobitDice"
+    points: 100             
 - week: "4"
   date: "1"
-  title: "Lab: Programming a Refeeding Sensor by Estimating Radio Vicinity Time"
+  title: "Lab: Accessible Hide and Seek with Sound"
   deliverables:  
-  - dtitle: "Lab: Refeeding Timer Sensor Handed Out"
-    dlink: "./Labs/RefeedingTimerSensor"
-    points: 100     
+  - dtitle: "Lab: Accessible Hide and Seek with Sound Handed Out"
+    dlink: "./Labs/HideAndSeekSound"
+    points: 100      
 - week: "4"
   date: "2"
   title: "Conditionals in Python"
@@ -294,15 +294,15 @@ schedule:
     dlink: "./ServiceLearning/Proposal"
     points: 10     
     submission_types: "written"
-  - dtitle: "Lab: Refeeding Timer Sensor Due"
-    dlink: "./Labs/RefeedingTimerSensor"
-    points: 100         
+  - dtitle: "Lab: Accessible Hide and Seek with Sound Due"
+    dlink: "./Labs/HideAndSeekSound"
+    points: 100               
 - week: "5"
   date: "1"
-  title: "Lab: Voting Receipts Handed Out"
+  title: "Lab: Debugging"
   deliverables:
-  - dtitle: "Lab: Voting Receipts Handed Out"
-    dlink: "./Labs/VotingReceipts"
+  - dtitle: "Lab: Debugging Handed Out"
+    dlink: "./Labs/Debugging"
     points: 100       
 - week: "5"
   date: "2"
@@ -322,12 +322,16 @@ schedule:
   - rtitle: "Horstmann Ch. 4"
     rlink: false     
   deliverables:
-  - dtitle: "Lab: Voting Receipts Due"
-    dlink: "./Labs/VotingReceipts"
-    points: 100    
+  - dtitle: "Lab: Debugging Due"
+    dlink: "./Labs/Debugging"
+    points: 100   
 - week: "6"
   date: "1"
-  title: ""
+  title: "Lab: Turtle Maze"
+  deliverables:
+  - dtitle: "Lab: Turtle Maze Handed Out"
+    dlink: "./Labs/TurtleMaze"
+    points: 100 
 - week: "6"
   date: "2"
   title: "Iteration in Python"
@@ -353,21 +357,24 @@ schedule:
   - dtitle: "Class Participation: First Journal Check Handed Out"
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
-    submission_types: "written"  
+    submission_types: "written"
+  - dtitle: "Lab: Turtle Maze Handed Out"
+    dlink: "./Labs/TurtleMaze"
+    points: 100          
 - week: "8"
   date: "0"
   title: "Functions in Python"
   link: "./Activities/PythonFunctions"  
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
-    rlink: false     
+    rlink: false
 - week: "8"
-  date: "1"
-  title: "Lab: Flesch-Kincaid Reading Level"
+  date: "1" 
+  title: "Lab: Unit Testing"
   deliverables:
-  - dtitle: "Lab: Flesch-Kincaid Reading Level Handed Out"
-    dlink: "./Labs/FleschKincaidReadingLevel"
-    points: 100   
+  - dtitle: "Lab: Unit Testing Handed Out"
+    dlink: "./Labs/UnitTesting"
+    points: 100     
 - week: "8"
   date: "2"
   title: "Functions in Python"
@@ -382,18 +389,18 @@ schedule:
 - week: "9"
   date: "0"
   title: "Social Vicinity Tracker with micro:bit Using Arrays"
-  link: "./Activities/SocialVicinity"
+  link: "./Activities/SocialVicinity"  
   deliverables:
-  - dtitle: "Lab: Flesch-Kincaid Reading Level Due"
-    dlink: "./Labs/FleschKincaidReadingLevel"
-    points: 100     
+  - dtitle: "Lab: Unit Testing Due"
+    dlink: "./Labs/UnitTesting"
+    points: 100    
 - week: "9"
   date: "1"
-  title: "Lab: Debugging"
+  title: "Lab: Flower Classification"
   deliverables:
-  - dtitle: "Lab: Debugging Handed Out"
-    dlink: "./Labs/Debugging"
-    points: 100    
+  - dtitle: "Lab: Flower Classification Handed Out"
+    dlink: "./Labs/FlowerClassification"
+    points: 100   
 - week: "9"
   date: "2"
   title: "Social Vicinity Tracker with micro:bit Using Arrays"
@@ -423,16 +430,12 @@ schedule:
     dlink: "./Project/Proposal"
     points: 10
     submission_types: "written" 
-  - dtitle: "Lab: Debugging Due"
-    dlink: "./Labs/Debugging"
-    points: 100    
+  - dtitle: "Lab: Flower Classification Due"
+    dlink: "./Labs/FlowerClassification"
+    points: 100      
 - week: "10"
   date: "1"
-  title: "Lab: Turtle Maze"
-  deliverables:
-  - dtitle: "Lab: Turtle Maze Handed Out"
-    dlink: "./Labs/TurtleMaze"
-    points: 100    
+  title: ""
 - week: "10"
   date: "2"
   title: "Lists in Python"
@@ -452,18 +455,14 @@ schedule:
     rlink: false        
 - week: "11"
   date: "0"
-  title: "Files in Python"
-  deliverables:
-  - dtitle: "Lab: Turtle Maze Handed Out"
-    dlink: "./Labs/TurtleMaze"
-    points: 100      
+  title: "Files in Python"    
 - week: "11"
   date: "1"
-  title: "Lab: Unit Testing"
-  deliverables:
-  - dtitle: "Lab: Unit Testing Handed Out"
-    dlink: "./Labs/UnitTesting"
-    points: 100      
+  title: "Lab: Programming a Refeeding Sensor by Estimating Radio Vicinity Time"
+  deliverables:  
+  - dtitle: "Lab: Refeeding Timer Sensor Handed Out"
+    dlink: "./Labs/RefeedingTimerSensor"
+    points: 100       
 - week: "11"
   date: "2"
   title: "Dictionaries in Python"
@@ -484,12 +483,12 @@ schedule:
   title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
   link: "./Activities/ZeroKnowledgeCoinFlip"
   deliverables:  
-  - dtitle: "Lab: Unit Testing Due"
-    dlink: "./Labs/UnitTesting"
-    points: 100          
   - dtitle: "Final Project: Submission and Presentation Handed Out"
     dlink: "./Project/FinalProject"
     points: 90
+  - dtitle: "Lab: Refeeding Timer Sensor Due"
+    dlink: "./Labs/RefeedingTimerSensor"
+    points: 100       
 - week: "12"
   date: "1"
   title: ""
@@ -507,11 +506,11 @@ schedule:
     submission_types: "written"  
 - week: "13"
   date: "1"
-  title: "Lab: Flower Classification"
+  title: "Lab: Voting Receipts Handed Out"
   deliverables:
-  - dtitle: "Lab: Flower Classification Handed Out"
-    dlink: "./Labs/FlowerClassification"
-    points: 100   
+  - dtitle: "Lab: Voting Receipts Handed Out"
+    dlink: "./Labs/VotingReceipts"
+    points: 100    
 - week: "13"
   date: "2"
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
@@ -532,16 +531,12 @@ schedule:
   title: "Graphics"
   link: "./Activities/Graphics"
   deliverables:
-  - dtitle: "Lab: Flower Classification Due"
-    dlink: "./Labs/FlowerClassification"
-    points: 100     
+  - dtitle: "Lab: Voting Receipts Due"
+    dlink: "./Labs/VotingReceipts"
+    points: 100      
 - week: "14"
   date: "1"
-  title: "Lab: Choose Your Own Adventure"    
-  deliverables:
-  - dtitle: "Lab: Choose Your Own Adventure Handed Out"
-    dlink: "./Labs/Adventure"
-    points: 100    
+  title: ""     
 - week: "14"
   date: "2"
   title: "Data Encodings: Telling Time with WWVB"
@@ -552,11 +547,7 @@ schedule:
     points: 90   
 - week: "14"
   date: "3"
-  title: "Data Encodings: Telling Time with WWVB"
-  deliverables:
-  - dtitle: "Lab: Choose Your Own Adventure Due"
-    dlink: "./Labs/Adventure"
-    points: 100  
+  title: "Data Encodings: Telling Time with WWVB" 
 university:
   semester: "Fall"
   academicyear: "2022-23"
