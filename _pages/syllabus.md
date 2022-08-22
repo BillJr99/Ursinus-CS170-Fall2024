@@ -358,13 +358,14 @@ schedule:
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"
-  - dtitle: "Lab: Turtle Maze Handed Out"
-    dlink: "./Labs/TurtleMaze"
-    points: 100          
 - week: "8"
   date: "0"
   title: "Functions in Python"
   link: "./Activities/PythonFunctions"  
+  deliverables:
+  - dtitle: "Lab: Turtle Maze Due"
+    dlink: "./Labs/TurtleMaze"
+    points: 100            
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
     rlink: false
@@ -435,7 +436,11 @@ schedule:
     points: 100      
 - week: "10"
   date: "1"
-  title: ""
+  title: "Lab: Credit Card Validator"
+  deliverables:  
+  - dtitle: "Lab: Credit Card Validator Handed Out"
+    dlink: "./Labs/CreditCardValidator"
+    points: 100  
 - week: "10"
   date: "2"
   title: "Lists in Python"
@@ -455,7 +460,11 @@ schedule:
     rlink: false        
 - week: "11"
   date: "0"
-  title: "Files in Python"    
+  title: "Files in Python"
+  deliverables:  
+  - dtitle: "Lab: Credit Card Validator Due"
+    dlink: "./Labs/CreditCardValidator"
+    points: 100   
 - week: "11"
   date: "1"
   title: "Lab: Programming a Refeeding Sensor by Estimating Radio Vicinity Time"
@@ -480,8 +489,8 @@ schedule:
     submission_types: "written"  
 - week: "12"
   date: "0"
-  title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
-  link: "./Activities/ZeroKnowledgeCoinFlip"
+  title: "Graphics and Sound"
+  link: "./Activities/GraphicsSound"     
   deliverables:  
   - dtitle: "Final Project: Submission and Presentation Handed Out"
     dlink: "./Project/FinalProject"
@@ -491,14 +500,14 @@ schedule:
     points: 100       
 - week: "12"
   date: "1"
-  title: ""
+  title: "Graphics and Sound"
   deliverables:  
   - dtitle: "Programming Assignment: Cryptography Due"
     dlink: "./Assignments/Cryptography"
-    points: 100   
+    points: 100     
 - week: "13"
   date: "0"
-  title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
+  title: "Graphics and Sound"
   deliverables:  
   - dtitle: "Class Participation: Second Journal Check Handed Out"
     dlink: "./ClassParticipation/JournalCheck"
@@ -506,10 +515,10 @@ schedule:
     submission_types: "written"  
 - week: "13"
   date: "1"
-  title: "Lab: Voting Receipts Handed Out"
+  title: "Lab: Story Telling"   
   deliverables:
-  - dtitle: "Lab: Voting Receipts Handed Out"
-    dlink: "./Labs/VotingReceipts"
+  - dtitle: "Lab: Story Telling Handed Out"
+    dlink: "./Labs/StoryTelling"
     points: 100    
 - week: "13"
   date: "2"
@@ -528,19 +537,19 @@ schedule:
     submission_types: "written"    
 - week: "14"
   date: "0"
-  title: "Graphics"
-  link: "./Activities/Graphics"
+  title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
+  link: "./Activities/ZeroKnowledgeCoinFlip" 
   deliverables:
-  - dtitle: "Lab: Voting Receipts Due"
-    dlink: "./Labs/VotingReceipts"
-    points: 100      
+  - dtitle: "Lab: Story Telling Due"
+    dlink: "./Labs/StoryTelling"
+    points: 100   
 - week: "14"
   date: "1"
-  title: ""     
+  title: "Data Encodings: Telling Time with WWVB"  
+  link: "./Activities/WWVB"
 - week: "14"
   date: "2"
   title: "Data Encodings: Telling Time with WWVB"
-  link: "./Activities/WWVB"
   deliverables:
   - dtitle: "Final Project: Submission and Presentation Due"
     dlink: "./Project/FinalProject"
