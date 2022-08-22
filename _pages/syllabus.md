@@ -358,6 +358,9 @@ schedule:
   date: "0"
   title: "Functions in Python"
   link: "./Activities/PythonFunctions"  
+  readings:
+  - rtitle: "Horstmann Ch. 5.1-5.8"
+    rlink: false     
 - week: "8"
   date: "1"
   title: "Lab: Flesch-Kincaid Reading Level"
@@ -402,6 +405,9 @@ schedule:
   date: "3"  
   title: "Lists in Python"
   link: "./Activities/PythonLists"  
+  readings:
+  - rtitle: "Horstmann Ch. 6.1-6.5"
+    rlink: false       
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./ServiceLearning/FirstDraft"
@@ -440,10 +446,10 @@ schedule:
 - week: "10"
   date: "3"
   title: "Files in Python"
-  link: "./Activities/PythonFileIO"  
+  link: "./Activities/PythonFileIO"    
   readings:
-  - rtitle: "Horstmann Ch. 5.1-5.8"
-    rlink: false     
+  - rtitle: "Horstmann Ch. 7.1-7.2"
+    rlink: false        
 - week: "11"
   date: "0"
   title: "Files in Python"
@@ -462,12 +468,12 @@ schedule:
   date: "2"
   title: "Dictionaries in Python"
   link: "./Activities/PythonDictionaries"
+  readings:
+  - rtitle: "Horstmann Ch. 8.1-8.2"
+    rlink: false        
 - week: "11"
   date: "3"
   title: "Dictionaries in Python"
-  readings:
-  - rtitle: "Horstmann Ch. 6.1-6.5"
-    rlink: false     
   deliverables:
   - dtitle: "Final Project: Proposal Due"
     dlink: "./Project/Proposal"
@@ -494,9 +500,6 @@ schedule:
 - week: "13"
   date: "0"
   title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
-  readings:
-  - rtitle: "Horstmann Ch. 7.1-7.2"
-    rlink: false      
   deliverables:  
   - dtitle: "Class Participation: Second Journal Check Handed Out"
     dlink: "./ClassParticipation/JournalCheck"
@@ -516,9 +519,6 @@ schedule:
 - week: "13"
   date: "3"
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
-  readings:
-  - rtitle: "Horstmann Ch. 8.1-8.2"
-    rlink: false      
   deliverables:
   - dtitle: "Service Learning Project: Final Draft Due"
     dlink: "./ServiceLearning/FinalDraft"
@@ -529,8 +529,8 @@ schedule:
     submission_types: "written"    
 - week: "14"
   date: "0"
-  title: "Graphics with Turtle"
-  link: "./Activities/TurtleGraphics"
+  title: "Graphics"
+  link: "./Activities/Graphics"
   deliverables:
   - dtitle: "Lab: Flower Classification Due"
     dlink: "./Labs/FlowerClassification"
