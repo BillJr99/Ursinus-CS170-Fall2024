@@ -183,18 +183,19 @@ schedule:
   title: "Course Overview Continued: What is Computer Science?"  
 - week: "0"
   date: "2"
-  title: "Course Overview Continued: What is Computer Science?"  
-- week: "0"
-  date: "3"
   title: "Computing in Context: Exploring Computing Concepts with Unplugged Activities"
   link: "./Presentations/UnpluggedIcebreakers"  
   readings:
   - rtitle: "Horstmann Ch. 1"
-    rlink: false   
+    rlink: false 
+- week: "0"
+  date: "3"
+  title: "Computing in Context: Post-It Pandemonium"   
+  link: "./DrawingCanvas"  
 - week: "1"
   date: "0"
-  title: "Computing in Context: Post-It Pandemonium"   
-  link: "./DrawingCanvas"
+  title: "Computing in Context: Classifying Flowers"
+  link: "./Activities/FlowerClassifier"
   deliverables:  
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "./Assignments/Warmup"
@@ -209,8 +210,7 @@ schedule:
     points: 100
 - week: "1"
   date: "2"
-  title: "Computing in Context: Classifying Flowers"
-  link: "./Activities/FlowerClassifier"
+  title: "Lab: Setting up Your Computing Environment"
 - week: "1"
   date: "3"
   title: "Introduction to the micro:bit and Random Number Generation with Variables and Mathematical Expressions"
@@ -231,15 +231,14 @@ schedule:
     points: 100    
 - week: "2"
   date: "2"
-  title: "Introduction to VSCode"
-  link: "./Activities/VSCode"
+  title: "Representing Numbers and Text in Python"
+  link: "./Activities/PythonNumbersText"
   readings:
   - rtitle: "Horstmann Ch. 2"
     rlink: false   
 - week: "2"
   date: "3"
   title: "Representing Numbers and Text in Python"
-  link: "./Activities/PythonNumbersText"
 - week: "3"
   date: "0"
   title: "Representing Numbers and Text in Python"
