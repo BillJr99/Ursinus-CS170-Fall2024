@@ -71,6 +71,8 @@ base = int(base)
 
 Calculate the new frequency and print that value to the screen.  Call your variable `frequency`.  Verify that it is correct on the [table of frequencies](https://pages.mtu.edu/~suits/notefreqs.html), and play the notes on the [Online Tone Generator](https://www.szynalski.com/tone-generator/) to hear what they would sound like when played on an instrument.
 
+As a hint, the mathematical operators are: `*` to multiply, `/` to divide, `+` to add, `-` to subtract, and `**` to raise a number to an exponent power.
+
 ### Play the Note
 
 Download this file which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  At the top of your program, add this line:

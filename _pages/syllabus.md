@@ -348,7 +348,7 @@ schedule:
     dlink: "./Assignments/Semitone"
     points: 100        
   - dtitle: "Programming Assignment: Cryptography Handed Out"
-    dlink: "./Assignments/Cryptography"
+    dlink: "./Assignments/MiniCrypto"
     points: 100     
 - week: "5"
   date: "3"
@@ -417,7 +417,7 @@ schedule:
     dlink: "./Labs/UnitTesting"
     points: 100     
   - dtitle: "Programming Assignment: Cryptography Due"
-    dlink: "./Assignments/Cryptography"
+    dlink: "./Assignments/MiniCrypto"
     points: 100     
 - week: "8"
   date: "2"
