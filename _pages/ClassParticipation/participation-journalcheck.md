@@ -1,11 +1,11 @@
 ---
 layout: assignment
-permalink: /Assignments/ClassParticipation/JournalCheck
+permalink: /ClassParticipation/JournalCheck
 title: "CS170: Programming for the World Around Us - Journal Check"
 excerpt: "CS170: Programming for the World Around Us - Journal Check"
 
 info:
-  coursenum: CS173
+  coursenum: CS170
   points: 10
   contract:
     a: 
@@ -25,3 +25,5 @@ tags:
   - journal
   
 ---
+
+Throughout the semester, class activities ask you to create programs and solutions together.  These are not submitted for grades, but the activities will often pose reflective questions for you to consider.  You should write your informal thoughts on these questions in your class notebook.  Additionally, you should post your own activities (for example, code, or the screenshot of a micro:bit program, or a picture of your micro:bit in action) to the notebook as a way to capture the concepts being explored for future reference.

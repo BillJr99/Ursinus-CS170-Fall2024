@@ -375,7 +375,7 @@ schedule:
   title: "Iteration in Python"
   deliverables:  
   - dtitle: "Class Participation: First Journal Check Handed Out"
-    dlink: "./Assignments/ClassParticipation/JournalCheck"
+    dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"
 - week: "8"
@@ -411,7 +411,7 @@ schedule:
   title: "Functions in Python"
   deliverables:  
   - dtitle: "Class Participation: First Journal Check Due"
-    dlink: "./Assignments/ClassParticipation/JournalCheck"
+    dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"  
 - week: "9"
@@ -486,7 +486,7 @@ schedule:
     dlink: "./Labs/RefeedingTimerSensor"
     points: 100 
   - dtitle: "Class Participation: Second Journal Check Handed Out"
-    dlink: "./Assignments/ClassParticipation/JournalCheck"
+    dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"      
 - week: "11"
@@ -543,7 +543,7 @@ schedule:
   title: "File I/O in Python"
   deliverables:
   - dtitle: "Class Participation: Second Journal Check Due"
-    dlink: "./Assignments/ClassParticipation/JournalCheck"
+    dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"    
 - week: "13"
