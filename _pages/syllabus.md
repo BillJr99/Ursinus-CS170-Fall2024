@@ -202,7 +202,10 @@ schedule:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "./Assignments/Warmup"
     points: 10   
-    submission_types: "noupload"    
+    submission_types: "noupload" 
+  - dtitle: "Programming Assignment: Turtle Maze Handed Out"
+    dlink: "./Assignments/TurtleMaze"
+    points: 100     
 - week: "1"
   date: "1"
   title: "Lab: Setting up Your Computing Environment"
@@ -241,6 +244,10 @@ schedule:
 - week: "2"
   date: "3"
   title: "Representing Numbers and Text in Python"
+  deliverables:
+  - dtitle: "Programming Assignment: Turtle Maze Due"
+    dlink: "./Assignments/TurtleMaze"
+    points: 100      
 - week: "3"
   date: "0"
   title: "Representing Numbers and Text in Python"
@@ -335,11 +342,7 @@ schedule:
     points: 100   
 - week: "6"
   date: "1"
-  title: "Lab: Turtle Maze"
-  deliverables:
-  - dtitle: "Lab: Turtle Maze Handed Out"
-    dlink: "./Labs/TurtleMaze"
-    points: 100 
+  title: "Iteration in Python"
 - week: "6"
   date: "2"
   title: "Iteration in Python"
@@ -366,11 +369,7 @@ schedule:
 - week: "8"
   date: "0"
   title: "Functions in Python"
-  link: "./Activities/PythonFunctions"  
-  deliverables:
-  - dtitle: "Lab: Turtle Maze Due"
-    dlink: "./Labs/TurtleMaze"
-    points: 100            
+  link: "./Activities/PythonFunctions"            
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
     rlink: false
@@ -542,10 +541,6 @@ schedule:
   - dtitle: "Service Learning Project: Final Draft Due"
     dlink: "./Projects/ServiceLearning/FinalDraft"
     points: 50  
-  - dtitle: "Class Participation: Second Journal Check Due"
-    dlink: "./Assignments/ClassParticipation/JournalCheck"
-    points: 10     
-    submission_types: "written"    
 - week: "14"
   date: "0"
   title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
@@ -558,6 +553,11 @@ schedule:
   date: "1"
   title: "Data Encodings: Telling Time with WWVB"  
   link: "./Activities/WWVB"
+  deliverables:
+  - dtitle: "Class Participation: Second Journal Check Due"
+    dlink: "./Assignments/ClassParticipation/JournalCheck"
+    points: 10     
+    submission_types: "written"      
 - week: "14"
   date: "2"
   title: "Data Encodings: Telling Time with WWVB"

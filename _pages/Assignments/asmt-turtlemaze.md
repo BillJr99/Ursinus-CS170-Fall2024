@@ -1,6 +1,6 @@
 ---
 layout: assignment
-permalink: /Labs/TurtleMaze
+permalink: /Assignments/TurtleMaze
 title: "CS170: Programming for the World Around Us - Turtle Maze"
 excerpt: "CS170: Programming for the World Around Us - Turtle Maze"
 
