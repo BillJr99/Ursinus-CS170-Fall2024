@@ -312,7 +312,7 @@ schedule:
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Handed Out"
     dlink: "./Projects/ServiceLearning"
-    points: 10     
+    points: 20     
     submission_types: "written"
   - dtitle: "Lab: Accessible Hide and Seek with Sound Due"
     dlink: "./Labs/HideAndSeekSound"
@@ -361,7 +361,7 @@ schedule:
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Due"
     dlink: "./Projects/ServiceLearning"
-    points: 10     
+    points: 20     
     submission_types: "written"  
 - week: "7"
   date: "2"
@@ -369,7 +369,7 @@ schedule:
   deliverables:  
   - dtitle: "Service Learning Project: First Draft Handed Out"
     dlink: "./Projects/ServiceLearning"
-    points: 40
+    points: 30
 - week: "7"
   date: "3"
   title: "Iteration in Python"
@@ -442,7 +442,7 @@ schedule:
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./Projects/ServiceLearning"
-    points: 40    
+    points: 30    
   - dtitle: "Service Learning Project: Final Draft Handed Out"
     dlink: "./Projects/ServiceLearning"
     points: 50
@@ -452,7 +452,7 @@ schedule:
   deliverables:  
   - dtitle: "Final Project: Proposal Handed Out"
     dlink: "./Projects/FinalProject"
-    points: 10
+    points: 20
     submission_types: "written"
   - dtitle: "Lab: Credit Card Validator Due"
     dlink: "./Labs/CreditCardValidator"
@@ -509,7 +509,7 @@ schedule:
   deliverables:
   - dtitle: "Final Project: Proposal Due"
     dlink: "./Projects/FinalProject"
-    points: 10  
+    points: 20  
     submission_types: "written"  
 - week: "12"
   date: "0"
@@ -520,7 +520,7 @@ schedule:
   deliverables:  
   - dtitle: "Final Project: Submission and Presentation Handed Out"
     dlink: "./Projects/FinalProject"
-    points: 90     
+    points: 80     
   - dtitle: "Lab: Story Telling Due"
     dlink: "./Labs/StoryTelling"
     points: 100     
@@ -571,7 +571,7 @@ schedule:
   deliverables:
   - dtitle: "Final Project: Submission and Presentation Due"
     dlink: "./Projects/FinalProject"
-    points: 90   
+    points: 80   
 - week: "14"
   date: "3"
   title: "Data Encodings: Telling Time with WWVB" 

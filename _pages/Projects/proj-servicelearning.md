@@ -1,59 +1,60 @@
 ---
 layout: assignment
 permalink: /Projects/ServiceLearning
-title: "CS170: Programming for the World Around Us - Final Project"
-excerpt: "CS170: Programming for the World Around Us - Final Project"
+title: "CS170: Programming for the World Around Us - Service Learning Project"
+excerpt: "CS170: Programming for the World Around Us - Service Learning Project"
 
 info:
   coursenum: CS170
   points: 100
   goals:
-    - To demonstrate the fundamental concepts of programming in a unified project
-    - To work effectively as a member of a small group using collaborative tools for software development
+    - To explore the breadth of applications of computing in an area of interest
+    - To apply computing to the benefit of others through service learning
   contract:
     a: 
     - "Each item required for a grade of B is included"
-    - "The project contains at least one class with a constructor, accessor/mutator functions, and private variables"
-    - "The group consists of at least 2 and no more than 3 members"
+    - "The project is disseminated on a public forum such as a website, GitHub, article, paper submission, podcast, or other appropriate medium"
+    - "The group consists of at least 1 and no more than 2 members"
     - "The project submitted was substantially consistent with the project proposed to and approved by the Professor"
     b:
     - "Each item required for a grade of C is included"
-    - "The project includes appropriate unit tests, including multiple tests for each function as required to demonstrate functionality with boundary case inputs"
-    - "An appropriate README writeup is included"
-    - "A project proposal was submitted and approved by the Professor"
-    - "Code is appropriately documented including javadoc documentation for each function"
+    - "The project report includes a substantial discussion of the project goals, rationale, and development approach"
+    - "The project report includes a deliverable with an explanation appropriate for use and extension by others"
+    - "A project proposal was submitted by the proposal deadline and approved by the Professor"
     c:
     - "Each item required for a grade of D is included"
-    - "Each member of the group has a speaking role during the presentation"
-    - "The project includes a loop and a conditional"
-    - "The project uses functions to break up complex functionality, such that the main function is relatively small in size and scope"
-    - "Code is properly indented and spaced"
-    - "Variable and function names are meaningful and consistently written in terms of character case"
+    - "The project report includes a substantial discussion of the final results"
+    - "The first draft of the project report was submitted by the first draft deadline"
+    - "The first draft substantially describes progress toward the project's conclusion"
     d:
-    - "Each member of the group makes meaningful contributions to the implementation of the project, demonstrated through version control commits or comments in the code"
+    - "Each member of the group makes meaningful contributions to the implementation of the project"
 
 tags:
   - project
   
 ---
 
-In this project, you will propose a topic of your choosing and a group of at least 2 and up to 3 total members.  The project must be approved by the instructor before it may commence, but the topic is entirely up to you.  Multidisciplinary projects with a broader impact are encouraged, and you are welcome to collaborate with a stakeholder outside the department for inspiration on potential projects (this person is not to contribute code, only disciplinary context).
+In this project, you will propose a topic of your choosing and a group of at least 1 and up to 2 total members.  The project must be approved by the instructor before it may commence, but the topic is entirely up to you.  
 
-In addition to the class in which you will write your `main()` function, your project should include and utilize at least one additional class with at least one constructor and at least one non-static method inside.  Your project will take input from a text file to initialize at least some of your variables.
+This open-ended project aims to give you space to explore computing and its applications in a context that you're passionate about.  The full capability of computing to benefit others is realized when it is applied to domains of human need.  A theme of this project is to expand your view of computing and its capabilities in service to others.  There are perhaps endless ways of doing this.  Here are some examples:
 
-You may use git or another version control system to coordinate between your team.  **Each student shall contribute by checking in meaningful contributions to the project on the version control system.  If a version control system is not used, code sections should be commented with the initials or recognized pseudonym of the student.**
+* Designing a lesson plan for K-12 students to get exposed to computing in an area related to your major (or other interest!)
+* Interviewing a technical professional related to your own major or area of interest about the role of computing in their life
+* Producing a podcast episode about the role of computing in society (for instance, about how humans can be better engaged by technical professionals to facilitate more accessible technologies)
+* A research report on computing privacy considerations
 
-Finally, prepare as a team a project presentation that you will present live to the class for final presentations.  **Each student must have a speaking role** at the presentation.
-
-## Group Formation and Proposal (10 Points)
+## Group Formation and Proposal (20 Points)
 
 To form a group, students should draft a text document including the names of all students in the group, a summary of the proposed project, and a breakdown of each student's responsibilities on the team.  **Each student** should send this identical document to me for approval via e-mail.  I will respond via e-mail to the **entire** group notifying them that the project has been approved, and which members are on the team.  If I add or remove members from the team, I will notify the entire group via e-mail.  This shall constitute agreement of the project responsibilities by all members of the team.
 
-Students who do not submit the proposal document described above (even if they are named in another group's proposal) within 3 days of the project hand-out date will be assigned to a group and notified via e-mail.  Students will not receive credit for the proposal in this situation.
+Students who do not submit the proposal document described above (even if they are named in another group's proposal) by the proposal deadline will be assigned to a group and notified via e-mail.  Students will not receive credit for the proposal in this situation.
 
 Should a member of the team fail to participate to the standards set in the proposal document described above, one or more members of the group shall notify that student via e-mail of specific tasks from the proposal document that have been agreed to, along with a deadline to communicate with the group (copy me on the e-mail message).  If the student does not respond within 2 days of that message, the group should notify me via e-mail, and I will investigate and, if appropriate, I may re-organize the team by moving one or more members to other groups (whom I will notify via e-mail), or by removing the student from the group (whom I will notify via e-mail).  
 
-## Version Control (15% Extra Credit)
+## First Draft (30 Points)
 
-See [this video](../Modules/Github/Module) for more information on using Git as a version control system to synchronize your project with your partners, and [this video](https://www.youtube.com/watch?v=5rgp8HkRTzc) for a tutorial on using Git with NetBeans.
+It is best if one's first draft is not also the final draft, especially as your ideas evolve with your own understanding and from feedback from others.  The first draft is an opportunity to write your ideas: concentrate on your message, rather than the structure of your narrative.  How do you want your readers to change after having read your work?  What contribution are you hoping to make?  Don't worry if it's not entirely clear in this draft, or if the organization isn't perfect.  At this stage, you are developing your raw materials - the clay from which you'll mold a cohesive thesis later.
 
+## Final Draft (50 Points)
+
+It is **highly recommended** that you review your first draft with a [Writing Fellow from the Writing and Speaking Center](https://www.ursinus.edu/offices/center-for-writing-and-speaking/).  Based on this feedback and the feedback from your instructor (and possibly from classmates), revise your report into a final draft.  
