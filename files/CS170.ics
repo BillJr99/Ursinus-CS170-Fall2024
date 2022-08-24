@@ -574,7 +574,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5683a
 DTSTAMP:20221026T000000Z
 DTSTART;VALUE=DATE:20221026
-SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Battleship Handed Out
+SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Respiratory Tracker Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -585,7 +585,7 @@ DTSTAMP:20221026T000000Z
 DTSTART;VALUE=DATE:20221026
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: Battleship Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/Battleship
+DESCRIPTION:\nDeliverable: Programming Assignment: Respiratory Tracker Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/RespiratoryTracker
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -727,7 +727,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5684b
 DTSTAMP:20221109T000000Z
 DTSTART;VALUE=DATE:20221109
-SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Battleship Due
+SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Respiratory Tracker Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -747,7 +747,7 @@ DTSTAMP:20221109T000000Z
 DTSTART;VALUE=DATE:20221109
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: Battleship Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/Battleship\nDeliverable: Programming Assignment: The Federalist Papers Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/FederalistPapers
+DESCRIPTION:\nDeliverable: Programming Assignment: Respiratory Tracker Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/RespiratoryTracker\nDeliverable: Programming Assignment: The Federalist Papers Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/FederalistPapers
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
