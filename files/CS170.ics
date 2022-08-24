@@ -378,7 +378,7 @@ DTSTAMP:20221003T000000Z
 DTSTART;VALUE=DATE:20221003
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/TinFoilPiano\nDeliverable: Service Learning Project: Proposal Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./ServiceLearning/Proposal\nDeliverable: Lab: Accessible Hide and Seek with Sound Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/HideAndSeekSound
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/TinFoilPiano\nDeliverable: Service Learning Project: Proposal Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning/Proposal\nDeliverable: Lab: Accessible Hide and Seek with Sound Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/HideAndSeekSound
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -486,7 +486,7 @@ DTSTAMP:20221012T000000Z
 DTSTART;VALUE=DATE:20221012
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Service Learning Project: Proposal Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./ServiceLearning/Proposal
+DESCRIPTION:\nDeliverable: Service Learning Project: Proposal Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning/Proposal
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -504,7 +504,7 @@ DTSTAMP:20221019T000000Z
 DTSTART;VALUE=DATE:20221019
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Service Learning Project: First Draft Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./ServiceLearning/FirstDraft
+DESCRIPTION:\nDeliverable: Service Learning Project: First Draft Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning/FirstDraft
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -522,7 +522,7 @@ DTSTAMP:20221021T000000Z
 DTSTART;VALUE=DATE:20221021
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Class Participation: First Journal Check Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./ClassParticipation/JournalCheck
+DESCRIPTION:\nDeliverable: Class Participation: First Journal Check Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/ClassParticipation/JournalCheck
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -603,7 +603,7 @@ DTSTAMP:20221028T000000Z
 DTSTART;VALUE=DATE:20221028
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Class Participation: First Journal Check Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./ClassParticipation/JournalCheck
+DESCRIPTION:\nDeliverable: Class Participation: First Journal Check Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/ClassParticipation/JournalCheck
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -675,7 +675,7 @@ DTSTAMP:20221104T000000Z
 DTSTART;VALUE=DATE:20221104
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonLists\nReading: Horstmann Ch. 6.1-6.5\nDeliverable: Service Learning Project: First Draft Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./ServiceLearning/FirstDraft\nDeliverable: Service Learning Project: Final Draft Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./ServiceLearning/FinalDraft
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonLists\nReading: Horstmann Ch. 6.1-6.5\nDeliverable: Service Learning Project: First Draft Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning/FirstDraft\nDeliverable: Service Learning Project: Final Draft Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning/FinalDraft
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -702,7 +702,7 @@ DTSTAMP:20221107T000000Z
 DTSTART;VALUE=DATE:20221107
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Project: Proposal Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Project/Proposal\nDeliverable: Lab: Flower Classification Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/FlowerClassification
+DESCRIPTION:\nDeliverable: Final Project: Proposal Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject/Proposal\nDeliverable: Lab: Flower Classification Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/FlowerClassification
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -819,7 +819,7 @@ DTSTAMP:20221118T000000Z
 DTSTART;VALUE=DATE:20221118
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Project: Proposal Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Project/Proposal
+DESCRIPTION:\nDeliverable: Final Project: Proposal Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject/Proposal
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -846,7 +846,7 @@ DTSTAMP:20221121T000000Z
 DTSTART;VALUE=DATE:20221121
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/GraphicsSound\nDeliverable: Final Project: Submission and Presentation Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Project/FinalProject\nDeliverable: Lab: Refeeding Timer Sensor Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/RefeedingTimerSensor
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/GraphicsSound\nDeliverable: Final Project: Submission and Presentation Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject\nDeliverable: Lab: Refeeding Timer Sensor Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/RefeedingTimerSensor
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -891,7 +891,7 @@ DTSTAMP:20221128T000000Z
 DTSTART;VALUE=DATE:20221128
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Class Participation: Second Journal Check Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./ClassParticipation/JournalCheck
+DESCRIPTION:\nDeliverable: Class Participation: Second Journal Check Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/ClassParticipation/JournalCheck
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -945,7 +945,7 @@ DTSTAMP:20221202T000000Z
 DTSTART;VALUE=DATE:20221202
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Service Learning Project: Final Draft Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./ServiceLearning/FinalDraft\nDeliverable: Class Participation: Second Journal Check Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./ClassParticipation/JournalCheck
+DESCRIPTION:\nDeliverable: Service Learning Project: Final Draft Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning/FinalDraft\nDeliverable: Class Participation: Second Journal Check Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/ClassParticipation/JournalCheck
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -990,7 +990,7 @@ DTSTAMP:20221207T000000Z
 DTSTART;VALUE=DATE:20221207
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Final Project: Submission and Presentation Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Project/FinalProject
+DESCRIPTION:\nDeliverable: Final Project: Submission and Presentation Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
