@@ -476,7 +476,11 @@ schedule:
   deliverables:
   - dtitle: "Lab: Refeeding Timer Sensor Due"
     dlink: "./Labs/RefeedingTimerSensor"
-    points: 100   
+    points: 100 
+  - dtitle: "Class Participation: Second Journal Check Handed Out"
+    dlink: "./Assignments/ClassParticipation/JournalCheck"
+    points: 10     
+    submission_types: "written"      
 - week: "11"
   date: "1"
   title: "Lab: Story Telling"   
@@ -526,18 +530,18 @@ schedule:
 - week: "13"
   date: "0"
   title: "File I/O in Python"
-  deliverables:  
-  - dtitle: "Class Participation: Second Journal Check Handed Out"
-    dlink: "./Assignments/ClassParticipation/JournalCheck"
-    points: 10     
-    submission_types: "written"  
 - week: "13"
   date: "1"
   title: "File I/O in Python"
+  deliverables:
+  - dtitle: "Class Participation: Second Journal Check Due"
+    dlink: "./Assignments/ClassParticipation/JournalCheck"
+    points: 10     
+    submission_types: "written"    
 - week: "13"
   date: "2"
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
-  link: "./Activities/RockPaperScissors"
+  link: "./Activities/RockPaperScissors"  
 - week: "13"
   date: "3"
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
@@ -552,12 +556,7 @@ schedule:
 - week: "14"
   date: "1"
   title: "Data Encodings: Telling Time with WWVB"  
-  link: "./Activities/WWVB"
-  deliverables:
-  - dtitle: "Class Participation: Second Journal Check Due"
-    dlink: "./Assignments/ClassParticipation/JournalCheck"
-    points: 10     
-    submission_types: "written"      
+  link: "./Activities/WWVB"    
 - week: "14"
   date: "2"
   title: "Data Encodings: Telling Time with WWVB"
