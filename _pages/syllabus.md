@@ -342,7 +342,11 @@ schedule:
     points: 100   
 - week: "6"
   date: "1"
-  title: "Iteration in Python"
+  title: "Lab: Flower Classification"
+  deliverables:
+  - dtitle: "Lab: Flower Classification Handed Out"
+    dlink: "./Labs/FlowerClassification"
+    points: 100  
 - week: "6"
   date: "2"
   title: "Iteration in Python"
@@ -369,7 +373,11 @@ schedule:
 - week: "8"
   date: "0"
   title: "Functions in Python"
-  link: "./Activities/PythonFunctions"            
+  link: "./Activities/PythonFunctions"  
+  deliverables:
+  - dtitle: "Lab: Flower Classification Due"
+    dlink: "./Labs/FlowerClassification"
+    points: 100    
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
     rlink: false
@@ -408,11 +416,11 @@ schedule:
     points: 100    
 - week: "9"
   date: "1"
-  title: "Lab: Flower Classification"
-  deliverables:
-  - dtitle: "Lab: Flower Classification Handed Out"
-    dlink: "./Labs/FlowerClassification"
-    points: 100   
+  title: "Lab: Credit Card Validator"
+  deliverables:  
+  - dtitle: "Lab: Credit Card Validator Handed Out"
+    dlink: "./Labs/CreditCardValidator"
+    points: 100 
 - week: "9"
   date: "2"
   title: "Social Vicinity Tracker with micro:bit Using Arrays" 
@@ -437,16 +445,16 @@ schedule:
   - dtitle: "Final Project: Proposal Handed Out"
     dlink: "./Projects/FinalProject/Proposal"
     points: 10
-    submission_types: "written" 
-  - dtitle: "Lab: Flower Classification Due"
-    dlink: "./Labs/FlowerClassification"
-    points: 100      
+    submission_types: "written"
+  - dtitle: "Lab: Credit Card Validator Due"
+    dlink: "./Labs/CreditCardValidator"
+    points: 100 
 - week: "10"
   date: "1"
-  title: "Lab: Credit Card Validator"
+  title: "Lab: Programming a Refeeding Sensor by Estimating Radio Vicinity Time"
   deliverables:  
-  - dtitle: "Lab: Credit Card Validator Handed Out"
-    dlink: "./Labs/CreditCardValidator"
+  - dtitle: "Lab: Refeeding Timer Sensor Handed Out"
+    dlink: "./Labs/RefeedingTimerSensor"
     points: 100  
 - week: "10"
   date: "2"
@@ -460,35 +468,32 @@ schedule:
     points: 100      
 - week: "10"
   date: "3"
-  title: "Files in Python"
-  link: "./Activities/PythonFileIO"    
-  readings:
-  - rtitle: "Horstmann Ch. 7.1-7.2"
-    rlink: false        
+  title: "Graphics and Sound"
+  link: "./Activities/GraphicsSound"    
 - week: "11"
   date: "0"
-  title: "Files in Python"
-  deliverables:  
-  - dtitle: "Lab: Credit Card Validator Due"
-    dlink: "./Labs/CreditCardValidator"
+  title: "Graphics and Sound"
+  deliverables:
+  - dtitle: "Lab: Refeeding Timer Sensor Due"
+    dlink: "./Labs/RefeedingTimerSensor"
     points: 100   
 - week: "11"
   date: "1"
-  title: "Lab: Programming a Refeeding Sensor by Estimating Radio Vicinity Time"
-  deliverables:  
-  - dtitle: "Lab: Refeeding Timer Sensor Handed Out"
-    dlink: "./Labs/RefeedingTimerSensor"
-    points: 100       
+  title: "Lab: Story Telling"   
+  deliverables:
+  - dtitle: "Lab: Story Telling Handed Out"
+    dlink: "./Labs/StoryTelling"
+    points: 100         
 - week: "11"
   date: "2"
+  title: "Graphics and Sound"      
+- week: "11"
+  date: "3"
   title: "Dictionaries in Python"
   link: "./Activities/PythonDictionaries"
   readings:
   - rtitle: "Horstmann Ch. 8.1-8.2"
-    rlink: false        
-- week: "11"
-  date: "3"
-  title: "Dictionaries in Python"
+    rlink: false    
   deliverables:
   - dtitle: "Final Project: Proposal Due"
     dlink: "./Projects/FinalProject/Proposal"
@@ -496,18 +501,21 @@ schedule:
     submission_types: "written"  
 - week: "12"
   date: "0"
-  title: "Graphics and Sound"
-  link: "./Activities/GraphicsSound"     
+  title: "Dictionaries in Python"
+  readings:
+  - rtitle: "Horstmann Ch. 7.1-7.2"
+    rlink: false           
   deliverables:  
   - dtitle: "Final Project: Submission and Presentation Handed Out"
     dlink: "./Projects/FinalProject"
-    points: 90
-  - dtitle: "Lab: Refeeding Timer Sensor Due"
-    dlink: "./Labs/RefeedingTimerSensor"
-    points: 100       
+    points: 90     
+  - dtitle: "Lab: Story Telling Due"
+    dlink: "./Labs/StoryTelling"
+    points: 100     
 - week: "12"
   date: "1"
-  title: "Graphics and Sound" 
+  title: "File I/O in Python"
+  link: "./Activities/PythonFileIO" 
   deliverables:
   - dtitle: "Programming Assignment: The Federalist Papers Due"
     dlink: "./Assignments/FederalistPapers"
@@ -517,7 +525,7 @@ schedule:
     points: 100       
 - week: "13"
   date: "0"
-  title: "Graphics and Sound"
+  title: "File I/O in Python"
   deliverables:  
   - dtitle: "Class Participation: Second Journal Check Handed Out"
     dlink: "./Assignments/ClassParticipation/JournalCheck"
@@ -525,11 +533,7 @@ schedule:
     submission_types: "written"  
 - week: "13"
   date: "1"
-  title: "Lab: Story Telling"   
-  deliverables:
-  - dtitle: "Lab: Story Telling Handed Out"
-    dlink: "./Labs/StoryTelling"
-    points: 100    
+  title: "File I/O in Python"
 - week: "13"
   date: "2"
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
@@ -544,11 +548,7 @@ schedule:
 - week: "14"
   date: "0"
   title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
-  link: "./Activities/ZeroKnowledgeCoinFlip" 
-  deliverables:
-  - dtitle: "Lab: Story Telling Due"
-    dlink: "./Labs/StoryTelling"
-    points: 100   
+  link: "./Activities/ZeroKnowledgeCoinFlip"   
 - week: "14"
   date: "1"
   title: "Data Encodings: Telling Time with WWVB"  
