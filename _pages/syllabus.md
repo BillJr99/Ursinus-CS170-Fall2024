@@ -127,6 +127,8 @@ goals:
 - goal: "To use design thinking and empathetic computing practices to identify and to address diverse stakeholder groups and needs"
 - goal: "To design algorithms and computer programs to solve problems across a variety of domains"
 - goal: "To interface computer programs with data from the external environment"
+- goal: "(Q) To consider how the context surrounding problems influences the approach used to develop a solution"
+- goal: "(Q) To explain quantitative information presented in a variety of forms"
 
 grade_breakdown:
 - category: "Programming Assignments"
@@ -386,8 +388,8 @@ schedule:
   date: "2"
   title: "Functions in Python"
   deliverables:
-  - dtitle: "Programming Assignment: Battleship Handed Out"
-    dlink: "./Assignments/Battleship"
+  - dtitle: "Programming Assignment: Respiratory Tracker Handed Out"
+    dlink: "./Assignments/RespiratoryTracker"
     points: 100   
 - week: "8"
   date: "3"
@@ -451,8 +453,8 @@ schedule:
   date: "2"
   title: "Lists in Python"
   deliverables:
-  - dtitle: "Programming Assignment: Battleship Due"
-    dlink: "./Assignments/Battleship"
+  - dtitle: "Programming Assignment: Respiratory Tracker Due"
+    dlink: "./Assignments/RespiratoryTracker"
     points: 100   
   - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
     dlink: "./Assignments/FederalistPapers"

@@ -1,8 +1,8 @@
 ---
 layout: assignment
-permalink: /Assignments/Battleship
-title: "CS170: Programming for the World Around Us - Battleship"
-excerpt: "CS170: Programming for the World Around Us - Battleship"
+permalink: /Assignments/RespiratoryTracker
+title: "CS170: Programming for the World Around Us - Respiratory Tracker"
+excerpt: "CS170: Programming for the World Around Us - Respiratory Tracker"
 
 info:
   coursenum: CS170
