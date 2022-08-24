@@ -52,9 +52,9 @@ tags:
 
 In this assignment, you will write a program to execute a mathematical formula to calculate the frequency for a note.  Specifically, we will use this formula to compute a note's frequency some number of half-steps above or below a base frequency.  Often, we use the "Concert A" frequency of 440 Hz (known as the A4 note), which you can hear on the [Online Tone Generator](https://www.szynalski.com/tone-generator/) website.  If you know your base frequency (440), and the number of half-steps you wish to go above or below that frequency, you can calculate the new frequency using this formula:
 
-<span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\)</span>
+<span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\\)</span>
 
-For example, one half step above A4 is A#4 ("A sharp 4"), and its frequency of 466.16 is obtained by calculating <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{1} = 466.16\)</span>.  Two half-steps above A4 is B4, whose frequency of 493.88 can be obtained by computing <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{2} = 493.88\)</span>.  One half-step below A4 is G#4, whose frequency of 392 is computed via <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{-1} = 415.3\)</span>.  You can find a table of notes and frequencies [here](https://pages.mtu.edu/~suits/notefreqs.html).
+For example, one half step above A4 is A#4 ("A sharp 4"), and its frequency of 466.16 is obtained by calculating <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{1} = 466.16\\)</span>.  Two half-steps above A4 is B4, whose frequency of 493.88 can be obtained by computing <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{2} = 493.88\\)</span>.  One half-step below A4 is G#4, whose frequency of 392 is computed via <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{-1} = 415.3\\)</span>.  You can find a table of notes and frequencies [here](https://pages.mtu.edu/~suits/notefreqs.html).
 
 ## What to Do
 
