@@ -18,6 +18,14 @@ info:
   course_end_date: "2022/12/09"
   course_description: "An introduction to programming and computer science as a tool for solving problems, automating work, and analyzing and working with data. The course introduces Python and studies its applications in various domains including bioinformatics, the physical sciences, business, and humanities by looking at a variety of problems drawn from these domains. The lab will involve the implementation of algorithms and analysis on data sets drawn from these areas. Also, the ethics of data use are covered via discussion of relevant articles and media. No prior programming experience is assumed. Offered every Fall. Three hours of lecture and one hour of laboratory per week. Four semester hours. (S, R) Note: CS-170Q may not be used as elective credits for computer science majors or minors."
   welcome_message: "Welcome to CS170Q!  In this class, we will experience computing from a broad context, and explore the power of technology through computer programming.  Computing is ubiquitous and has enabled revolutionary advances in many disciplines and domains, and we will create programs and systems that benefit a diverse set of stakeholders.  We will also investigate practices to ensure that we are inclusive in our development of these systems to maximize benefit and to mitigate the risk of harm."
+  questions: |
+    Specifically, we will collectively consider questions like:
+    <ul>
+    <li>What types of problems can (and should) computers help with by automating solutions?</li>
+    <li>How and when should human factors be considered into solution designs and the what that computers interact with us?</li>
+    <li>How do automated solutions introduce unintended harms, or amplify existing harms, on others?  How can we mitigate these harms?</li>
+    <li>How can I utilize the power of the computer to improve the world and the lives of others?</li>
+    </ul>
   class_meets_days:
     isM: true
     isT: true
@@ -202,10 +210,7 @@ schedule:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "./Assignments/Warmup"
     points: 10   
-    submission_types: "noupload" 
-  - dtitle: "Programming Assignment: Turtle Maze Handed Out"
-    dlink: "./Assignments/TurtleMaze"
-    points: 100     
+    submission_types: "noupload"    
 - week: "1"
   date: "1"
   title: "Lab: Setting up Your Computing Environment"
@@ -220,6 +225,10 @@ schedule:
   date: "3"
   title: "Introduction to the micro:bit and Random Number Generation with Variables and Mathematical Expressions"
   link: "./Activities/MicrobitPRNG"
+  deliverables:
+  - dtitle: "Programming Assignment: Turtle Maze Handed Out"
+    dlink: "./Assignments/TurtleMaze"
+    points: 100    
 - week: "2"
   date: "0"
   title: "Introduction to the micro:bit and Random Number Generation with Variables and Mathematical Expressions"
@@ -243,11 +252,7 @@ schedule:
     rlink: false   
 - week: "2"
   date: "3"
-  title: "Representing Numbers and Text in Python"
-  deliverables:
-  - dtitle: "Programming Assignment: Turtle Maze Due"
-    dlink: "./Assignments/TurtleMaze"
-    points: 100      
+  title: "Representing Numbers and Text in Python" 
 - week: "3"
   date: "0"
   title: "Representing Numbers and Text in Python"
@@ -270,6 +275,9 @@ schedule:
   - dtitle: "Programming Assignment: Semitone Frequency Generator Handed Out"
     dlink: "./Assignments/Semitone"
     points: 100    
+  - dtitle: "Programming Assignment: Turtle Maze Due"
+    dlink: "./Assignments/TurtleMaze"
+    points: 100         
 - week: "3"
   date: "3"
   title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
