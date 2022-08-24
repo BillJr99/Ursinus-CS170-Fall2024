@@ -8,32 +8,71 @@ info:
   coursenum: CS170
   points: 100
   goals:
-    - abc
+    - To issue instructions using the Python language to move an object on screen to the goal
   rubric:
-    - weight: 60
+    - weight: 90
       description: Algorithm Implementation
       preemerging: The algorithm fails on the test inputs due to major issues, or the program fails to compile and/or run
       beginning: The algorithm fails on the test inputs due to one or more minor issues
       progressing: The algorithm is implemented to solve the problem correctly according to given test inputs, but would fail if executed in a general case due to a minor issue or omission in the algorithm design or implementation
       proficient: A reasonable algorithm is implemented to solve the problem which correctly solves the problem according to the given test inputs, and would be reasonably expected to solve the problem in the general case
-    - weight: 30
-      description: Code Quality and Documentation
-      preemerging: Code commenting and structure are absent, or code structure departs significantly from best practice, and/or the code departs significantly from the style guide
-      beginning: Code commenting and structure is limited in ways that reduce the readability of the program, and/or there are minor departures from the style guide
-      progressing: Code documentation is present that re-states the explicit code definitions, and/or code is written that mostly adheres to the style guide
-      proficient: Code is documented at non-trivial points in a manner that enhances the readability of the program, and code is written according to the style guide
     - weight: 10
       description: Writeup and Submission
       preemerging: An incomplete submission is provided, or the README file submitted is blank
       beginning: The program is submitted, but not according to the directions in one or more ways (for example, because it is lacking a readme writeup or missing answers to written questions)
       progressing: The program is submitted according to the directions with a minor omission or correction needed, including a readme writeup describing the solution and answering nearly all questions posed in the instructions
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution and answering all questions posed in the instructions
-  questions:
-    - "abc"
     
 tags:
-  - abc
+  - python
   
 ---
 
-abc
+In this icebreaker assignment, you will use the Python [turtle](https://docs.python.org/3/library/turtle.html) software package to control an object on the screen.  This object is called a "sprite," which is a 2D graphic that you can move around on a screen as in a video game.  In this case, the sprite is a picture of a turtle, and you will write instructions in Python to navigate that turtle through a maze.
+
+The turtle has a number of operations that it can perform, and we will use a few of them in this assignment:
+
+* `turtle.forward(100)` - move the turtle forward by a certain number of dots (called "pixels") on the screen.  In this case, it will move 100 pixels straight ahead in the direction the turtle is facing.
+* `turtle.right(90)` - turn the turtle to the right by a certain number of degrees.  In this case, the turtle will rotate 90 degrees and face right from where it was facing before.
+* `turtle.left(90)` - the opposite of `turtle.right`
+
+For example, to turn my turtle in a square with right-hand turns, I would write the following code:
+
+```python
+# Let's walk in a square!
+turtle.forward(100) # move to the right on the screen
+turtle.right(90)    # turn to face downard
+turtle.forward(100) # move forward down the screen
+turtle.right(90)    # turn right to face left
+turtle.forward(100) # move forward on the screen (to the left)
+turtle.right(90)    # turn right to face up
+turtle.forward(100) # move forward up the screen, to the original spot
+```
+
+Notice the `#` character on each line: this is called a **comment**, and we can annotate our code to tell the reader what's going on.  This won't be seen as code by the computer, so we can write anything we want on a line following the `#` character.
+
+## What to Do
+
+1. First, create a new project.
+
+2. On the [https://www.pythonclassroom.com/turtle-graphics/turtle-maze](https://www.pythonclassroom.com/turtle-graphics/turtle-maze) website, download the **Problem 1** maze and save it into your new project folder.
+
+3. **Write down and describe the steps you think your turtle would need to make to move from the arrow at the top of the maze to the arrow at the bottom of the maze, without going through any walls.** You can use the `forward`, `right`, and `left` steps to do this.  Don't worry if you don't get it right - we'll write a program to try out our steps and revise them later!  Compare your steps with a partner, and discuss until you agree.
+
+4. Individually, write the code representing each step as a Python program.  The template code to load the maze is given on the [https://www.pythonclassroom.com/turtle-graphics/turtle-maze](https://www.pythonclassroom.com/turtle-graphics/turtle-maze) website.  This code loads the maze image onto the screen and puts the turtle in the right place for you to start moving around.  You will paste this code into your program, and add your steps in under the line that says `# write your code below`.
+
+5. Run your program.  Did it work?  Compare your result with your partner, and decide on any changes you need to make as a pair.  Then, implement those changes together on one of your projects until you get it right.  Once you do, go ahead and make the revisions on the other partner's program.
+
+6. Create a new Python file in the same project, and repeat the process with the mazes in problems 2, 3, and 4.
+
+### Extra Credit (10%): Generating Your Own Maze
+
+In a paint program on your computer, generate your own maze.  Exchange it with a partner, and try to solve it in a separate Python file.  Submit your maze and the solution!
+
+## What to Turn In
+
+When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?
+
+## References
+
+1. [https://www.pythonclassroom.com/turtle-graphics/turtle-maze](https://www.pythonclassroom.com/turtle-graphics/turtle-maze)

@@ -31,9 +31,9 @@ info:
     - weight: 10
       description: Code Documentation
       preemerging: Code commenting and structure are absent, or code structure departs significantly from best practice
-      beginning: Code commenting and structure is limited in ways that reduce the readability of the program; specifically, javadoc style comments are present for some functions
+      beginning: Code commenting and structure is limited in ways that reduce the readability of the program; specifically, descriptive comments are present for some functions
       progressing: Code documentation is present that re-states the explicit code definitions
-      proficient: Code is documented at non-trivial points in a manner that enhances the readability of the program; specifically, javadoc style comments are present for all functions
+      proficient: Code is documented at non-trivial points in a manner that enhances the readability of the program; specifically, descriptive comments are present for all functions
     - weight: 10
       description: Writeup and Submission
       preemerging: An incomplete submission is provided, or the README file submitted is blank

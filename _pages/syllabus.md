@@ -120,7 +120,13 @@ textbooks:
   image: https://bookinfo.mbsdirect.net/TextbookInfo/Covers/M002300072.gif
   isrequired: true 
   freelyavailable: false
-
+- title: "Runestone Academy"
+  authors: "Brad Miller"
+  edition: "Online Edition"
+  link: https://runestone.academy/ns/books/published/Ursinus-CS170Q-Fall2022/index.html
+  image: https://blog.runestone.academy/_static/logo_small.png
+  isrequired: false
+  freelyavailable: https://runestone.academy/ns/books/published/Ursinus-CS170Q-Fall2022/index.html
 objectives:
 - objective: "To implement algorithms using the Python programming language"
 - objective: "To use appropriate variables to represent and manipulate data"
@@ -214,6 +220,9 @@ schedule:
 - week: "1"
   date: "1"
   title: "Lab: Setting up Your Computing Environment"
+  readings:
+  - rtitle: "Runestone Ch. 1"
+    rlink: false   
   deliverables:  
   - dtitle: "Lab: Computing Environment Handed Out"
     dlink: "./Labs/ComputingEnvironment"
@@ -250,6 +259,8 @@ schedule:
   readings:
   - rtitle: "Horstmann Ch. 2"
     rlink: false   
+  - rtitle: "Runestone Ch. 2"
+    rlink: false      
 - week: "2"
   date: "3"
   title: "Representing Numbers and Text in Python" 
@@ -288,6 +299,8 @@ schedule:
   readings:
   - rtitle: "Horstmann Ch. 3"
     rlink: false  
+  - rtitle: "Runestone Ch. 4"
+    rlink: false      
   deliverables:  
   - dtitle: "Lab: Random Dice Rolling Due"
     dlink: "./Labs/MicrobitDice"
@@ -320,6 +333,9 @@ schedule:
 - week: "5"
   date: "1"
   title: "Lab: Debugging"
+  readings:
+  - rtitle: "Runestone Ch. 3"
+    rlink: false    
   deliverables:
   - dtitle: "Lab: Debugging Handed Out"
     dlink: "./Labs/Debugging"
@@ -344,6 +360,8 @@ schedule:
   readings:
   - rtitle: "Horstmann Ch. 4"
     rlink: false     
+  - rtitle: "Runestone Ch. 6"
+    rlink: false      
   deliverables:
   - dtitle: "Lab: Debugging Due"
     dlink: "./Labs/Debugging"
@@ -389,6 +407,8 @@ schedule:
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
     rlink: false
+  - rtitle: "Runestone Ch. 5"
+    rlink: false      
 - week: "8"
   date: "1" 
   title: "Lab: Unit Testing"
@@ -438,7 +458,9 @@ schedule:
   link: "./Activities/PythonLists"  
   readings:
   - rtitle: "Horstmann Ch. 6.1-6.5"
-    rlink: false       
+    rlink: false     
+  - rtitle: "Runestone Ch. 9"
+    rlink: false      
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./Projects/ServiceLearning"
@@ -506,6 +528,8 @@ schedule:
   readings:
   - rtitle: "Horstmann Ch. 8.1-8.2"
     rlink: false    
+  - rtitle: "Runestone Ch. 10"
+    rlink: false      
   deliverables:
   - dtitle: "Final Project: Proposal Due"
     dlink: "./Projects/FinalProject"
@@ -528,6 +552,9 @@ schedule:
   date: "1"
   title: "File I/O in Python"
   link: "./Activities/PythonFileIO" 
+  readings:
+  - rtitle: "Runestone Ch. 8"
+    rlink: false    
   deliverables:
   - dtitle: "Programming Assignment: The Federalist Papers Due"
     dlink: "./Assignments/FederalistPapers"
