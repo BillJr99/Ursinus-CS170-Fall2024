@@ -8,7 +8,9 @@ info:
   coursenum: CS170
   points: 100
   goals:
-    - abc
+    - To write a Python program that implements a mathematical expression
+    - To obtain user input from the keyboard in a Python program
+    - To explore the relationship between audio pitch and frequency
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -44,7 +46,104 @@ info:
 tags:
   - python
   - music
+  - math
   
 ---
 
-abc
+In this assignment, you will write a program to execute a mathematical formula to calculate the frequency for a note.  Specifically, we will use this formula to compute a note's frequency some number of half-steps above or below a base frequency.  Often, we use the "Concert A" frequency of 440 Hz (known as the A4 note), which you can hear on the [Online Tone Generator](https://www.szynalski.com/tone-generator/) website.  If you know your base frequency (440), and the number of half-steps you wish to go above or below that frequency, you can calculate the new frequency using this formula:
+
+<span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\)</span>
+
+For example, one half step above A4 is A#4 ("A sharp 4"), and its frequency of 466.16 is obtained by calculating <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{1} = 466.16\)</span>.  Two half-steps above A4 is B4, whose frequency of 493.88 can be obtained by computing <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{2} = 493.88\)</span>.  One half-step below A4 is G#4, whose frequency of 392 is computed via <span>\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{-1} = 415.3\)</span>.  You can find a table of notes and frequencies [here](https://pages.mtu.edu/~suits/notefreqs.html).
+
+## What to Do
+
+### Calculate the Frequency
+Create a Python project and ask the user to input the base frequency and the number of half-steps you want to calculate.  To get user input from the keyboard on-screen, you can use this code:
+
+```python
+# First, print a prompt to the screen to ask the user for a value, and store what they type into a variable called base
+base = input("Please enter the base frequency as a whole number (example: 440):")
+
+# Since we know this should be a whole number, convert the variable's value to an integer
+base = int(base)
+```
+
+Calculate the new frequency and print that value to the screen.  Call your variable `frequency`.  Verify that it is correct on the [table of frequencies](https://pages.mtu.edu/~suits/notefreqs.html), and play the notes on the [Online Tone Generator](https://www.szynalski.com/tone-generator/) to hear what they would sound like when played on an instrument.
+
+### Play the Note
+
+Download this file which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  At the top of your program, add this line:
+
+```python
+# import code into my program that I can use
+import sounds
+```
+
+Now, you can use that code to play sounds!  To play a tone, write this line at the bottom of your program:
+
+```python
+sounds.sine_tone(frequency, 1, volume=0.25) # play the given frequency for 1 seconds and 25% volume
+```
+
+Re-run your program and try it for a few different notes.  Verify that they're correct using the [Online Tone Generator](https://www.szynalski.com/tone-generator/).
+
+**As the frequency increases, what happens to the pitch of the sound?**
+
+### Play a Song
+Create a new Python file within your project.  Using the `sounds.sine_tone` function, play several frequency notes to put together a song.  You can make up your own song, or use the [table of frequencies](https://pages.mtu.edu/~suits/notefreqs.html) to play a known song.  For example, here's the "alphabet song" (based on [Twinkle Twinkle Little Star](https://en.wikipedia.org/wiki/Twinkle,_Twinkle,_Little_Star)):
+
+```
+C4 C4 G4 G4 A4 A4 G4(1/2 note)
+F4 F4 E4 E4 D4(1/8th note) D4(1/8th note) D4(1/8th note) D4(1/8th note) C4(1/2 note)
+G4 G4 F4 (rest 1/16th note) E4 E4 D4(1/2 note)
+G4(1/8th note) G4(1/8th note) G4(1/8th note) F4 (rest 1/16th note) E4 E4 D4(1/2 note)
+C4 C4 G4 G4 A4 A4 G4(1/2 note)
+F4 F4 E4 E4 D4 D4 C4(1/2 note)
+```
+
+A **1/2 note** just means to play at half the duration of your other notes.  You can create a variable called duration and set it to `1/2`, `1/8`, or `1/16` as approrpiate.  All the other notes are **1/4 notes**.
+
+For fun, you might notice there is a "rest" in the song.  A rest means to pause.  We can actually pause our program by importing another software package into our program called `time` (at the top):
+
+```python
+import time
+```
+
+and calling `time.sleep(1/16)` to pause for one sixteenth of a second.
+
+### Mixing Sounds
+A chord effectively mixes to sounds together - the sound waves are added together to create a mixed wave.  
+
+In a new Python file, call this function:
+
+```python
+sounds.dtmf_tone([350, 440], 2, volume=0.25)
+```
+
+Note that we put two numbers into the function for the frequency instead of just one.  This will cause them to mix together.  We use brackets in Python to store variables that are collections of things (for example, multiple frequencies instead of a single frequency value).  Run this program; does it sound familiar?  Landline telephones use mixed tones (called dual-tones) to represent each button you could push on the phone.
+
+Using these frequency combinations, try writing a program that plays the tones for your phone number.  Interestingly, if you held your computer speaker up to an old telephone and ran this program, it would actually dial that number!
+
+| **Digit** | **Frequency 1** | **Frequency 2** |
+|-----------|-----------------|-----------------|
+| **1**     | 697             | 1209            |
+| **2**     | 697             | 1336            |
+| **3**     | 697             | 1477            |
+| **4**     | 770             | 1209            |
+| **5**     | 770             | 1336            |
+| **6**     | 770             | 1477            |
+| **7**     | 852             | 1209            |
+| **8**     | 852             | 1336            |
+| **9**     | 852             | 1477            |
+| **0**     | 941             | 1336            |
+
+**If you looked at an audio sound graph like you might find on a stereo system, and saw the following output, what digit would you guess is being dialed on the phone?**
+
+<p align="center">
+<img src="https://i.stack.imgur.com/vUTh0.png" max-width="100%" alt="DTMF Spectrogram"></img>
+</p>
+
+## What to Turn In
+
+When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?
