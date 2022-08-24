@@ -1,12 +1,12 @@
 ---
 layout: assignment
-permalink: /Projects/ServiceLearning/FirstDraft
-title: "CS170: Programming for the World Around Us - Final Project"
-excerpt: "CS170: Programming for the World Around Us - Final Project"
+permalink: /Projects/FinalProject
+title: "CS170: Programming for the World Around Us - Final Project Proposal"
+excerpt: "CS170: Programming for the World Around Us - Final Project Proposal"
 
 info:
   coursenum: CS170
-  points: 100
+  points: 10
   goals:
     - To demonstrate the fundamental concepts of programming in a unified project
     - To work effectively as a member of a small group using collaborative tools for software development

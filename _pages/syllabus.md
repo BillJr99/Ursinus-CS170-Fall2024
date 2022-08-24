@@ -311,7 +311,7 @@ schedule:
   link: "./Activities/TinFoilPiano"
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Handed Out"
-    dlink: "./Projects/ServiceLearning/Proposal"
+    dlink: "./Projects/ServiceLearning"
     points: 10     
     submission_types: "written"
   - dtitle: "Lab: Accessible Hide and Seek with Sound Due"
@@ -360,7 +360,7 @@ schedule:
   title: "Iteration in Python"
   deliverables:  
   - dtitle: "Service Learning Project: Proposal Due"
-    dlink: "./Projects/ServiceLearning/Proposal"
+    dlink: "./Projects/ServiceLearning"
     points: 10     
     submission_types: "written"  
 - week: "7"
@@ -368,7 +368,7 @@ schedule:
   title: "Iteration in Python"
   deliverables:  
   - dtitle: "Service Learning Project: First Draft Handed Out"
-    dlink: "./Projects/ServiceLearning/FirstDraft"
+    dlink: "./Projects/ServiceLearning"
     points: 40
 - week: "7"
   date: "3"
@@ -441,17 +441,17 @@ schedule:
     rlink: false       
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
-    dlink: "./Projects/ServiceLearning/FirstDraft"
+    dlink: "./Projects/ServiceLearning"
     points: 40    
   - dtitle: "Service Learning Project: Final Draft Handed Out"
-    dlink: "./Projects/ServiceLearning/FinalDraft"
+    dlink: "./Projects/ServiceLearning"
     points: 50
 - week: "10"
   date: "0"
   title: "Lists in Python"
   deliverables:  
   - dtitle: "Final Project: Proposal Handed Out"
-    dlink: "./Projects/FinalProject/Proposal"
+    dlink: "./Projects/FinalProject"
     points: 10
     submission_types: "written"
   - dtitle: "Lab: Credit Card Validator Due"
@@ -508,7 +508,7 @@ schedule:
     rlink: false    
   deliverables:
   - dtitle: "Final Project: Proposal Due"
-    dlink: "./Projects/FinalProject/Proposal"
+    dlink: "./Projects/FinalProject"
     points: 10  
     submission_types: "written"  
 - week: "12"
@@ -555,7 +555,7 @@ schedule:
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
   deliverables:
   - dtitle: "Service Learning Project: Final Draft Due"
-    dlink: "./Projects/ServiceLearning/FinalDraft"
+    dlink: "./Projects/ServiceLearning"
     points: 50  
 - week: "14"
   date: "0"

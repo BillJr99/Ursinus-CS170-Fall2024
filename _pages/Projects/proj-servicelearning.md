@@ -1,6 +1,6 @@
 ---
 layout: assignment
-permalink: /Projects/ServiceLearning/FinalDraft
+permalink: /Projects/ServiceLearning
 title: "CS170: Programming for the World Around Us - Final Project"
 excerpt: "CS170: Programming for the World Around Us - Final Project"
 
