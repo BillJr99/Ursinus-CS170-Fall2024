@@ -142,22 +142,13 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5680a
 DTSTAMP:20220905T000000Z
 DTSTART;VALUE=DATE:20220905
-SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Turtle Maze Handed Out
+SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/FlowerClassifier\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/Warmup
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5680b
-DTSTAMP:20220905T000000Z
-DTSTART;VALUE=DATE:20220905
-SUMMARY:CS170 Programming for the World Around Us: Class Meeting
-LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/FlowerClassifier\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/Warmup\nDeliverable: Programming Assignment: Turtle Maze Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/TurtleMaze
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe5680c
 DTSTAMP:20220906T000000Z
 DTSTART;VALUE=DATE:20220906
 SUMMARY:CS170 Programming for the World Around Us: Lab: Computing Environment Handed Out
@@ -166,7 +157,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe5680d
+UID:00000000-0000-0000-0000-018bcfe5680c
 DTSTAMP:20220906T000000Z
 DTSTART;VALUE=DATE:20220906
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
@@ -175,10 +166,19 @@ DESCRIPTION:\nDeliverable: Lab: Computing Environment Handed Out https://www.bil
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe5680e
+UID:00000000-0000-0000-0000-018bcfe5680d
 DTSTAMP:20220907T000000Z
 DTSTART;VALUE=DATE:20220907
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-018bcfe5680e
+DTSTAMP:20220909T000000Z
+DTSTART;VALUE=DATE:20220909
+SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Turtle Maze Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -189,7 +189,7 @@ DTSTAMP:20220909T000000Z
 DTSTART;VALUE=DATE:20220909
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/MicrobitPRNG
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/MicrobitPRNG\nDeliverable: Programming Assignment: Turtle Maze Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/TurtleMaze
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -241,22 +241,13 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe56815
 DTSTAMP:20220916T000000Z
 DTSTART;VALUE=DATE:20220916
-SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Turtle Maze Due
+SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe56816
-DTSTAMP:20220916T000000Z
-DTSTART;VALUE=DATE:20220916
-SUMMARY:CS170 Programming for the World Around Us: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: Turtle Maze Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/TurtleMaze
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe56817
 DTSTAMP:20220919T000000Z
 DTSTART;VALUE=DATE:20220919
 SUMMARY:CS170 Programming for the World Around Us: Lab: Flesch-Kincaid Reading Level Due
@@ -265,7 +256,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe56818
+UID:00000000-0000-0000-0000-018bcfe56817
 DTSTAMP:20220919T000000Z
 DTSTART;VALUE=DATE:20220919
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
@@ -274,7 +265,7 @@ DESCRIPTION:\nDeliverable: Lab: Flesch-Kincaid Reading Level Due https://www.bil
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe56819
+UID:00000000-0000-0000-0000-018bcfe56818
 DTSTAMP:20220920T000000Z
 DTSTART;VALUE=DATE:20220920
 SUMMARY:CS170 Programming for the World Around Us: Lab: Random Dice Rolling Handed Out
@@ -283,7 +274,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe5681a
+UID:00000000-0000-0000-0000-018bcfe56819
 DTSTAMP:20220920T000000Z
 DTSTART;VALUE=DATE:20220920
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
@@ -292,10 +283,19 @@ DESCRIPTION:\nDeliverable: Lab: Random Dice Rolling Handed Out https://www.billm
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-018bcfe5681b
+UID:00000000-0000-0000-0000-018bcfe5681a
 DTSTAMP:20220921T000000Z
 DTSTART;VALUE=DATE:20220921
 SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Semitone Frequency Generator Handed Out
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-018bcfe5681b
+DTSTAMP:20220921T000000Z
+DTSTART;VALUE=DATE:20220921
+SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Turtle Maze Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -306,7 +306,7 @@ DTSTAMP:20220921T000000Z
 DTSTART;VALUE=DATE:20220921
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/HideAndSeek\nDeliverable: Programming Assignment: Semitone Frequency Generator Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/Semitone
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/HideAndSeek\nDeliverable: Programming Assignment: Semitone Frequency Generator Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/Semitone\nDeliverable: Programming Assignment: Turtle Maze Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/TurtleMaze
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
