@@ -423,9 +423,9 @@ schedule:
   date: "2"
   title: "Functions in Python"
   deliverables:
-  - dtitle: "Programming Assignment: Respiratory Tracker Handed Out"
-    dlink: "./Assignments/RespiratoryTracker"
-    points: 100   
+  - dtitle: "Programming Assignment: Computer Art Handed Out"
+    dlink: "./Assignments/ComputerArt"
+    points: 100      
 - week: "8"
   date: "3"
   title: "Functions in Python"
@@ -490,12 +490,12 @@ schedule:
   date: "2"
   title: "Lists in Python"
   deliverables:
-  - dtitle: "Programming Assignment: Respiratory Tracker Due"
+  - dtitle: "Programming Assignment: Random Computer Art Due"
+    dlink: "./Assignments/ComputerArt"
+    points: 100          
+  - dtitle: "Programming Assignment: Respiratory Tracker Handed Out"
     dlink: "./Assignments/RespiratoryTracker"
-    points: 100   
-  - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
-    dlink: "./Assignments/FederalistPapers"
-    points: 100      
+    points: 100        
 - week: "10"
   date: "3"
   title: "Graphics and Sound"
@@ -556,12 +556,12 @@ schedule:
   - rtitle: "Runestone Ch. 8"
     rlink: false    
   deliverables:
-  - dtitle: "Programming Assignment: The Federalist Papers Due"
+  - dtitle: "Programming Assignment: Respiratory Tracker Due"
+    dlink: "./Assignments/RespiratoryTracker"
+    points: 100 
+  - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
     dlink: "./Assignments/FederalistPapers"
-    points: 100    
-  - dtitle: "Programming Assignment: Random Computer Art Handed Out"
-    dlink: "./Assignments/ComputerArt"
-    points: 100       
+    points: 100         
 - week: "13"
   date: "0"
   title: "File I/O in Python"
@@ -603,9 +603,9 @@ schedule:
   date: "3"
   title: "Data Encodings: Telling Time with WWVB" 
   deliverables:
-  - dtitle: "Programming Assignment: Random Computer Art Due"
-    dlink: "./Assignments/ComputerArt"
-    points: 100       
+  - dtitle: "Programming Assignment: The Federalist Papers Due"
+    dlink: "./Assignments/FederalistPapers"
+    points: 100     
   
 university:
   semester: "Fall"
