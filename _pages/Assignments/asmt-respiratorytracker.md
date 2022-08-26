@@ -58,7 +58,7 @@ Take a deep breath - inhale, and exhale!  It's nice when a homework assignment s
 In this assignment we'll write a computer program to track one's respiratory rate by analyzing a graph of their chest wall movement.  We will model this movement as a sine wave, such as the one below:
 
 <p align="center">
-<img src="../files/asmt-respiratorytracker/respiratorytracker.png" alt="Respiratory Model as a Sinusoidal Graph" max-width="100%">
+<img src="../files/asmt-respiratorytracker/respiratorytracker.png" alt="Respiratory Model as a Sinusoidal Graph" style="max-width:100%;">
 </p>
 
 ## What to Do
