@@ -8,7 +8,7 @@ info:
   coursenum: CS170
   points: 100
   goals:
-    - abc
+    - To use an alternative modality to enhance program accessibility
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -28,12 +28,18 @@ info:
       beginning: The program is submitted, but not according to the directions in one or more ways (for example, because it is lacking a readme writeup or missing answers to written questions)
       progressing: The program is submitted according to the directions with a minor omission or correction needed, including a readme writeup describing the solution and answering nearly all questions posed in the instructions
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution and answering all questions posed in the instructions
-  questions:
-    - "abc"
     
 tags:
-  - abc
+  - microbit
+  - accessibility
   
 ---
 
-abc
+Building upon the [Hide and Seek Activity](../Activities/HideAndSeek), we will add an audible feedback loop to help determine if one is getting "hotter or colder" relative to the item being searched for.
+
+## What to Do
+Modify the Hide and Seek program to play a sound when the radio receives a value.  If the current RSSI has become stronger, play a higher pitched sound, and if it has become weaker, play a lower pitched sound.  You can control the pitch using a variable that you increase or decrease (by any amount you like!  You could add or multiply it for warmer, or subtract or divide it for cooler, as you prefer.), and play the sound as a tone in the loop.
+
+## What to Turn In
+
+When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?
