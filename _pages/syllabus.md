@@ -461,6 +461,8 @@ schedule:
     rlink: false     
   - rtitle: "Runestone Ch. 9"
     rlink: false      
+  - rtitle: "Runestone Ch. 7"
+    rlink: false          
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./Projects/ServiceLearning"

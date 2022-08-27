@@ -6,16 +6,101 @@ excerpt: "CS170: Programming for the World Around Us - Conditionals in Python"
 
 info:
   goals: 
-    - abc
+    - To be able to write an <code>if</code> statement
+    - To be able to write an <code>else</code> statement
+    - To design boolean expressions for conditionals
+    - To combine the <code>if</code> and <code>else</code> blocks to form conditionals that utilize the <code>else if</code> construct
+    - To implement complex conditional statements using boolean expression operators
   models:
-    - title: "abc"
-      model: |
-        abc
-      questions: 
-        - "abc"
+    - model: |
+        <script type="syntaxhighlighter" class="brush: python"><![CDATA[
+        age = 38
         
+        if age >= 35:
+            print("You are old enough to run for President of the United States!")
+        ]]></script>     
+      title: Conditionals for Selective Execution with <code>if</code> Statements
+      questions:
+        - Try running the above program for different ages (say, 18, 34, 35, and 36).
+    - model: |
+        <script type="syntaxhighlighter" class="brush: python"><![CDATA[
+        age = 38
+        
+        if age >= 35:
+            print("You are old enough to run for President of the United States!")
+        else:
+            print("You're too young to run for President.")
+        ]]></script>     
+      title: Conditionals for Selective Execution with <code>if</code>/<code>else</code> Statements        
+      questions:
+        - Write and execute an <code>if</code>/<code>else</code> statement that determines if it is warm and not raining outside, and prints out whether or not it is appropriate to go outside.
+    - model: |
+        <div>
+        <script type="syntaxhighlighter" class="brush: python"><![CDATA[
+        age = 38
+        
+        if age >= 18:
+            print("You are old enough to vote!")
+            
+            if age >= 35:
+                print("... and you are old enough to run for President!")
+            else:
+                print("... but not old enough to run for President!")
+        else:
+            print("You're too young to run for President, and too young to vote.")
+        ]]></script>    
+        </div>
+        <br>
+        <div>
+        <script type="syntaxhighlighter" class="brush: python"><![CDATA[
+        age = 21
+            
+        if age >= 35:
+            print("You are old enough to run for President of the United States!")
+        elif age >= 18:
+            print("You can’t run for President, but you are old enough to vote!")
+        else:
+            print("You’re too young to run for President, and too young to vote.")
+        ]]></script>  
+        </div>
+      title: Creating a Waterfall of Possibilities by combining <code>else</code> and <code>if</code>
+      questions:
+        - Which code structure above do you prefer and why?
+        - "Can you switch the order of the <code>if</code> statements in either example?  Why or why not?"
+    - model: |
+        <script type="syntaxhighlighter" class="brush: python"><![CDATA[
+        age = 25
+        
+        if age >= 18 and age < 35: { # Why < 35 and not <= 35?
+            print("???") # What should we say here?
+        ]]></script>      
+      title: "Compound <code>if</code> conditionals"
+      questions: 
+        - What text should go into the <code>println</code> statement to indicate whether the person can vote (at least age 18) but also is too young to run for president (at least age 35)?
+        - "Can you switch the order of the checks inside the <code>if</code> statement?  Why or why not?"
+        - "Consider the letter grade breakdown table on our <a href=\"../#grading\">course syllabus</a>.  Write a series of compound <code>if</code> statements that determines if your grade is an A+, an A, or an A-."
+      embed: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/JavaFirstExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>    
+    - model: |
+        <img src="../images/venn3.png" alt="Empty 3-way Venn Diagram">
+      title: "Putting It All Together: Implementing a Venn Diagram"
+      questions:
+        - "Make up a 3-way <a href=\"https://en.wikipedia.org/wiki/Venn_diagram\">Venn Diagram</a> of your choosing; you can look one up on the Internet if you wish."
+        - "Label the three large circles \"A\", \"B\", and \"C\".  In each of the 7 regions within the Venn Diagram, which elements are true and which are false?"
+        - "Write a series of <code>if</code> statements that may use <code>else</code> and <code>else if</code> blocks that print out the different states of your Venn Diagram.  There are a few ways to go about this, so we will discuss and compare approaches as a class."      
+    - model: |
+        <a title="P. Kemp, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:If-Then-Else-diagram.svg"><img width="256" alt="If-Then-Else-diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/256px-If-Then-Else-diagram.svg.png"></a>
+      title: "Using Flow Charts to Observe Conditional Program Flow"
+      questions:
+        - "Draw a flowchart diagram that illustrates the control flow of your Venn Diagram program."
+        - "Draw a flowchart of a conditional that checks if your grade is within range for each letter grade in the class."        
+  additional_reading:
+    - link: https://runestone.academy/ns/books/published/py4e-int/conditional/toctree.html
+      title: Conditional Execution
+      
 tags:
-  - abc
+  - conditionals
+  - python
   
 ---
 

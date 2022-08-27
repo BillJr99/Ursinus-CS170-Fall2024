@@ -13,7 +13,12 @@ info:
         abc
       questions: 
         - "abc"
-        
+  additional_reading:
+    - link: https://runestone.academy/ns/books/published/py4e-int/lists/toctree.html
+      title: Lists
+    - link: https://runestone.academy/ns/books/published/py4e-int/strings/toctree.html
+      title: Strings
+      
 tags:
   - abc
   
