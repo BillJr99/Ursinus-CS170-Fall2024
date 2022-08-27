@@ -774,7 +774,7 @@ DTSTAMP:20221111T000000Z
 DTSTART;VALUE=DATE:20221111
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/GraphicsSound
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonDictionaries\nReading: Horstmann Ch. 8.1-8.2\nReading: Runestone Ch. 10
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -828,7 +828,7 @@ DTSTAMP:20221116T000000Z
 DTSTART;VALUE=DATE:20221116
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/GraphicsSound
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -846,7 +846,7 @@ DTSTAMP:20221118T000000Z
 DTSTART;VALUE=DATE:20221118
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonDictionaries\nReading: Horstmann Ch. 8.1-8.2\nReading: Runestone Ch. 10\nDeliverable: Final Project: Proposal Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject
+DESCRIPTION:\nDeliverable: Final Project: Proposal Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -873,7 +873,7 @@ DTSTAMP:20221121T000000Z
 DTSTART;VALUE=DATE:20221121
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: Horstmann Ch. 7.1-7.2\nDeliverable: Final Project: Submission and Presentation Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject\nDeliverable: Lab: Story Telling Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/StoryTelling
+DESCRIPTION:\nDeliverable: Final Project: Submission and Presentation Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/FinalProject\nDeliverable: Lab: Story Telling Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/StoryTelling
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -900,7 +900,7 @@ DTSTAMP:20221122T000000Z
 DTSTART;VALUE=DATE:20221122
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonFileIO\nReading: Runestone Ch. 8\nDeliverable: Programming Assignment: Respiratory Tracker Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/RespiratoryTracker\nDeliverable: Programming Assignment: The Federalist Papers Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/FederalistPapers
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonFileIO\nReading: Horstmann Ch. 7.1-7.2\nReading: Runestone Ch. 8\nDeliverable: Programming Assignment: Respiratory Tracker Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/RespiratoryTracker\nDeliverable: Programming Assignment: The Federalist Papers Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/FederalistPapers
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
