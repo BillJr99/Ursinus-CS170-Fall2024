@@ -693,7 +693,7 @@ DTSTAMP:20221104T000000Z
 DTSTART;VALUE=DATE:20221104
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonLists\nReading: Horstmann Ch. 6.1-6.5\nReading: Runestone Ch. 9\nDeliverable: Service Learning Project: First Draft Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning\nDeliverable: Service Learning Project: Final Draft Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonLists\nReading: Horstmann Ch. 6.1-6.5\nReading: Runestone Ch. 9\nReading: Runestone Ch. 7\nDeliverable: Service Learning Project: First Draft Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning\nDeliverable: Service Learning Project: Final Draft Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Projects/ServiceLearning
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
