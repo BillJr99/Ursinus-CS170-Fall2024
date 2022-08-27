@@ -8,7 +8,7 @@ info:
   coursenum: CS170
   points: 100
   goals:
-    - abc
+    - To use a random number generator with the micro:bit
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -28,16 +28,18 @@ info:
       beginning: The program is submitted, but not according to the directions in one or more ways (for example, because it is lacking a readme writeup or missing answers to written questions)
       progressing: The program is submitted according to the directions with a minor omission or correction needed, including a readme writeup describing the solution and answering nearly all questions posed in the instructions
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution and answering all questions posed in the instructions
-  questions:
-    - "abc"
     
 tags:
-  - abc
+  - microbit
+  - rng
   
 ---
 
 ## What to Do
+Write a program to generate a random number between 1 and 6 every time a button is pressed, and display that number on the screen.
+
+### Extra Credit (10%): Display the dice image
+Modify the program to display each dice image on the LED screen!
 
 ## What to Turn In
-
 When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?

@@ -40,6 +40,8 @@ Building upon the [Hide and Seek Activity](../Activities/HideAndSeek), we will a
 ## What to Do
 Modify the Hide and Seek program to play a sound when the radio receives a value.  If the current RSSI has become stronger, play a higher pitched sound, and if it has become weaker, play a lower pitched sound.  You can control the pitch using a variable that you increase or decrease (by any amount you like!  You could add or multiply it for warmer, or subtract or divide it for cooler, as you prefer.), and play the sound as a tone in the loop.
 
+**What other modalities could you imagine incorporating into this for visually or hearing impaired users?**
+
 ## What to Turn In
 
 When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?
