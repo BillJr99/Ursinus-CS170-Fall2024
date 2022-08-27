@@ -368,10 +368,10 @@ schedule:
     points: 100   
 - week: "6"
   date: "1"
-  title: "Lab: Flower Classification"
+  title: "Lab: Machine Learning"
   deliverables:
-  - dtitle: "Lab: Flower Classification Handed Out"
-    dlink: "./Labs/FlowerClassification"
+  - dtitle: "Lab: Machine Learning Handed Out"
+    dlink: "./Labs/MachineLearning"
     points: 100  
 - week: "6"
   date: "2"
@@ -401,8 +401,8 @@ schedule:
   title: "Functions in Python"
   link: "./Activities/PythonFunctions"  
   deliverables:
-  - dtitle: "Lab: Flower Classification Due"
-    dlink: "./Labs/FlowerClassification"
+  - dtitle: "Lab: Machine Learning Due"
+    dlink: "./Labs/MachineLearning"
     points: 100    
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
