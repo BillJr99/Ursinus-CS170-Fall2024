@@ -498,11 +498,16 @@ schedule:
     points: 100        
 - week: "10"
   date: "3"
-  title: "Graphics and Sound"
-  link: "./Activities/GraphicsSound"    
+  title: "Dictionaries in Python"
+  link: "./Activities/PythonDictionaries"
+  readings:
+  - rtitle: "Horstmann Ch. 8.1-8.2"
+    rlink: false    
+  - rtitle: "Runestone Ch. 10"
+    rlink: false    
 - week: "11"
   date: "0"
-  title: "Graphics and Sound"
+  title: "Dictionaries in Python"
   deliverables:
   - dtitle: "Lab: Refeeding Timer Sensor Due"
     dlink: "./Labs/RefeedingTimerSensor"
@@ -521,15 +526,10 @@ schedule:
 - week: "11"
   date: "2"
   title: "Graphics and Sound"      
+  link: "./Activities/GraphicsSound" 
 - week: "11"
   date: "3"
-  title: "Dictionaries in Python"
-  link: "./Activities/PythonDictionaries"
-  readings:
-  - rtitle: "Horstmann Ch. 8.1-8.2"
-    rlink: false    
-  - rtitle: "Runestone Ch. 10"
-    rlink: false      
+  title: "Graphics and Sound"       
   deliverables:
   - dtitle: "Final Project: Proposal Due"
     dlink: "./Projects/FinalProject"
@@ -537,10 +537,7 @@ schedule:
     submission_types: "written"  
 - week: "12"
   date: "0"
-  title: "Dictionaries in Python"
-  readings:
-  - rtitle: "Horstmann Ch. 7.1-7.2"
-    rlink: false           
+  title: "Graphics and Sound"          
   deliverables:  
   - dtitle: "Final Project: Submission and Presentation Handed Out"
     dlink: "./Projects/FinalProject"
@@ -553,6 +550,8 @@ schedule:
   title: "File I/O in Python"
   link: "./Activities/PythonFileIO" 
   readings:
+  - rtitle: "Horstmann Ch. 7.1-7.2"
+    rlink: false   
   - rtitle: "Runestone Ch. 8"
     rlink: false    
   deliverables:
