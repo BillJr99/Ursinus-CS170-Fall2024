@@ -9,6 +9,7 @@ info:
   points: 100
   goals:
     - To explore ubiquitous sensors and actuators via the Internet-of-Things
+    - To design an algorithm for an agruicultural solution
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -32,6 +33,8 @@ info:
 tags:
   - microbit
   - iot
+  - agriculture
+  - radio
   
 ---
 
