@@ -44,7 +44,7 @@ Where `wps` is the number of words per sentence, and `spw` is the number of syll
 Write a program to input the `wps` and `spw` variables.  In python, you can input a floating point value (a decimal value like `4.5`) like this:
 
 ```python
-wps = input("Enter the number of words per sentence:")
+wps = input("Enter the number of words per sentence:") 
 wps = float(wps) # convert from text to a floating point number
 ```
 

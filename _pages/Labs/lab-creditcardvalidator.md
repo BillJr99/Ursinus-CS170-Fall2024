@@ -8,7 +8,7 @@ info:
   coursenum: CS170
   points: 100
   goals:
-    - abc
+    - To iterate over a list of data in Python
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -28,15 +28,28 @@ info:
       beginning: The program is submitted, but not according to the directions in one or more ways (for example, because it is lacking a readme writeup or missing answers to written questions)
       progressing: The program is submitted according to the directions with a minor omission or correction needed, including a readme writeup describing the solution and answering nearly all questions posed in the instructions
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution and answering all questions posed in the instructions
-  questions:
-    - "abc"
     
 tags:
-  - abc
+  - python
+  - list
   
 ---
 
 ## What to Do
+Write a program to input a credit card number into a variable as a string of text.  Loop over every character in the credit card number variable **except** for the very last one, and if the index is odd, double the value at that location (otherwise, just keep the number as-is).  Add all the numbers together.
+
+The ones digit of this sum should be equal to the last digit in the credit card number.  Use the modulus operator to get the ones digit, and check if it equals the last digit in the credit card number.  Print out whether or not they match.
+
+### Extra Credit (10%): argv
+Modify your program to get the credit card number from `sys.argv`.  `sys.argv` is an array of command line arguments.  `sys.argv[0]` is the name of the program itself, and subsequent arguments are those you type in at the console when you run the program.  Normally, when you click the run button, the shell runs:
+
+`python yourprogram.py`
+
+But you can do this manually by typing
+
+`python creditcard.py 1234567890123456`
+
+which will place `1234567890123456` into `sys.argv[1]`.  Be sure to import the `sys` library and if the length of this array is at least 2, use `sys.argv[1]`.  Otherwise, use the `input` function to get the credit card number like before.  Run the program from the command line.  This is a convenient way to bypass having to pause your program to wait for user input!
 
 ## What to Turn In
 
