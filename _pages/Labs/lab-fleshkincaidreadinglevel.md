@@ -8,7 +8,7 @@ info:
   coursenum: CS170
   points: 100
   goals:
-    - abc
+    - To implement a mathematical formula in Python or on the micro:bit
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -28,15 +28,66 @@ info:
       beginning: The program is submitted, but not according to the directions in one or more ways (for example, because it is lacking a readme writeup or missing answers to written questions)
       progressing: The program is submitted according to the directions with a minor omission or correction needed, including a readme writeup describing the solution and answering nearly all questions posed in the instructions
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution and answering all questions posed in the instructions
-  questions:
-    - "abc"
     
 tags:
-  - abc
+  - math
   
 ---
 
+The Flesch-Kincaid Reading Level is a measurement of the writing level of text.  It calculates the recommended grade level for the reader of the text using the following formula:
+
+<span>\\(0.39 \times wps + 11.8 * spw - 11.59\\)</span>
+
+Where `wps` is the number of words per sentence, and `spw` is the number of syllables per word in the text.  In this lab, you will write a program either in Python or using the micro:bit to implement this formula.
+
 ## What to Do
+Write a program to input the `wps` and `spw` variables.  In python, you can input a floating point value (a decimal value like `4.5`) like this:
+
+```python
+wps = input("Enter the number of words per sentence:")
+wps = float(wps) # convert from text to a floating point number
+```
+
+With the micro:bit, you can enter the values as variables in the `on start` block.
+
+Calculate the Flesch-Kincaid reading level and display it as output.
+
+**What inputs would give you a grade level between 4 and 5?**
+
+**What grade level do you think a typical newspaper targets?  Count a few sentences of a news article and try it out!  Write down which article you used and what results you obtained.**
+
+### Extra Credit (10%): Write the Other Version
+For extra credit, implement your program using both Python and the micro:bit!  Be sure to submit both versions.
+
+### Extra Credit (10%): Calling the Program with Real Text
+These functions will count the number of words per sentence and syllables per word of a text variable.  Paste these into your python program and modify your program to input a few sentences of text from the keyboard to compute the reading level.
+
+```python
+def numSyllables(s):
+  return sum(list(map(lambda x: 1 if x in ["a","i","e","o","u","y","A","E","I","O","U","y"] else 0,s)))
+
+def numWords(s):
+  return len(s.split(" "))
+
+def numSentences(s):
+  return sum(list(map(lambda x: 1 if x in [".", "!", "?"] else 0,s)))
+
+def numWordsPerSentence(s):
+  if numSentences(s) == 0:
+    return 0
+  else:
+    return numWords(s) / numSentences(s)
+
+def numSyllablesPerWord(s):
+  if numWords(s) == 0:
+    return 0
+    
+  syllables = 0
+  for word in s.split(" "):
+    syllables += numSyllables(word)
+
+  return syllables / numWords(s)
+```
 
 ## What to Turn In
 
