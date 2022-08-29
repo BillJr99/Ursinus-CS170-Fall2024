@@ -6,7 +6,7 @@ excerpt: "CS170: Programming for the World Around Us - Warmup"
 
 info:
   coursenum: CS170
-  officehourspoll: "https://doodle.com/meeting/participate/id/bY6ox6Od
+  officehourspoll: "https://doodle.com/meeting/participate/id/bY6ox6Od"
   class_notebook: "https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS170%20Fall%202022"
   class_notebook_name: "OneNote"
   chatname: "Microsoft Teams"
