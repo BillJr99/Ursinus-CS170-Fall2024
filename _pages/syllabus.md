@@ -105,11 +105,7 @@ instructors:
   - day: "W"
     starttime: "11:00 AM"
     endtime: "12:00 PM"
-    location: "Pfahler 101L"        
-  - day: "F"
-    starttime: "11:00 AM"
-    endtime: "12:00 PM"
-    location: "Pfahler 101L"     
+    location: "Pfahler 101L"         
     
 textbooks:
 - title: "Python for Everyone"
