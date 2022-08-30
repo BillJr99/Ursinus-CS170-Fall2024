@@ -8,7 +8,7 @@ info:
   goals: 
     - "In this activity, we will listen to a data broadcast of the current time using the WWVB radio station, and learn about radio modulation to send data around the world."
   models:
-    - title: "abc"
+    - title: "WWVB"
       model: |
         <!-- https://uicookies.com/css-blockquote/ and https://codepen.io/jonitrythall/pen/XbENPM-->
         <blockquote style="margin: 3.7em auto; padding: 2em; background: linear-gradient(white, white) padding-box, url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/80625/sea.jpg) border-box  0 / cover; border: 2em solid transparent; box-shadow: 5px 3px 30px black; font-size: 1.4em; font-style: italic; line-height: 1.5; width: 40%;">Does anybody really know what time it is?
