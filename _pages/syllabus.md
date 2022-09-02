@@ -227,6 +227,7 @@ schedule:
   - dtitle: "Lab: Computing Environment Handed Out"
     dlink: "./Labs/ComputingEnvironment"
     points: 100
+    rubricpath: "_pages/Labs/lab-computingenvironment.md"
 - week: "1"
   date: "2"
   title: "Lab: Setting up Your Computing Environment"
@@ -238,6 +239,7 @@ schedule:
   - dtitle: "Programming Assignment: Turtle Maze Handed Out"
     dlink: "./Assignments/TurtleMaze"
     points: 100    
+    rubricpath: "_pages/Assignments/asmt-turtlemaze.md"
 - week: "2"
   date: "0"
   title: "Introduction to the micro:bit and Random Number Generation with Variables and Mathematical Expressions"
@@ -245,6 +247,7 @@ schedule:
   - dtitle: "Lab: Computing Environment Due"
     dlink: "./Labs/ComputingEnvironment"
     points: 100  
+    rubricpath: "_pages/Labs/lab-computingenvironment.md"
 - week: "2"
   date: "1"
   title: "Lab: Flesch-Kincaid Reading Level"
@@ -252,6 +255,7 @@ schedule:
   - dtitle: "Lab: Flesch-Kincaid Reading Level Handed Out"
     dlink: "./Labs/FleschKincaidReadingLevel"
     points: 100    
+    rubricpath: "_pages/Labs/lab-fleschkincaidreadinglevel.md"
 - week: "2"
   date: "2"
   title: "Representing Numbers and Text in Python"
@@ -271,13 +275,15 @@ schedule:
   - dtitle: "Lab: Flesch-Kincaid Reading Level Due"
     dlink: "./Labs/FleschKincaidReadingLevel"
     points: 100     
+    rubricpath: "_pages/Labs/lab-fleschkincaidreadinglevel.md"
 - week: "3"
   date: "1"
   title: "Lab: Random Dice Rolling with the micro:bit"
   deliverables:  
   - dtitle: "Lab: Random Dice Rolling Handed Out"
     dlink: "./Labs/MicrobitDice"
-    points: 100          
+    points: 100 
+    rubricpath: "_pages/Labs/lab-microbitdice.md"    
 - week: "3"
   date: "2"
   title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
@@ -286,9 +292,11 @@ schedule:
   - dtitle: "Programming Assignment: Semitone Frequency Generator Handed Out"
     dlink: "./Assignments/Semitone"
     points: 100    
+    rubricpath: "_pages/Assignments/asmt-semitone.md"    
   - dtitle: "Programming Assignment: Turtle Maze Due"
     dlink: "./Assignments/TurtleMaze"
-    points: 100         
+    points: 100     
+    rubricpath: "_pages/Assignments/asmt-turtlemaze.md"    
 - week: "3"
   date: "3"
   title: "Hide-and-Seek and Radio Communication with the micro:bit and Conditionals"
@@ -304,7 +312,8 @@ schedule:
   deliverables:  
   - dtitle: "Lab: Random Dice Rolling Due"
     dlink: "./Labs/MicrobitDice"
-    points: 100             
+    points: 100     
+    rubricpath: "_pages/Labs/lab-microbitdice.md"        
 - week: "4"
   date: "1"
   title: "Lab: Accessible Hide and Seek with Sound"
@@ -312,6 +321,7 @@ schedule:
   - dtitle: "Lab: Accessible Hide and Seek with Sound Handed Out"
     dlink: "./Labs/HideAndSeekSound"
     points: 100      
+    rubricpath: "_pages/Labs/lab-hideandseeksound.md"    
 - week: "4"
   date: "2"
   title: "Conditionals in Python"
@@ -327,9 +337,11 @@ schedule:
     dlink: "./Projects/ServiceLearning"
     points: 20     
     submission_types: "written"
+    rubricpath: "_pages/Projects/proj-servicelearning.md"    
   - dtitle: "Lab: Accessible Hide and Seek with Sound Due"
     dlink: "./Labs/HideAndSeekSound"
-    points: 100               
+    points: 100
+    rubricpath: "_pages/Labs/lab-hideandseeksound.md"        
 - week: "5"
   date: "1"
   title: "Lab: Debugging"
@@ -339,17 +351,20 @@ schedule:
   deliverables:
   - dtitle: "Lab: Debugging Handed Out"
     dlink: "./Labs/Debugging"
-    points: 100       
+    points: 100   
+    rubricpath: "_pages/Labs/lab-debugging.md"        
 - week: "5"
   date: "2"
   title: "Tin Foil Piano with micro:bit Using Functions and Loops"
   deliverables:  
   - dtitle: "Programming Assignment: Semitone Frequency Generator Due"
     dlink: "./Assignments/Semitone"
-    points: 100        
+    points: 100  
+    rubricpath: "_pages/Assignments/asmt-semitone.md"        
   - dtitle: "Programming Assignment: Cryptography Handed Out"
     dlink: "./Assignments/MiniCrypto"
-    points: 100     
+    points: 100
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"            
 - week: "5"
   date: "3"
   title: "Tin Foil Piano with micro:bit Using Functions and Loops"
@@ -366,6 +381,7 @@ schedule:
   - dtitle: "Lab: Debugging Due"
     dlink: "./Labs/Debugging"
     points: 100   
+    rubricpath: "_pages/Labs/lab-debugging.md"        
 - week: "6"
   date: "1"
   title: "Lab: Machine Learning"
@@ -373,6 +389,7 @@ schedule:
   - dtitle: "Lab: Machine Learning Handed Out"
     dlink: "./Labs/MachineLearning"
     points: 100  
+    rubricpath: "_pages/Labs/lab-machinelearning.md"
 - week: "6"
   date: "2"
   title: "Iteration in Python"
@@ -381,6 +398,7 @@ schedule:
     dlink: "./Projects/ServiceLearning"
     points: 20     
     submission_types: "written"  
+    rubricpath: "_pages/Projects/proj-servicelearning.md"    
 - week: "7"
   date: "2"
   title: "Iteration in Python"
@@ -396,6 +414,7 @@ schedule:
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"
+    rubricpath: "_pages/Participation/participation-journalcheck.md"
 - week: "8"
   date: "0"
   title: "Functions in Python"
@@ -404,6 +423,7 @@ schedule:
   - dtitle: "Lab: Machine Learning Due"
     dlink: "./Labs/MachineLearning"
     points: 100    
+    rubricpath: "_pages/Labs/lab-machinelearning.md"
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
     rlink: false
@@ -416,9 +436,11 @@ schedule:
   - dtitle: "Lab: Unit Testing Handed Out"
     dlink: "./Labs/UnitTesting"
     points: 100     
+    rubricpath: "_pages/Labs/lab-unittesting.md"
   - dtitle: "Programming Assignment: Cryptography Due"
     dlink: "./Assignments/MiniCrypto"
-    points: 100     
+    points: 100   
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"    
 - week: "8"
   date: "2"
   title: "Functions in Python"
@@ -426,6 +448,7 @@ schedule:
   - dtitle: "Programming Assignment: Computer Art Handed Out"
     dlink: "./Assignments/ComputerArt"
     points: 100      
+    rubricpath: "_pages/Assignments/asmt-computerart.md"
 - week: "8"
   date: "3"
   title: "Functions in Python"
@@ -434,6 +457,7 @@ schedule:
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"  
+    rubricpath: "_pages/Participation/participation-journalcheck.md"
 - week: "9"
   date: "0"
   title: "Social Vicinity Tracker with micro:bit Using Arrays"
@@ -442,6 +466,7 @@ schedule:
   - dtitle: "Lab: Unit Testing Due"
     dlink: "./Labs/UnitTesting"
     points: 100    
+    rubricpath: "_pages/Labs/lab-unittesting.md"
 - week: "9"
   date: "1"
   title: "Lab: Credit Card Validator"
@@ -449,6 +474,7 @@ schedule:
   - dtitle: "Lab: Credit Card Validator Handed Out"
     dlink: "./Labs/CreditCardValidator"
     points: 100 
+    rubricpath: "_pages/Labs/lab-creditcardvalidator.md"
 - week: "9"
   date: "2"
   title: "Social Vicinity Tracker with micro:bit Using Arrays" 
@@ -467,9 +493,11 @@ schedule:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./Projects/ServiceLearning"
     points: 30    
+    rubricpath: "_pages/Projects/proj-servicelearning.md"
   - dtitle: "Service Learning Project: Final Draft Handed Out"
     dlink: "./Projects/ServiceLearning"
     points: 50
+    rubricpath: "_pages/Projects/proj-servicelearning.md"
 - week: "10"
   date: "0"
   title: "Lists in Python"
@@ -478,26 +506,31 @@ schedule:
     dlink: "./Projects/FinalProject"
     points: 20
     submission_types: "written"
+    rubricpath: "_pages/Projects/proj-final.md"
   - dtitle: "Lab: Credit Card Validator Due"
     dlink: "./Labs/CreditCardValidator"
     points: 100 
+    rubricpath: "_pages/Labs/lab-creditcardvalidator.md"
 - week: "10"
   date: "1"
   title: "Lab: Programming a Refeeding Sensor by Estimating Radio Vicinity Time"
   deliverables:  
   - dtitle: "Lab: Refeeding Timer Sensor Handed Out"
     dlink: "./Labs/RefeedingTimerSensor"
-    points: 100  
+    points: 100 
+    rubricpath: "_pages/Labs/refeedingtimersensor.md"    
 - week: "10"
   date: "2"
   title: "Lists in Python"
   deliverables:
   - dtitle: "Programming Assignment: Random Computer Art Due"
     dlink: "./Assignments/ComputerArt"
-    points: 100          
+    points: 100       
+    rubricpath: "_pages/Assignments/asmt-computerart.md"    
   - dtitle: "Programming Assignment: Respiratory Tracker Handed Out"
     dlink: "./Assignments/RespiratoryTracker"
     points: 100        
+    rubricpath: "_pages/Assignments/respiratorytracker.md"
 - week: "10"
   date: "3"
   title: "Dictionaries in Python"
@@ -514,10 +547,12 @@ schedule:
   - dtitle: "Lab: Refeeding Timer Sensor Due"
     dlink: "./Labs/RefeedingTimerSensor"
     points: 100 
+    rubricpath: "_pages/Labs/lab-refeedingtimersensor.md"
   - dtitle: "Class Participation: Second Journal Check Handed Out"
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"      
+    rubricpath: "_pages/Participation/participation-journalcheck.md"
 - week: "11"
   date: "1"
   title: "Lab: Story Telling"   
@@ -525,6 +560,7 @@ schedule:
   - dtitle: "Lab: Story Telling Handed Out"
     dlink: "./Labs/StoryTelling"
     points: 100         
+    rubricpath: "_pages/Labs/lab-storytelling.md"
 - week: "11"
   date: "2"
   title: "Graphics and Sound"      
@@ -536,7 +572,8 @@ schedule:
   - dtitle: "Final Project: Proposal Due"
     dlink: "./Projects/FinalProject"
     points: 20  
-    submission_types: "written"  
+    submission_types: "written" 
+    rubricpath: "_pages/Projects/proj-final.md"    
 - week: "12"
   date: "0"
   title: "Graphics and Sound"          
@@ -544,9 +581,11 @@ schedule:
   - dtitle: "Final Project: Submission and Presentation Handed Out"
     dlink: "./Projects/FinalProject"
     points: 80     
+    rubricpath: "_pages/Projects/proj-final.md"
   - dtitle: "Lab: Story Telling Due"
     dlink: "./Labs/StoryTelling"
     points: 100     
+    rubricpath: "_pages/Labs/lab-storytelling.md"
 - week: "12"
   date: "1"
   title: "File I/O in Python"
@@ -560,9 +599,11 @@ schedule:
   - dtitle: "Programming Assignment: Respiratory Tracker Due"
     dlink: "./Assignments/RespiratoryTracker"
     points: 100 
+    rubricpath: "_pages/Assignments/asmt-respiratorytracker.md"
   - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
     dlink: "./Assignments/FederalistPapers"
     points: 100         
+    rubricpath: "_pages/Assignments/asmt-federalist.md"
 - week: "13"
   date: "0"
   title: "File I/O in Python"
@@ -573,7 +614,8 @@ schedule:
   - dtitle: "Class Participation: Second Journal Check Due"
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
-    submission_types: "written"    
+    submission_types: "written" 
+    rubricpath: "_pages/Participation/participation-journalcheck.md"
 - week: "13"
   date: "2"
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
@@ -585,6 +627,7 @@ schedule:
   - dtitle: "Service Learning Project: Final Draft Due"
     dlink: "./Projects/ServiceLearning"
     points: 50  
+    rubricpath: "_pages/Projects/proj-servicelearning.md"
 - week: "14"
   date: "0"
   title: "Trust and Privacy on the Internet: Zero Knowledge Coin Flip with the micro:bit"
@@ -599,14 +642,16 @@ schedule:
   deliverables:
   - dtitle: "Final Project: Submission and Presentation Due"
     dlink: "./Projects/FinalProject"
-    points: 80   
+    points: 80 
+    rubricpath: "_pages/Projects/proj-final.md"    
 - week: "14"
   date: "3"
   title: "Data Encodings: Telling Time with WWVB" 
   deliverables:
   - dtitle: "Programming Assignment: The Federalist Papers Due"
     dlink: "./Assignments/FederalistPapers"
-    points: 100     
+    points: 100  
+    rubricpath: "_pages/Assignments/asmt-federalist.md"    
   
 university:
   semester: "Fall"
