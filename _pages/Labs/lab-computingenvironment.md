@@ -12,7 +12,7 @@ info:
   goals:
     - To set up the computing tools needed for CS170
   rubric:
-    - weight: 50
+    - weight: 100
       description: Writeup and Submission
       preemerging: An incomplete submission is provided, or the README file submitted is blank
       beginning: The program is submitted, but not according to the directions in one or more ways (for example, because it is lacking a readme writeup or missing answers to written questions)
