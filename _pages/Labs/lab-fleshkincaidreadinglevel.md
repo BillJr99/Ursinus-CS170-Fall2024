@@ -36,12 +36,15 @@ tags:
 
 The Flesch-Kincaid Reading Level is a measurement of the writing level of text.  It calculates the recommended grade level for the reader of the text using the following formula:
 
-<span>\\(0.39 \times wps + 11.8 \times spw - 11.59\\)</span>
+<span>\\(gradeLevel = 0.39 \times wps + 11.8 \times spw - 11.59\\)</span>
 
 Where `wps` is the number of words per sentence, and `spw` is the number of syllables per word in the text.  In this lab, you will write a program either in Python or using the micro:bit to implement this formula.
 
 ## What to Do
-Write a program to input the `wps` and `spw` variables.  In python, you can input a floating point value (a decimal value like `4.5`) like this:
+Write a program to input the `wps` and `spw` variables and implement the formula using micro:bit or Python.  
+
+### If you are Using Python
+In python, you can input a floating point value (a decimal value like `4.5`) like this:
 
 ```python
 wps = input("Enter the number of words per sentence:") 
@@ -91,4 +94,4 @@ def numSyllablesPerWord(s):
 
 ## What to Turn In
 
-When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?
+When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  Using micro:bit, you can right-click in your code space, and choose the **Snapshot** menu to save a screenshot of your code to ZIP and submit.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?
