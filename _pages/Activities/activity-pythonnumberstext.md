@@ -72,7 +72,8 @@ info:
         print("Nice to meet you, " + name + "!")
         ]]></script>  
       questions: 
-        - "abc"   
+        - "Create a project in Python, paste and run this code."
+        - "Modify the program to ask for your major and where you're from, and print that." 
   additional_reading:
     - link: https://runestone.academy/ns/books/published/py4e-int/variables/toctree.html
       title: "Variables, Expressions, and Statements"
