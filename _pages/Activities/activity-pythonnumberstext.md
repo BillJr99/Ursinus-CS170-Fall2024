@@ -74,6 +74,8 @@ info:
       questions: 
         - "Create a project in Python, paste and run this code."
         - "Modify the program to ask for your major and where you're from, and print that." 
+        - "The <code>x = int(x)</code> function converts the variable <code>x</code> from text to a whole number.  Ask for the year you'll graduate, convert it to a number, and subtract the current year from it.  Print that value to show how many years it will be until you graduate."
+        - "Write a program to ask the user to input their street address, city, state, and zip code, and print out their address like one would on an mailing envelope."
   additional_reading:
     - link: https://runestone.academy/ns/books/published/py4e-int/variables/toctree.html
       title: "Variables, Expressions, and Statements"
