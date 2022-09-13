@@ -36,7 +36,7 @@ tags:
 
 The Flesch-Kincaid Reading Level is a measurement of the writing level of text.  It calculates the recommended grade level for the reader of the text using the following formula:
 
-<span>\\(0.39 \times wps + 11.8 * spw - 11.59\\)</span>
+<span>\\(0.39 \times wps + 11.8 \times spw - 11.59\\)</span>
 
 Where `wps` is the number of words per sentence, and `spw` is the number of syllables per word in the text.  In this lab, you will write a program either in Python or using the micro:bit to implement this formula.
 
