@@ -82,6 +82,12 @@ Download [this file](../files/asmt-semitone/sounds.py) which contains code to pl
 import sounds
 ```
 
+In your terminal window, type this command and press enter, which will install some library software that we'll use:
+
+```
+pip install scipy pyaudio
+```
+
 Now, you can use that code to play sounds!  To play a tone, write this line at the bottom of your program:
 
 ```python
