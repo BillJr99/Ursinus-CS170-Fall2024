@@ -75,7 +75,7 @@ As a hint, the mathematical operators are: `*` to multiply, `/` to divide, `+` t
 
 ### Play the Note
 
-Download this file which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  At the top of your program, add this line:
+Download [this file](../files/asmt-semitone/sounds.py) which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  At the top of your program, add this line:
 
 ```python
 # import code into my program that I can use
