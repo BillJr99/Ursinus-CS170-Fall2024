@@ -83,3 +83,10 @@ tags:
   
 ---
 
+### Pairing the Microbit to your Computer
+
+You can connect the micro:bit to your computer by plugging in the USB cable.  However, some computers do not have a compatible mac cable.  If you don't have an adapter, your computer may support Bluetooth, a wireless protocol that you can use to connect to the micro:bit.  You can do this by holding down the A and B buttons of the micro:bit, and, while holding them down, press and release the reset button.  You'll see the words "PAIRING MODE" appear on the micro:bit display.  Open a bluetooth application on your computer (on the Mac, one such program is called LightBlue), and select the BBC micro:bit to pair.  The micro:bit will prompt you to press the A button and a 6-digit code will appear on the screen.  Type that code on your mac and you should have access to the storage of the micro:bit!  You can download your code from Makecode, and then drag the `.hex` file from your Downloads directory to the micro:bit disk.  It will restart and launch your app automatically.  Here is a video describing the process on a Mac, although the process is similar on other Bluetooth enabled computers.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bIMv63Ue1C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
