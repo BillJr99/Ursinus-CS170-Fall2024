@@ -36,7 +36,9 @@ tags:
 ---
 
 ## What to Do
-Write a program to generate a random number between 1 and 6 every time a button is pressed, and display that number on the screen.
+Write a program to generate a random number between 1 and 6 every time a button is pressed, and display that number on the screen.  You can do this by computing a random number using the formula we [developed in class](../Activities/MicrobitPRNG), but instead of displaying the calculated random number, create a new variable whose value is the remainder of the random number when divided by 6.  This will give you a number between 0 and 5, to which you can add 1 before displaying the value.
+
+Be careful not to modify the original random number variable, so that we don't lose the pseudorandom number sequence!  You can create a new variable and mathematical expression, instead.  I also suggest choosing large values for your initial variable values: 4 digit values should be good.  This will help ensure that you get a relatively uniform sequence of random number values.  If you see the same pattern over and over, try varying these variable values somewhat!
 
 ### Extra Credit (10%): Display the dice image
 Modify the program to display each dice image on the LED screen!
