@@ -53,7 +53,7 @@ Notice the `#` character on each line: this is called a **comment**, and we can 
 
 ## What to Do
 
-1. First, create a new project.
+1. First, create a new project.  Create a new Python text file, and name it `turtlemaze.py`.  **Do NOT name it `turtle.py` since we are using a library called turtle!**
 
 2. On the [https://www.pythonclassroom.com/turtle-graphics/turtle-maze](https://www.pythonclassroom.com/turtle-graphics/turtle-maze) website, download the **Problem 1** maze and save it into your new project folder.
 
