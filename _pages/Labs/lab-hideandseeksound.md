@@ -35,12 +35,24 @@ tags:
   
 ---
 
-Building upon the [Hide and Seek Activity](../Activities/HideAndSeek), we will add an audible feedback loop to help determine if one is getting "hotter or colder" relative to the item being searched for.
+Building upon the [Hide and Seek Activity](../Activities/HideAndSeek), we will add an audible feedback loop to help determine if one is getting "hotter or colder" relative to the item being searched for.  Additionally, you will make a few improvements to the program we developed in class.
 
 ## What to Do
+
+### Step 1: Sound Modality
 Modify the Hide and Seek program to play a sound when the radio receives a value.  If the current RSSI has become stronger, play a higher pitched sound, and if it has become weaker, play a lower pitched sound.  You can control the pitch using a variable that you increase or decrease (by any amount you like!  You could add or multiply it for warmer, or subtract or divide it for cooler, as you prefer.), and play the sound as a tone in the loop.
 
 **What other modalities could you imagine incorporating into this for visually or hearing impaired users?**
+
+### Step 2: Conserving Energy
+Set your radio group to the same value as your partner's (and to something different from everyone else's!), and add a `Forever` loop that sends a radio signal (the value doesn't matter).  Add a pause block to cause a delay in the program so that you don't send signals so quickly that you drain the battery too quickly.  
+
+**What delay time is appropriate and why?**
+
+### Step 3: Building a Threshold for Detecting Changes in RSSI
+Create a new variable to represent the change in RSSI between the prior signal strength and the current signal strength.  When you receive a message, set this new variable to the difference between the current RSSI level and the prior RSSI level, and display that difference value on the screen.  Use this to determine how much the RSSI fluctuates while the micro:bit devices are sitting still, and modify your `if` statement to only display an output or play a sound when the difference is greater than some threshold that you can choose (for example, 2 dB).  For example, if the RSSI fluctuates by 7 dB while the micro:bit devices are sitting still, a threshold of 7 or 8 dB might be appropriate.  Use the values you observe to decide on a reasonable threshold, and implement it in your program.
+
+**Why do you think the RSSI fluctuates so much even when the micro:bit is stationary?**
 
 ## What to Turn In
 
