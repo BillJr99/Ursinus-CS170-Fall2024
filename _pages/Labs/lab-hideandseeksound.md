@@ -42,6 +42,8 @@ Building upon the [Hide and Seek Activity](../Activities/HideAndSeek), we will a
 ### Step 1: Sound Modality
 Modify the Hide and Seek program to play a sound when the radio receives a value.  If the current RSSI has become stronger, play a higher pitched sound, and if it has become weaker, play a lower pitched sound.  You can control the pitch using a variable that you increase or decrease (by any amount you like!  You could add or multiply it for warmer, or subtract or divide it for cooler, as you prefer.), and play the sound as a tone in the loop.
 
+I suggest creating a variable called `frequency`, and using the `Math`:`Map` feature to convert the current RSSI to a sound frequency.  You can map the RSSI value from a low of -70 to a high of -30, and map that to a frequency low of 200 and a high of 1000.
+
 **What other modalities could you imagine incorporating into this for visually or hearing impaired users?**
 
 ### Step 2: Conserving Energy
