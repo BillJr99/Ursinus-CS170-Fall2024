@@ -126,7 +126,7 @@ A chord effectively mixes to sounds together - the sound waves are added togethe
 In a new Python file, call this function:
 
 ```python
-sounds.dtmf_tone([350, 440], 2, volume=0.25)
+sounds.dtmf_tone(350, 440, 2, volume=0.25)
 ```
 
 Note that we put two numbers into the function for the frequency instead of just one.  This will cause them to mix together.  We use brackets in Python to store variables that are collections of things (for example, multiple frequencies instead of a single frequency value).  Run this program; does it sound familiar?  Landline telephones use mixed tones (called dual-tones) to represent each button you could push on the phone.
