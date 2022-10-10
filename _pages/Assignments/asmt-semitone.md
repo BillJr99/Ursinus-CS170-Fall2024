@@ -73,6 +73,13 @@ Calculate the new frequency and print that value to the screen.  Call your varia
 
 As a hint, the mathematical operators are: `*` to multiply, `/` to divide, `+` to add, `-` to subtract, and `**` to raise a number to an exponent power.
 
+### Installing Required Software
+In your terminal window (**not** in your code!), type this command and press enter, which will install some library software that we'll use:
+
+```
+python3 -m pip install scipy pyaudio
+```
+
 ### Play the Note
 
 Download [this file](../files/asmt-semitone/sounds.py) which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  At the top of your program, add this line:
@@ -80,12 +87,6 @@ Download [this file](../files/asmt-semitone/sounds.py) which contains code to pl
 ```python
 # import code into my program that I can use
 import sounds
-```
-
-In your terminal window, type this command and press enter, which will install some library software that we'll use:
-
-```
-python3 -m pip install scipy pyaudio
 ```
 
 Now, you can use that code to play sounds!  To play a tone, write this line at the bottom of your program:
@@ -155,3 +156,15 @@ Using these frequency combinations, try writing a program that plays the tones f
 ## What to Turn In
 
 When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  **In your README, answer any bolded questions presented on this page.**  In addition, write a few paragraphs describing what you did, how you did it, and how to use your program.  If your program requires the user to type something in, describe that here.  If you wrote functions to help solve your problem, what are they, and what do they do?  Imagine that you are giving your program to another student in the class, and you want to explain to them how to use it.  What would you tell them?  Imagine also that another student had given you the functions that you wrote for your program: what would you have wished that you knew about how to call those functions?
+
+## Note: For Mac Users
+
+If you get an error while trying to install pyaudio using the `pip` command above, you can execute the following commands in a Terminal window:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/opt/homebrew/brew install portaudio
+CFLAGS="-I/opt/homebrew/include -L/opt/homebrew/lib" python3 -m pip install pyaudio
+```
+
+You may be prompted to enter your password and press enter once or twice by the first command - this is OK!
