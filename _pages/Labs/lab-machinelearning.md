@@ -407,7 +407,7 @@ malignant = test[test_labels==0] # select those rows from test where the label i
 benign = test[test_labels==1] # and same for benign
 fig, ax = plt.subplots()
 ax.scatter(malignant[:, 0], malignant[:, 1], color='r', label="Malignant Tumors")
-ax.scatter(benign[:, 0], benign[:, 1], color='b', label="Malignant Tumors")
+ax.scatter(benign[:, 0], benign[:, 1], color='b', label="Benign Tumors")
 plt.title("Tumor Classification")
 plt.xlabel("Mean Radius")
 plt.ylabel("Mean Texture")
