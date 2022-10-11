@@ -475,7 +475,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5682f
 DTSTAMP:20221011T000000Z
 DTSTART;VALUE=DATE:20221011
-SUMMARY:CS170 Programming for the World Around Us: Lab: Machine Learning Handed Out
+SUMMARY:CS170 Programming for the World Around Us: Lab: Card Deck Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -486,7 +486,7 @@ DTSTAMP:20221011T000000Z
 DTSTART;VALUE=DATE:20221011
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Machine Learning Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/MachineLearning
+DESCRIPTION:\nDeliverable: Lab: Card Deck Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/CardDeck
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -547,7 +547,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe56837
 DTSTAMP:20221024T000000Z
 DTSTART;VALUE=DATE:20221024
-SUMMARY:CS170 Programming for the World Around Us: Lab: Machine Learning Due
+SUMMARY:CS170 Programming for the World Around Us: Lab: Card Deck Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -558,7 +558,7 @@ DTSTAMP:20221024T000000Z
 DTSTART;VALUE=DATE:20221024
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonFunctions\nReading: Horstmann Ch. 5.1-5.8\nReading: Runestone Ch. 5\nDeliverable: Lab: Machine Learning Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/MachineLearning
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonFunctions\nReading: Horstmann Ch. 5.1-5.8\nReading: Runestone Ch. 5\nDeliverable: Lab: Card Deck Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/CardDeck
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -1079,7 +1079,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5686f
 DTSTAMP;TZID=US-Eastern:20220829T120000
 DTSTART;TZID=US-Eastern:20220829T120000
-DTEND;TZID=US-Eastern:20220829T230000
+DTEND;TZID=US-Eastern:20220829T133000
 RRULE:FREQ=WEEKLY;BYDAY=FR;INTERVAL=1;UNTIL=20221209T235959Z
 EXDATE:20221017
 EXDATE:20221018
