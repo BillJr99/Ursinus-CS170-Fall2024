@@ -384,12 +384,12 @@ schedule:
     rubricpath: "_pages/Labs/lab-debugging.md"        
 - week: "6"
   date: "1"
-  title: "Lab: Machine Learning"
+  title: "Lab: Card Deck"
   deliverables:
-  - dtitle: "Lab: Machine Learning Handed Out"
-    dlink: "./Labs/MachineLearning"
+  - dtitle: "Lab: Card Deck Handed Out"
+    dlink: "./Labs/CardDeck"
     points: 100  
-    rubricpath: "_pages/Labs/lab-machinelearning.md"
+    rubricpath: "_pages/Labs/lab-carddeck.md"
 - week: "6"
   date: "2"
   title: "Iteration in Python"
@@ -420,10 +420,10 @@ schedule:
   title: "Functions in Python"
   link: "./Activities/PythonFunctions"  
   deliverables:
-  - dtitle: "Lab: Machine Learning Due"
-    dlink: "./Labs/MachineLearning"
+  - dtitle: "Lab: Card Deck Due"
+    dlink: "./Labs/CardDeck"
     points: 100    
-    rubricpath: "_pages/Labs/lab-machinelearning.md"
+    rubricpath: "_pages/Labs/lab-carddeck.md"
   readings:
   - rtitle: "Horstmann Ch. 5.1-5.8"
     rlink: false
