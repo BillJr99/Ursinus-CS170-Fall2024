@@ -74,14 +74,28 @@ To generate your public key:
 
 1. Choose two prime numbers A and B.  Make these prime numbers at least 2 digits in length, but no more than 3 digits.  In practice, the values are much larger, but this is a demonstration.  You've done this already!  Ask the user to input these values from the keyboard and assign them to variables called `A` and `B`.
 2. Compute <span>\\(C = AB\\)</span>.  Since the ASCII table contains 128 entries (numbered 0 through 127), C should be larger than 127, so that all these characters can be represented.  If you send messages with characters from the extended ASCII table, C should be greater than 255.
-3. Compute <span>\\(M = \phi(C)\\)</span> by computing `(A-1)*(B-1)`.  <span>\\(\phi\\)</span> is known as [Euler's Totient Function](https://en.wikipedia.org/wiki/Euler%27s_totient_function), a mathematical function with properties that enable us to ensure that the public and private key are inverses of one another.  When `C` is the product of two prime numbers (as ours is), you can simply calculate `(A-1)*(B-1)`, which is much faster than computing it manually as we would for other values.  However, you can compute it by calling `totient(C)` from a Python program, assuming you have imported this library: `from sympy.ntheory.factor_ import totient`.
+3. Compute <span>\\(M = \phi(C)\\)</span> by computing `(A-1)*(B-1)`.  <span>\\(\phi\\)</span> is known as [Euler's Totient Function](https://en.wikipedia.org/wiki/Euler%27s_totient_function), a mathematical function with properties that enable us to ensure that the public and private key are inverses of one another.  When `C` is the product of two prime numbers (as ours is), you can simply calculate `(A-1)*(B-1)`, which is much faster than computing it manually as we would for other values.  
+ 
+However, you can compute it by calling `totient(C)` from a Python program, assuming you have imported this library: `from sympy.ntheory.factor_ import totient`.  Additionally, you could write your own totient function using a loop:
+```python
+def totient(n):
+  answer = 1
+
+  for i in range(2, n):
+    if math.gcd(n, i) == 1:
+      answer = answer + 1
+
+  return answer
+```
+
+Verify that your totient of `C` is equal to `(A-1)*(B-1)` by printing both values to the screen!
 4. Compute E, a value co-prime to M.  The `coprime(X)` function can help you do this, and you can copy it into your program.
 5. Compute D, the modular inverse of <span>\\(E (mod \; M)\\)</span>.  The formula to compute the modular inverse uses the Euler's Totient function that we saw earlier, and is: <span>\\(E^{\phi(M)-1} (mod M)\\)</span>.  Recall that the `**` operator will raise to an exponent, and the `%` operator will compute the modulus.
 
 Here is a `coprime` function that you can paste into your program and use:
 ```python
 def coprime(M):
-  result = 2 * M
+  result = 2 * M + 1001 # int(random.uniform(M, 2*M))
 
   while math.gcd(M, result) != 1:
     result = result + 1
