@@ -431,16 +431,7 @@ schedule:
     rlink: false      
 - week: "8"
   date: "1" 
-  title: "Lab: Unit Testing"
-  deliverables:
-  - dtitle: "Lab: Unit Testing Handed Out"
-    dlink: "./Labs/UnitTesting"
-    points: 100     
-    rubricpath: "_pages/Labs/lab-unittesting.md"
-  - dtitle: "Programming Assignment: Cryptography Due"
-    dlink: "./Assignments/MiniCrypto"
-    points: 100   
-    rubricpath: "_pages/Assignments/asmt-minicrypto.md"    
+  title: "Lab: Cryptography"
 - week: "8"
   date: "2"
   title: "Functions in Python"
@@ -463,10 +454,10 @@ schedule:
   title: "Social Vicinity Tracker with micro:bit Using Arrays"
   link: "./Activities/SocialVicinity"  
   deliverables:
-  - dtitle: "Lab: Unit Testing Due"
-    dlink: "./Labs/UnitTesting"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-unittesting.md"
+  - dtitle: "Programming Assignment: Cryptography Due"
+    dlink: "./Assignments/MiniCrypto"
+    points: 100   
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"   
 - week: "9"
   date: "1"
   title: "Lab: Credit Card Validator"
@@ -513,12 +504,12 @@ schedule:
     rubricpath: "_pages/Labs/lab-creditcardvalidator.md"
 - week: "10"
   date: "1"
-  title: "Lab: Programming a Refeeding Sensor by Estimating Radio Vicinity Time"
+  title: "Lab: Unit Testing"
   deliverables:  
-  - dtitle: "Lab: Refeeding Timer Sensor Handed Out"
-    dlink: "./Labs/RefeedingTimerSensor"
-    points: 100 
-    rubricpath: "_pages/Labs/refeedingtimersensor.md"    
+  - dtitle: "Lab: Unit Testing Handed Out"
+    dlink: "./Labs/UnitTesting"
+    points: 100     
+    rubricpath: "_pages/Labs/lab-unittesting.md"
 - week: "10"
   date: "2"
   title: "Lists in Python"
@@ -544,10 +535,10 @@ schedule:
   date: "0"
   title: "Dictionaries in Python"
   deliverables:
-  - dtitle: "Lab: Refeeding Timer Sensor Due"
-    dlink: "./Labs/RefeedingTimerSensor"
-    points: 100 
-    rubricpath: "_pages/Labs/lab-refeedingtimersensor.md"
+  - dtitle: "Lab: Unit Testing Due"
+    dlink: "./Labs/UnitTesting"
+    points: 100     
+    rubricpath: "_pages/Labs/lab-unittesting.md"
   - dtitle: "Class Participation: Second Journal Check Handed Out"
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
