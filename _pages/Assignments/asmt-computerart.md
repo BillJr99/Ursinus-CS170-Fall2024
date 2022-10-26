@@ -51,12 +51,12 @@ tags:
 Computer graphics are drawn by creating pixels of various colors and displaying them on a screen.  A pixel (short for "picture element") is the smallest unit of drawing size on the screen - one of the many "dots" that make up the screen.  You can use one of several libraries in Python to draw on the screen, and here is an example that uses one of them:
 
 ```python
-from ezgraphics import GraphicsWindow
+import ezgraphics 
 
 width = 640
 height = 480
 
-win = GraphicsWindow(width, height)
+win = ezgraphics.GraphicsWindow(width, height)
 win.setTitle("My First Drawing")
 
 canvas = win.canvas()
