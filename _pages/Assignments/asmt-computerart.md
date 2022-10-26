@@ -74,7 +74,7 @@ win.wait()
 You can install the EzGraphics library in your shell by typing this command:
 
 ```
-pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
+python3 -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
 ```
 
 ## What to Do
