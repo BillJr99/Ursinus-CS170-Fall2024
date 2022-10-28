@@ -610,25 +610,25 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5683e
 DTSTAMP:20221031T000000Z
 DTSTART;VALUE=DATE:20221031
-SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Cryptography Due
+SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/SocialVicinity
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5683f
-DTSTAMP:20221031T000000Z
-DTSTART;VALUE=DATE:20221031
-SUMMARY:CS170 Programming for the World Around Us: Class Meeting
+DTSTAMP:20221101T000000Z
+DTSTART;VALUE=DATE:20221101
+SUMMARY:CS170 Programming for the World Around Us: Lab: Credit Card Validator Handed Out
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/SocialVicinity\nDeliverable: Programming Assignment: Cryptography Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/MiniCrypto
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe56840
 DTSTAMP:20221101T000000Z
 DTSTART;VALUE=DATE:20221101
-SUMMARY:CS170 Programming for the World Around Us: Lab: Credit Card Validator Handed Out
+SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: Cryptography Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -639,7 +639,7 @@ DTSTAMP:20221101T000000Z
 DTSTART;VALUE=DATE:20221101
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Credit Card Validator Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/CreditCardValidator
+DESCRIPTION:\nDeliverable: Lab: Credit Card Validator Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Labs/CreditCardValidator\nDeliverable: Programming Assignment: Cryptography Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/MiniCrypto
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
