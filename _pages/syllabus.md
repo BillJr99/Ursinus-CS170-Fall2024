@@ -453,11 +453,6 @@ schedule:
   date: "0"
   title: "Social Vicinity Tracker with micro:bit Using Arrays"
   link: "./Activities/SocialVicinity"  
-  deliverables:
-  - dtitle: "Programming Assignment: Cryptography Due"
-    dlink: "./Assignments/MiniCrypto"
-    points: 100   
-    rubricpath: "_pages/Assignments/asmt-minicrypto.md"   
 - week: "9"
   date: "1"
   title: "Lab: Credit Card Validator"
@@ -466,6 +461,10 @@ schedule:
     dlink: "./Labs/CreditCardValidator"
     points: 100 
     rubricpath: "_pages/Labs/lab-creditcardvalidator.md"
+  - dtitle: "Programming Assignment: Cryptography Due"
+    dlink: "./Assignments/MiniCrypto"
+    points: 100   
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"   
 - week: "9"
   date: "2"
   title: "Social Vicinity Tracker with micro:bit Using Arrays" 
