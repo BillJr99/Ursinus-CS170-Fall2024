@@ -38,6 +38,8 @@ tags:
 ## What to Do
 Write a program to input a credit card number into a variable as a string of text.  Loop over every character in the credit card number variable **except** for the very last one, and if the index is odd, double the value at that location (otherwise, just keep the number as-is).  Add all the numbers together.
 
+If you double a value and it has more than one digit (for example, 6 * 2 = 12), add the two digits together (1 and 2).
+
 The ones digit of this sum should be equal to the last digit in the credit card number.  Use the modulus operator to get the ones digit, and check if it equals the last digit in the credit card number.  Print out whether or not they match.
 
 ### Extra Credit (10%): argv
