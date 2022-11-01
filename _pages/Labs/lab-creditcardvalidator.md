@@ -38,9 +38,55 @@ tags:
 ## What to Do
 Write a program to input a credit card number into a variable as a string of text.  Loop over every character in the credit card number variable **except** for the very last one, and if the index is odd, double the value at that location (otherwise, just keep the number as-is).  Add all the numbers together.
 
-If you double a value and it has more than one digit (for example, 6 * 2 = 12), add the two digits together (1 and 2).
-
 The ones digit of this sum should be equal to the last digit in the credit card number.  Use the modulus operator to get the ones digit, and check if it equals the last digit in the credit card number.  Print out whether or not they match.
+
+### Example
+
+For example, suppose our credit card number is `5555555555554444`.  We can loop over each character in this string.  If it is in an odd position (like the second `5`, which is in index position `1`), we can double it.  Convert each digit to an `int` so you can double the values!  From this, we get the following numbers:
+
+Add these values together.  For two digit values (like 16), we can convert the value back to a string, loop over its characters, convert them to `int`, and add them up.  From these, we get the following values:
+
+```
+5
+10
+5 
+10
+5
+10
+5 
+10
+5
+10
+5 
+10
+4
+8
+4
+8
+```
+
+Adding these values together, we get 114.  Take this number and mod it by 10, which obtains 4.  This should match the last digit of the string, which it does!
+
+### Helpful Functions
+
+#### Looping over a string with its index
+
+You can loop over each character of a string called `str` like this:
+
+```python
+for i in range(len(str)):
+    ch = str[i]
+    # i is the position number of the character (the index)
+    # ch is the character itself
+```
+
+#### Converting a character to an integer
+
+You can convert a character to an integer using the `int` function:
+
+```python
+x = int(x)
+```
 
 ### Extra Credit (10%): argv
 Modify your program to get the credit card number from `sys.argv`.  `sys.argv` is an array of command line arguments.  `sys.argv[0]` is the name of the program itself, and subsequent arguments are those you type in at the console when you run the program.  Normally, when you click the run button, the shell runs:
