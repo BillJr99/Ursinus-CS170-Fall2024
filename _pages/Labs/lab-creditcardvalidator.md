@@ -88,6 +88,15 @@ You can convert a character to an integer using the `int` function:
 x = int(x)
 ```
 
+### Extra Credit (10%): Adding the Individual Digits
+Some credit cards add the individual digits together.  So, after multiplying by 2, if you get 12, you add 1 + 2 instead of 12.  To do this, convert the value back to a string using:
+
+```python
+ch = str(ch)
+```
+
+And loop over those characters (like before), adding them to the sum instead.
+
 ### Extra Credit (10%): argv
 Modify your program to get the credit card number from `sys.argv`.  `sys.argv` is an array of command line arguments.  `sys.argv[0]` is the name of the program itself, and subsequent arguments are those you type in at the console when you run the program.  Normally, when you click the run button, the shell runs:
 
