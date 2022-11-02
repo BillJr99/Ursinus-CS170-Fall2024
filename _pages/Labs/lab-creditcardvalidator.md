@@ -65,7 +65,7 @@ Add these values together.  For two digit values (like 16), we can convert the v
 8
 ```
 
-Adding these values together, we get 114.  Take this number and mod it by 10, which obtains 4.  This should match the last digit of the string, which it does!
+Adding these values together, we get 114.  Take this number and mod it by 10, which obtains 4.  This should match the last digit of the string, which it does!  You can compare your calculated check digit and the last digit of the credit card string using an `if` statement.  Just be sure to convert the last character of the credit card number to an `int` before you compare, so that you can compare it to your calculated integer value.
 
 ### Helpful Functions
 
