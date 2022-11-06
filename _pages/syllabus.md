@@ -483,6 +483,7 @@ schedule:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./Projects/ServiceLearning"
     points: 30    
+    submission_types: "written"  
     rubricpath: "_pages/Projects/proj-servicelearning.md"
   - dtitle: "Service Learning Project: Final Draft Handed Out"
     dlink: "./Projects/ServiceLearning"
@@ -617,6 +618,7 @@ schedule:
   - dtitle: "Service Learning Project: Final Draft Due"
     dlink: "./Projects/ServiceLearning"
     points: 50  
+    submission_types: "written"  
     rubricpath: "_pages/Projects/proj-servicelearning.md"
 - week: "14"
   date: "0"
