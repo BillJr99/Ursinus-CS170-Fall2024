@@ -40,7 +40,7 @@ info:
         - "Write a loop to check if these two lists are the same (that is, have the same size and contain the same values)."
         - "What do you think <code>del list1[5]</code> does?  Try it and then see if your lists are the same!"
         - "Comment out the <code>del</code> line, and try <code>list2.insert(4, 6)</code> instead."
-        - "What does <code>list3 = list1.extend(list2)</code> do?  Print it out and see."
+        - "What does <code>list1.extend(list2)</code> do?  Print it out and see."
     - title: "2D Lists in Python"
       model: |
         <script type="syntaxhighlighter" class="brush: python"><![CDATA[
