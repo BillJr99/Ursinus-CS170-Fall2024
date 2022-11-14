@@ -175,7 +175,7 @@ Do not print anything in this function!  I suggest calculating the value of `ass
 # income: The annual family income
 # numKids: The number of children in the family
 # return: The amount of financial assistance in dollars and cents (a double)
-def computeAssistance(double income, int numKids):
+def computeAssistance(income, numKids):
     assistanceAmount = 0.0 # We'll start with $0 assistance as a placeholder value
     
     # Your code goes here; update assistanceAmount to the correct value according to the rules above
