@@ -214,7 +214,7 @@ else:
 
 ### Part 3: Unit Tests
 
-Coming up with proper test cases is an important part of software engineering that, when done properly, saves everyone a huge headache. Good software testing frameworks allow the programmer to write a whole battery of tests that get applied every time the code is changed so that they don't have to manually input all of the tests every time.  In NetBeans, we have access to one such test framework known as JUnit, which runs a battery of tests completely separately from the main function.  
+Coming up with proper test cases is an important part of software engineering that, when done properly, saves everyone a huge headache. Good software testing frameworks allow the programmer to write a whole battery of tests that get applied every time the code is changed so that they don't have to manually input all of the tests every time.  
 
 **Before you begin, list the tests you'll need to write, and incldue this list in your README.  Specifically, which unit tests are needed to test all rules, including boundary cases and potential error values like a negative number of children or income?**
 
@@ -243,6 +243,8 @@ if __name__ == "__main__":
 To create additional tests, copy the `test_aid_1` function, give it a new name (like `test_aid_2`), and set the `testincome`, `testkids`, and `expected` variables to known values.  You should have one test for each of the bulleted rules above!
 
 #### Running Unit Tests
+
+To run these tests, click the `Testing` toolbar menu icon on the left side of your screen.  Click `Configure Tests`.  Choose the `unittest` option, the `root directory (.)` option, and the `test_*` option: this tells Visual Studio to use the correct unit testing framework library, and what file(s) contain your test cases.
 
 To get full credit for this part of the assignment, **you must create enough unit tests so that every block of code you write is covered by at least one test**. In other words, every `if` and `else` statement should be tested by at least one of your test cases, so create a test function with sample values that exercise every part of your code.  
 
