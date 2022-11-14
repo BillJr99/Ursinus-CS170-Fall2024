@@ -246,6 +246,8 @@ To create additional tests, copy the `test_aid_1` function, give it a new name (
 
 To run these tests, click the `Testing` toolbar menu icon on the left side of your screen.  Click `Configure Tests`.  Choose the `unittest` option, the `root directory (.)` option, and the `test_*` option: this tells Visual Studio to use the correct unit testing framework library, and what file(s) contain your test cases.
 
+On the left side of your screen, you should see your unit test file.  There is a little run button near the top of this pane: click this and it will run your tests and report any differences in the result.  If your tests fail, you'll be able to see what values your function actually returned for those tests, and adjust your code accordingly.  Re-run your tests until they pass!
+
 To get full credit for this part of the assignment, **you must create enough unit tests so that every block of code you write is covered by at least one test**. In other words, every `if` and `else` statement should be tested by at least one of your test cases, so create a test function with sample values that exercise every part of your code.  
 
 If there is a `testMain` test, you can remove that.  It is only necessary to test the `computeAssistance` function, since `main` just obtains user input and then passes them to the `computeAssistance` function.  So these tests automatically run your function for you without asking for input!  That is why we added the `if __name__ == "__main__"` and `def main()` function code snippets to your code earlier: this makes sure that the unit test framework doesn't run this code and ask you to input income and children values manually!
