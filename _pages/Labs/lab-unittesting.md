@@ -148,7 +148,9 @@ A non-governmental organization got a large donation to help families in need, b
 
 ### Part 1: Soliciting User Input (15% of the Implementation Grade)
 
-Create a new project as usual.  In `main()`, complete an input prompt asking the user to input an integer representing the number of kids who need assistance (this is by far the quicker part) using the `input` function.  
+Create a new project as usual.  Call your initial python file `FinancialAid.py`.  
+
+In `main()`, complete an input prompt asking the user to input an integer representing the number of kids who need assistance (this is by far the quicker part) using the `input` function.  
 
 You can create a `main` function as follows:
 
@@ -212,19 +214,39 @@ else:
 
 ### Part 3: Unit Tests
 
-Coming up with proper test cases is an important part of software engineering that, when done properly, saves everyone a huge headache. Good software testing frameworks allow the programmer to write a whole battery of tests that get applied every time the code is changed so that they don't have to manually input all of the tests every time.  In NetBeans, we have access to one such test framework known as JUnit, which runs a battery of tests completely separately from the main function.  You can create a test suite [in NetBeans](https://netbeans.org/kb/docs/java/junit-intro.html#Exercise_30) and write your tests there. 
+Coming up with proper test cases is an important part of software engineering that, when done properly, saves everyone a huge headache. Good software testing frameworks allow the programmer to write a whole battery of tests that get applied every time the code is changed so that they don't have to manually input all of the tests every time.  In NetBeans, we have access to one such test framework known as JUnit, which runs a battery of tests completely separately from the main function.  
 
 **Before you begin, list the tests you'll need to write, and incldue this list in your README.  Specifically, which unit tests are needed to test all rules, including boundary cases and potential error values like a negative number of children or income?**
 
 #### Creating Unit Tests
 
-Create a unit test class with functions to test your program.  
+Create a unit test class with functions to test your program.  Name this file `test_aid.py`, and you can populate it initially with this code:
+
+```python
+import unittest
+import FinancialAid
+
+class Test_Aid(unittest.TestCase):
+  def test_aid_1(self):
+    testincome = 40000
+    testkids = 1
+    expected = 0 # the expected answer goes here
+    
+    result = FinancialAid.computeAssistance(testincome, testkids)
+    
+    self.assertEqual(result, expected)
+    
+if __name__ == "__main__":
+  unittest.main()
+```
+
+To create additional tests, copy the `test_aid_1` function, give it a new name (like `test_aid_2`), and set the `testincome`, `testkids`, and `expected` variables to known values.  You should have one test for each of the bulleted rules above!
 
 #### Running Unit Tests
 
 To get full credit for this part of the assignment, **you must create enough unit tests so that every block of code you write is covered by at least one test**. In other words, every `if` and `else` statement should be tested by at least one of your test cases, so create a test function with sample values that exercise every part of your code.  
 
-If there is a `testMain` test, you can remove that.  It is only necessary to test the `computeAssistance` function, since `main` just obtains user input and then passes them to the `computeAssistance` function.  So these tests automatically run your function for you without asking for input!
+If there is a `testMain` test, you can remove that.  It is only necessary to test the `computeAssistance` function, since `main` just obtains user input and then passes them to the `computeAssistance` function.  So these tests automatically run your function for you without asking for input!  That is why we added the `if __name__ == "__main__"` and `def main()` function code snippets to your code earlier: this makes sure that the unit test framework doesn't run this code and ask you to input income and children values manually!
 
 ## What to Turn In
 
