@@ -74,7 +74,7 @@ Here is an example dictionary value:
 
 You can decide how to end the story.  One idea is to add another key to the `story` dictionary called `end` which is `True` if this ends the story and `False` otherwise.  Another way is to have `moves` be an empty list for ending rooms, and check if the length of the list is 0 to end the loop.  You get to decide!
 
-**What happens if you call `places.get` with a room that doesn't exist in your program?**
+**What happens if you call `story[room]` with a room that doesn't exist in your program?**
 
 **In your README, include a graph (either a drawing or in text is fine!) that shows the progression of your rooms from one to the next.**
 
