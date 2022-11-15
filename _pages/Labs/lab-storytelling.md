@@ -54,10 +54,10 @@ Within this dictionary, have a key called `story` whose value is a narration of 
 story['start']['story'] = "It was a dark and stormy night..."
 ``` 
 
-Now, add another key to `story['start']` called `moves` that is a list.  In this list, add the names of the rooms you can go to next.
+Now, add another key to `story['start']` called `next` that is a list.  In this list, add the names of the rooms you can go to next.
 
 ### Telling the Story
-Set the starting room to `start`.  Print `story[room]['story']` to the screen, as well as `story[room]['moves']` so that the user knows where they can go next.  Input the next room until it is equal to one of the choices in `story[room]['moves']`, and repeat until the story is done!  You can check if the choice the user entered is in the dictionary using this `if` statement: `if room in story`.
+Set the starting room to `start`.  Print `story[room]['story']` to the screen, as well as `story[room]['next']` so that the user knows where they can go next.  Input the next room until it is equal to one of the choices in `story[room]['next']`, and repeat until the story is done!  You can check if the choice the user entered is in the dictionary using this `if` statement: `if nextroom in story[room]['next']`, where `nextroom` is what the user inputs as part of the loop to ask for the next destination.
 
 Here is an example dictionary value:
 
