@@ -45,7 +45,7 @@ Each key in the `story` dictionary should be a place, like a room in your story.
 
 ```python
 story = {}
-story['start'] = {} # the starting room is also a dictionary! do this for all the places you can go
+story['start'] = {} # the starting room is also a dictionary! it will contain the story narrative and your reader's choices.  do this for all the places you can go
 ```
 
 Within this dictionary, have a key called `story` whose value is a narration of your story upon entering that location:
@@ -77,6 +77,21 @@ You can decide how to end the story.  One idea is to add another key to the `sto
 **What happens if you call `places.get` with a room that doesn't exist in your program?**
 
 **In your README, include a graph (either a drawing or in text is fine!) that shows the progression of your rooms from one to the next.**
+
+### Getting Started Template
+Here is a template to help you begin:
+
+```python
+story = {}
+story['start'] = {}
+story['start']['story'] = "It was a dark and stormy night..."
+story['start']['next'] = ['forest', 'diner']
+
+room = 'start'
+
+print(story[room]['story'])
+print("Where to next? {}".format(story[room]['next']))
+```
 
 ### Extra Credit (Up to 15%): Best Story Competition
 Creativity is encouraged, but not required for a grade!  Let me know in your documentation if you'd like to demo your story to the class - I hope you do!  You will receive 7.5% extra credit for entering your submission, and the class will vote on their favorite story (the winner will receive an additional 7.5% extra credit).
