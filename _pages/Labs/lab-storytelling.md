@@ -93,6 +93,8 @@ print(story[room]['story'])
 print("Where to next? {}".format(story[room]['next']))
 ```
 
+Once you put this into a loop, you'll notice that your last room doesn't print out.  That's because the loop terminates when your room equals the ending room (without printing the story for that room in the loop!).  Copy your print statement to just below the loop so that it executes one last time on the last room of your story.
+
 ### Extra Credit (Up to 15%): Best Story Competition
 Creativity is encouraged, but not required for a grade!  Let me know in your documentation if you'd like to demo your story to the class - I hope you do!  You will receive 7.5% extra credit for entering your submission, and the class will vote on their favorite story (the winner will receive an additional 7.5% extra credit).
 
