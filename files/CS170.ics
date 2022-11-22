@@ -871,18 +871,18 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5685b
 DTSTAMP:20221122T000000Z
 DTSTART;VALUE=DATE:20221122
-SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: The Federalist Papers Handed Out
+SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonFileIO\nReading: Horstmann Ch. 7.1-7.2\nReading: Runestone Ch. 8\nDeliverable: Programming Assignment: Respiratory Tracker Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/RespiratoryTracker
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-018bcfe5685c
-DTSTAMP:20221122T000000Z
-DTSTART;VALUE=DATE:20221122
-SUMMARY:CS170 Programming for the World Around Us: Class Meeting
+DTSTAMP:20221128T000000Z
+DTSTART;VALUE=DATE:20221128
+SUMMARY:CS170 Programming for the World Around Us: Programming Assignment: The Federalist Papers Handed Out
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS170-Fall2022/./Activities/PythonFileIO\nReading: Horstmann Ch. 7.1-7.2\nReading: Runestone Ch. 8\nDeliverable: Programming Assignment: Respiratory Tracker Due https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/RespiratoryTracker\nDeliverable: Programming Assignment: The Federalist Papers Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/FederalistPapers
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -891,7 +891,7 @@ DTSTAMP:20221128T000000Z
 DTSTART;VALUE=DATE:20221128
 SUMMARY:CS170 Programming for the World Around Us: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nDeliverable: Programming Assignment: The Federalist Papers Handed Out https://www.billmongan.com/Ursinus-CS170-Fall2022/./Assignments/FederalistPapers
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
