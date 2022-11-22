@@ -591,13 +591,14 @@ schedule:
     dlink: "./Assignments/RespiratoryTracker"
     points: 100 
     rubricpath: "_pages/Assignments/asmt-respiratorytracker.md"
+- week: "13"
+  date: "0"
+  title: "File I/O in Python"
+  deliverables:
   - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
     dlink: "./Assignments/FederalistPapers"
     points: 100         
     rubricpath: "_pages/Assignments/asmt-federalist.md"
-- week: "13"
-  date: "0"
-  title: "File I/O in Python"
 - week: "13"
   date: "1"
   title: "File I/O in Python"
