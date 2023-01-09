@@ -46,10 +46,6 @@ I gave a couple of fun facts about myself in the class, but I want to get to kno
 You will not be graded on this, but I want to setup my office hours so that everyone can make at least one of them. Please [click here]({{ page.info.officehourspoll }}) and select every block in which you can attend at least 30 minutes in your schedule. You may use a pseudonym or post anonymously if you wish.
 {% endif %}
 
-## Web Poll for Office Hours
-
-You will not be graded on this, but I want to setup my office hours so that everyone can make at least one of them. Please [click here]({{ page.info.officehourspoll }}) and select every block in which you can attend at least 30 minutes in your schedule. You may use a pseudonym or post anonymously if you wish.
-
 ## Class Resources
 
 ### Class Notebook
