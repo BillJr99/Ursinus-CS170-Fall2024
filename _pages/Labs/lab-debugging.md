@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/Debugging
 title: "CS170: Programming for the World Around Us - Debugging"
-excerpt: "CS170: Programming for the World Around Us - Debugging"
+
 
 info:
   coursenum: CS170

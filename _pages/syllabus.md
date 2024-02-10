@@ -2,7 +2,7 @@
 layout: syllabus
 permalink: /
 title: "CS170Q: Programming for the World Around Us"
-excerpt: "CS170Q: Programming for the World Around Us"
+
     
 info:
   course_number: CS170

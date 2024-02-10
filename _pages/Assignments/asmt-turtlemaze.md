@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/TurtleMaze
 title: "CS170: Programming for the World Around Us - Turtle Maze"
-excerpt: "CS170: Programming for the World Around Us - Turtle Maze"
+
 
 info:
   coursenum: CS170

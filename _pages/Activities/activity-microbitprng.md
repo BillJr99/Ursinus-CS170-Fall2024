@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/MicrobitPRNG
 title: "CS170: Programming for the World Around Us - The micro:bit and Pseudorandom Number Generators"
-excerpt: "CS170: Programming for the World Around Us - The micro:bit and Pseudorandom Number Generators"
+
 
 info:
   additional_reading:

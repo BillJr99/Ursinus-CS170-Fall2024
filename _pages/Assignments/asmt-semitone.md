@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Semitone
 title: "CS170: Programming for the World Around Us - Semitone Note Generator"
-excerpt: "CS170: Programming for the World Around Us - Semitone Note Generator"
+
 
 info:
   coursenum: CS170

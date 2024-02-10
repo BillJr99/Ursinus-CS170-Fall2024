@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/MachineLearning
 title: "CS170: Programming for the World Around Us - Machine Learning"
-excerpt: "CS170: Programming for the World Around Us - Machine Learning"
+
 
 info:
   coursenum: CS170

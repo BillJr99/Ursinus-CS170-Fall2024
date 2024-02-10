@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/SocialVicinity
 title: "CS170: Programming for the World Around Us - Social Vicinity Tracking with the micro:bit"
-excerpt: "CS170: Programming for the World Around Us - Social Vicinity Tracking with the micro:bit"
+
 
 info:
   teacher_highlights:

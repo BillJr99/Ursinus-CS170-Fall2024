@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/HideAndSeekSound
 title: "CS170: Programming for the World Around Us - Accessible Hide-and-Seek with Sound"
-excerpt: "CS170: Programming for the World Around Us - Accessible Hide-and-Seek with Sound"
+
 
 info:
   coursenum: CS170

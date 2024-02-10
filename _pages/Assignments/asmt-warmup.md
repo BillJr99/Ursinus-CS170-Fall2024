@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Warmup
 title: "CS170: Programming for the World Around Us - Warmup"
-excerpt: "CS170: Programming for the World Around Us - Warmup"
+
 
 info:
   coursenum: CS170

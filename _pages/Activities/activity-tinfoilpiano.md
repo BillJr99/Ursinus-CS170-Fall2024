@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/TinFoilPiano
 title: "CS170: Programming for the World Around Us - Tin Foil Piano with the micro:bit"
-excerpt: "CS170: Programming for the World Around Us - Tin Foil Piano with the micro:bit"
+
 
 info:
   teacher_highlights:

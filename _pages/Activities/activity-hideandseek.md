@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/HideAndSeek
 title: "CS170: Programming for the World Around Us - Hide and Seek with the micro:bit"
-excerpt: "CS170: Programming for the World Around Us - Hide and Seek with the micro:bit"
+
 
 info:
   teacher_highlights:

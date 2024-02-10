@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Projects/FinalProject
 title: "CS170: Programming for the World Around Us - Final Project Proposal"
-excerpt: "CS170: Programming for the World Around Us - Final Project Proposal"
+
 
 info:
   coursenum: CS170

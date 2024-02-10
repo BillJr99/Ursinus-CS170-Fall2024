@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/FederalistPapers
 title: "CS170: Programming for the World Around Us - Analyzing the Federalist Papers"
-excerpt: "CS170: Programming for the World Around Us - Analyzing the Federalist Papers"
+
 
 info:
   coursenum: CS170

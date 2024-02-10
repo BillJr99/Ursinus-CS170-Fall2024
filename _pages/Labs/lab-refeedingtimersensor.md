@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/RefeedingTimerSensor
 title: "CS170: Programming for the World Around Us - Refeeding Timer Sensor"
-excerpt: "CS170: Programming for the World Around Us - Refeeding Timer Sensor"
+
 
 info:
   coursenum: CS170

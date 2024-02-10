@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/UnitTesting
 title: "CS170: Programming for the World Around Us - Unit Testing"
-excerpt: "CS170: Programming for the World Around Us - Unit Testing"
+
 
 info:
   coursenum: CS170

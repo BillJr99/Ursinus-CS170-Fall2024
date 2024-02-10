@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/RespiratoryTracker
 title: "CS170: Programming for the World Around Us - Respiratory Tracker"
-excerpt: "CS170: Programming for the World Around Us - Respiratory Tracker"
+
 
 info:
   coursenum: CS170

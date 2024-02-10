@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/MiniCrypto
 title: "CS170: Programming for the World Around Us - Mini RSA Cryptography"
-excerpt: "CS170: Programming for the World Around Us - Mini RSA Cryptography"
+
 
 info:
   coursenum: CS170

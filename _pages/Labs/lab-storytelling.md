@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/StoryTelling
 title: "CS170: Programming for the World Around Us - Interactive Story Telling"
-excerpt: "CS170: Programming for the World Around Us - Interactive Story Telling"
+
 
 info:
   coursenum: CS170

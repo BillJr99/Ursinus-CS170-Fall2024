@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/FleschKincaidReadingLevel
 title: "CS170: Programming for the World Around Us - Flesch-Kincaid Reading Level"
-excerpt: "CS170: Programming for the World Around Us - Flesch-Kincaid Reading Level"
+
 
 info:
   coursenum: CS170

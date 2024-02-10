@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/ComputerArt
 title: "CS170: Programming for the World Around Us - Computer Art Generator"
-excerpt: "CS170: Programming for the World Around Us - Computer Art Generator"
+
 
 info:
   coursenum: CS170

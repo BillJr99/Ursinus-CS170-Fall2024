@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/ComputingEnvironment
 title: "CS170: Programming for the World Around Us - Setting up Your Computing Environment"
-excerpt: "CS170: Programming for the World Around Us - Setting up Your Computing Environment"
+
 
 instructorgithub: BillJr99
 

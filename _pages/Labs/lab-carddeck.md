@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/CardDeck
 title: "CS170: Programming for the World Around Us - Deck of Cards"
-excerpt: "CS170: Programming for the World Around Us - Deck of Cards"
+
 
 info:
   coursenum: CS170

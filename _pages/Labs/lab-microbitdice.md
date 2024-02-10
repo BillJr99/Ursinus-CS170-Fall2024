@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/MicrobitDice
 title: "CS170: Programming for the World Around Us - Random Dice Throwing with the micro:bit"
-excerpt: "CS170: Programming for the World Around Us - Random Dice Throwing with the micro:bit"
+
 
 info:
   coursenum: CS170

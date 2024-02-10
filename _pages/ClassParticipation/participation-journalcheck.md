@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /ClassParticipation/JournalCheck
 title: "CS170: Programming for the World Around Us - Journal Check"
-excerpt: "CS170: Programming for the World Around Us - Journal Check"
+
 
 info:
   coursenum: CS170

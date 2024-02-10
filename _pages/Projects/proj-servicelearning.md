@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Projects/ServiceLearning
 title: "CS170: Programming for the World Around Us - Service Learning Project"
-excerpt: "CS170: Programming for the World Around Us - Service Learning Project"
+
 
 info:
   coursenum: CS170

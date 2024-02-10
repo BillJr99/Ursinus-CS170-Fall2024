@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Labs/CreditCardValidator
 title: "CS170: Programming for the World Around Us - Credit Card Validator"
-excerpt: "CS170: Programming for the World Around Us - Credit Card Validator"
+
 
 info:
   coursenum: CS170
