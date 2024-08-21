@@ -645,7 +645,6 @@ schedule:
     dlink: "./Assignments/FederalistPapers"
     points: 100  
     rubricpath: "_pages/Assignments/asmt-federalist.md"    
-  
 university:
   semester: "Fall"
   academicyear: "2024-25"
