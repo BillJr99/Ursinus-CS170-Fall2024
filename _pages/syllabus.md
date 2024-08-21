@@ -10,8 +10,8 @@ info:
   - section: "A"
   course_title: "Programming for the World Around Us"
   credit_hours: "4 Semester Hours"
-  course_homepage: "https://www.billmongan.com/Ursinus-CS170-Fall2022/"
-  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS170%20Fall%202022
+  course_homepage: "https://www.billmongan.com/Ursinus-CS170-Fall2024/"
+  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS170%20Fall%202024
   ical: files/CS170.ics
   course_prerequisites: "None."
   course_start_date: "2024/08/26"
