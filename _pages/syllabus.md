@@ -112,14 +112,14 @@ instructors:
     location: "Pfahler 101L"  
     
 textbooks:
-- title: "Python for Everyone"
-  authors: "Cay Horstmann"
+- title: "Think Python"
+  authors: "Allen P. Downey"
   edition: "3rd Edition"
-  isbn: "978-1-119-49853-7"
-  link: https://ursinus.bncollege.com/c/Python-for-Everyone-Enhanced/p/MBS_2300072_dg?currentCampus=33&currentTerm=33_1_22_F&currentCourse=33_1_22_F_40_170Q_1
-  image: https://bookinfo.mbsdirect.net/TextbookInfo/Covers/M002300072.gif
+  isbn: "978-1098155438"
+  link: https://allendowney.github.io/ThinkPython/
+  image: https://greenteapress.com/wp/wp-content/uploads/2024/07/think_python_3e_cover.jpeg
   isrequired: true 
-  freelyavailable: false
+  freelyavailable: https://allendowney.github.io/ThinkPython/
 - title: "Runestone Academy"
   authors: "Brad Miller"
   edition: "Online Edition"
@@ -201,9 +201,6 @@ schedule:
   date: "2"
   title: "Computing in Context: Exploring Computing Concepts with Unplugged Activities"
   link: "./Presentations/UnpluggedIcebreakers"  
-  readings:
-  - rtitle: "Horstmann Ch. 1"
-    rlink: false 
 - week: "0"
   date: "3"
   title: "Computing in Context: Post-It Pandemonium"   
@@ -231,6 +228,9 @@ schedule:
 - week: "1"
   date: "2"
   title: "Lab: Setting up Your Computing Environment"
+  readings:
+  - rtitle: "Think Python Ch. 1"
+    rlink: false   
 - week: "1"
   date: "3"
   title: "Introduction to the micro:bit and Random Number Generation with Variables and Mathematical Expressions"
@@ -261,7 +261,7 @@ schedule:
   title: "Representing Numbers and Text in Python"
   link: "./Activities/PythonNumbersText"
   readings:
-  - rtitle: "Horstmann Ch. 2"
+  - rtitle: "Think Python Ch. 2"
     rlink: false   
   - rtitle: "Runestone Ch. 2"
     rlink: false      
@@ -305,7 +305,7 @@ schedule:
   title: "Conditionals in Python"
   link: "./Activities/PythonConditionals"
   readings:
-  - rtitle: "Horstmann Ch. 3"
+  - rtitle: "Think Python Ch. 5"
     rlink: false  
   - rtitle: "Runestone Ch. 4"
     rlink: false      
@@ -373,7 +373,7 @@ schedule:
   title: "Iteration in Python"
   link: "./Activities/PythonIteration"
   readings:
-  - rtitle: "Horstmann Ch. 4"
+  - rtitle: "Think Python Ch. 7"
     rlink: false     
   - rtitle: "Runestone Ch. 6"
     rlink: false      
@@ -425,7 +425,7 @@ schedule:
     points: 100    
     rubricpath: "_pages/Labs/lab-carddeck.md"
   readings:
-  - rtitle: "Horstmann Ch. 5.1-5.8"
+  - rtitle: "Think Python Ch. 3, 4, 6"
     rlink: false
   - rtitle: "Runestone Ch. 5"
     rlink: false      
@@ -473,12 +473,10 @@ schedule:
   title: "Lists in Python"
   link: "./Activities/PythonLists"  
   readings:
-  - rtitle: "Horstmann Ch. 6.1-6.5"
+  - rtitle: "Think Python Ch. 9"
     rlink: false     
-  - rtitle: "Runestone Ch. 9"
+  - rtitle: "Runestone Ch. 7, 9"
     rlink: false      
-  - rtitle: "Runestone Ch. 7"
-    rlink: false          
   deliverables:
   - dtitle: "Service Learning Project: First Draft Due"
     dlink: "./Projects/ServiceLearning"
@@ -527,7 +525,7 @@ schedule:
   title: "Dictionaries in Python"
   link: "./Activities/PythonDictionaries"
   readings:
-  - rtitle: "Horstmann Ch. 8.1-8.2"
+  - rtitle: "Think Python Ch. 10"
     rlink: false    
   - rtitle: "Runestone Ch. 10"
     rlink: false    
@@ -582,7 +580,7 @@ schedule:
   title: "File I/O in Python"
   link: "./Activities/PythonFileIO" 
   readings:
-  - rtitle: "Horstmann Ch. 7.1-7.2"
+  - rtitle: "Think Python Ch. 13"
     rlink: false   
   - rtitle: "Runestone Ch. 8"
     rlink: false    
