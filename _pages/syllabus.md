@@ -414,7 +414,7 @@ schedule:
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"
-    rubricpath: "_pages/Participation/participation-journalcheck.md"
+    rubricpath: "_pages/ClassParticipation/participation-journalcheck.md"
 - week: "8"
   date: "0"
   title: "Functions in Python"
@@ -448,7 +448,7 @@ schedule:
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"  
-    rubricpath: "_pages/Participation/participation-journalcheck.md"
+    rubricpath: "_pages/ClassParticipation/participation-journalcheck.md"
 - week: "9"
   date: "0"
   title: "Social Vicinity Tracker with micro:bit Using Arrays"
@@ -541,7 +541,7 @@ schedule:
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written"      
-    rubricpath: "_pages/Participation/participation-journalcheck.md"
+    rubricpath: "_pages/ClassParticipation/participation-journalcheck.md"
 - week: "11"
   date: "1"
   title: "Lab: Story Telling"   
@@ -605,7 +605,7 @@ schedule:
     dlink: "./ClassParticipation/JournalCheck"
     points: 10     
     submission_types: "written" 
-    rubricpath: "_pages/Participation/participation-journalcheck.md"
+    rubricpath: "_pages/ClassParticipation/participation-journalcheck.md"
 - week: "13"
   date: "2"
   title: "Protocols: Rock-Paper-Scissors with the micro:bit"
