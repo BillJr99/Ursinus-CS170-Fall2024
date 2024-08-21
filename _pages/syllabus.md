@@ -14,8 +14,8 @@ info:
   class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS170%20Fall%202022
   ical: files/CS170.ics
   course_prerequisites: "None."
-  course_start_date: "2022/08/29"
-  course_end_date: "2022/12/09"
+  course_start_date: "2022/08/26"
+  course_end_date: "2022/12/10"
   designation: "Q, R, S"
   course_description: "An introduction to programming and computer science as a tool for solving problems, automating work, and analyzing and working with data. The course introduces Python and studies its applications in various domains including bioinformatics, the physical sciences, business, and humanities by looking at a variety of problems drawn from these domains. The lab will involve the implementation of algorithms and analysis on data sets drawn from these areas. Also, the ethics of data use are covered via discussion of relevant articles and media. No prior programming experience is assumed. Offered every Fall. Three hours of lecture and one hour of laboratory per week. Four semester hours. (S, R) Note: CS-170Q may not be used as elective credits for computer science majors or minors."
   welcome_message: "Welcome to CS170Q!  In this class, we will experience computing from a broad context, and explore the power of technology through computer programming.  Computing is ubiquitous and has enabled revolutionary advances in many disciplines and domains, and we will create programs and systems that benefit a diverse set of stakeholders.  We will also investigate practices to ensure that we are inclusive in our development of these systems to maximize benefit and to mitigate the risk of harm."
@@ -59,12 +59,12 @@ info:
       mendtime: "TBD"
       mroom: "TBD"      
   finalexam: 
-    - fdate: "2022/12/14"
-      fstarttime: "01:00 PM"
-      fendtime: "04:00 PM"
-      froom: "PFA012"
-  flexible_submission_policy: "In the absence of <a href=\"#accommodations\">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 10:59PM Eastern Time on the date(s) stated on the schedule.  Assignments will be accepted without prior permission following this time with a points deduction of 4% per day if submitted before 10:59 PM Eastern Time on the day submitted.  Each student will receive a total of 10 &quot;slack days&quot; for the semester with which to waive these grade reductions; for example, one assignment may be submitted 10 days late, or two assignments may be submitted 5 days late, with no grade reduction.  Should an exemption to this policy be requested and granted, a 5% per day reduction will be applied.  Extra credit will not be awarded for assignments submitted under the flexible submission policy.  Students with accommodations will receive additional &quot;slack days&quot; as specified within the accommodations letter; however, some deliverables cannot be subject to accommodations due to the time-sensitive nature of the assignment (for example, group assignments, presentations, and course surveys).  Students who add the class late shall receive additional slack days equal to the number of days between the start of classes and the first date that approval is given or that class is attended (whichever occurs first).  Under no circumstances (including accommodations) can late work be accepted after the final class meeting, nor during final exams week, nor after the exam." 
-  late_penalty_per_period: 4
+    - fdate: "TBD"
+      fstarttime: "TBD"
+      fendtime: "TBD"
+      froom: "TBD"
+  flexible_submission_policy: "In the absence of <a href=\"#accommodations\">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 10:59PM Eastern Time on the date(s) stated on the schedule.  Assignments will be accepted without prior permission following this time with a points deduction of 8% per day if submitted before 10:59 PM Eastern Time on the day submitted.  Students may waive this policy up to three times during the semester for an extension of up to 7 days each; to elect this option, students must arrange this extension with the instructor at least 24 hours prior to the initial deadline.  Extra credit will not be awarded for assignments submitted under the flexible submission policy.  Students with accommodations will receive additional &quot;slack days&quot; as specified within the accommodations letter; however, some deliverables cannot be subject to accommodations due to the time-sensitive nature of the assignment (for example, group assignments, presentations, and course surveys).  Students who add the class late shall receive additional slack days equal to the number of days between the start of classes and the first date that approval is given or that class is attended (whichever occurs first).  Under no circumstances (including accommodations) can late work be accepted after the final class meeting, nor during final exams week, nor after the exam." 
+  late_penalty_per_period: 8
   late_penalty_period: "day"
   banner: |
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
@@ -85,32 +85,31 @@ instructors:
 - name: William Mongan
   title: Professor
   email: wmongan@ursinus.edu
-  phone: "610-409-3410"
+  phone: "610-409-3268"
   office: "Pfahler Hall 101L"
   webpage_url: "http://www.billmongan.com"
-  officehourssignup: "https://app.cal.com/billmongan/10min"
   picture: /images/profile.png
   officehours:
   - day: "M"
-    starttime: "11:00 AM"
-    endtime: "12:00 PM"
+    starttime: "12:00 PM"
+    endtime: "1:30 PM"
     location: "Pfahler 101L"  
   - day: "T"
-    starttime: "9:00 AM"
-    endtime: "9:50 AM"
+    starttime: "11:00 AM"
+    endtime: "11:30 AM"
     location: "Pfahler 101L"   
   - day: "T"
-    starttime: "11:00 AM"
-    endtime: "12:00 PM"
+    starttime: "12:30 PM"
+    endtime: "1:30 PM"
     location: "Pfahler 101L"        
   - day: "W"
-    starttime: "11:00 AM"
-    endtime: "12:00 PM"
+    starttime: "12:00 PM"
+    endtime: "1:30 PM"
     location: "Pfahler 101L"         
   - day: "F"
     starttime: "12:00 PM"
-    endtime: "01:30 PM"
-    location: "Pfahler 101L or IDC Lobby for Tea Time"   
+    endtime: "1:30 PM"
+    location: "Pfahler 101L"  
     
 textbooks:
 - title: "Python for Everyone"
@@ -649,74 +648,69 @@ schedule:
   
 university:
   semester: "Fall"
-  academicyear: "2022-23"
+  academicyear: "2024-25"
   fall:
   - kname: "Add Deadline"
-    kdate: "2022/09/10"
+    kdate: "2024/09/6"
     kdisplay: true
-  - kname: "Drop with a W Deadline"
-    kdate: "2022/10/27"
-    kdisplay: true  
   - kname: "Mid Semester Grades Posted"
-    kdate: "2022/10/15"
+    kdate: "2024/10/11"
     kdisplay: false
+  - kname: "Drop with a W Deadline"
+    kdate: "2024/11/19"
+    kdisplay: true      
   - kname: "Reading Day"
-    kdate: "2022/12/11"
+    kdate: "2024/12/10"
     kdisplay: true
   - kname: "Finals Week Begins"
-    kdate: "2022/12/13"
+    kdate: "2024/12/11"
     kdisplay: false
   - kname: "Finals Week Ends"
-    kdate: "2022/12/18"
+    kdate: "2024/12/17"
     kdisplay: false
   spring:
   - kname: "Add Deadline"
-    kdate: "2023/02/1"
-    kdisplay: true
-  - kname: "Drop with a W Deadline"
-    kdate: "2023/03/23"
+    kdate: "2025/02/4"
     kdisplay: true
   - kname: "Mid Semester Grades Posted"
-    kdate: "2023/03/4"
+    kdate: "2025/03/7"
     kdisplay: false
-  - kname: "CoSA"
-    kdate: "2023/04/21"
-    kdisplay: true
-  - kname: "Designated Thursday Schedule"
-    kdate: "2023/05/04"
-    kdisplay: true
-  - kname: "Designated Thursday Schedule"
-    kdate: "2023/05/3"
+  - kname: "Drop with a W Deadline"
+    kdate: "2025/04/18"
     kdisplay: true    
+  - kname: "CoSA"
+    kdate: "2025/04/23"
+    kdisplay: true   
   - kname: "Reading Day"
-    kdate: "2023/05/5"
-    kdisplay: false    
-  - kname: "Baccalaureate"
-    kdate: "2023/05/13"
-    kdisplay: false
-  - kname: "Commencement"
-    kdate: "2023/05/14"
+    kdate: "2025/05/8"
     kdisplay: false
   - kname: "Finals Week Begins"
-    kdate: "2023/05/06"
+    kdate: "2025/05/09"
     kdisplay: false
   - kname: "Finals Week Ends"
-    kdate: "2023/05/12"
+    kdate: "2025/05/15"
+    kdisplay: false    
+  - kname: "Baccalaureate"
+    kdate: "2025/05/16"
+    kdisplay: false
+  - kname: "Commencement"
+    kdate: "2025/05/17"
     kdisplay: false    
   fallholidays:
-  - date: "2022/10/17"
-  - date: "2022/10/18"
-  - date: "2022/11/24"
-  - date: "2022/11/25"
-  - date: "2022/11/26" 
+  - date: "2024/10/14"
+  - date: "2024/10/15"
+  - date: "2024/10/16"
+  - date: "2024/11/27"
+  - date: "2024/11/28"
+  - date: "2024/11/29" 
   springholidays:
-  - date: "2023/01/17"  
-  - date: "2023/01/18"
-  - date: "2023/03/6"  
-  - date: "2023/03/7"
-  - date: "2023/03/8" 
-  - date: "2023/03/9"
-  - date: "2023/03/10"
+  - date: "2025/01/20"  
+  - date: "2025/01/21"
+  - date: "2025/03/10"  
+  - date: "2025/03/11"
+  - date: "2025/03/12" 
+  - date: "2025/03/13"
+  - date: "2025/03/14"
   
 ---
 
