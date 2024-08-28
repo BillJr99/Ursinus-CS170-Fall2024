@@ -7,7 +7,7 @@ title: "CS170: Programming for the World Around Us - Warmup"
 info:
   coursenum: CS170
   officehourspoll: "https://www.when2meet.com/?26146827-6VkZv"
-  class_notebook: "https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS170%20Fall%202024"
+  class_notebook: "https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS170Q%20Fall%202024"
   class_notebook_name: "OneNote"
   chatname: "Microsoft Teams"
   submission: "We will complete this assignment using Teams, so there is no need to write up any documentation (as we will in future programming assignments) nor is it necessary to submit anything to Canvas.  It is fine to just follow the directions in each part and send me messages as appropriate!"
