@@ -7,6 +7,7 @@ title: "CS170: Programming for the World Around Us - Journal Check"
 info:
   coursenum: CS170
   points: 10
+  submission: Please use your OneNote notebook or submit a word processed document for this assignment.
   contract:
     a: 
     - "At least five new entries are made into the Journal"
