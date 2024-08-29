@@ -59,7 +59,7 @@ info:
       mendtime: "TBD"
       mroom: "TBD"      
   finalexam: 
-    - fdate: "12/16/2024"
+    - fdate: "2024/12/16"
       fstarttime: "1:00 PM"
       fendtime: "4:00 PM"
       froom: "Pfahler 106"
