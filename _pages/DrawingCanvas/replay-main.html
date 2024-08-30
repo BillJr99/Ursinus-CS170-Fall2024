@@ -1,0 +1,151 @@
+---
+layout: default-blankwide
+permalink: /DrawingCanvas/Replay
+title: "Pixel Pandemonium"
+excerpt: "Pixel Pandemonium"
+---
+
+<script LANGUAGE="javascript" TYPE="text/javascript">
+    // JavaScript function to update the iframe and store the selected value
+    function updateIframeDefault() {
+        document.getElementById('fileContents').src = "./Replay/About";
+    }
+
+    function updateSelectedPage() {
+        const dropdown = document.getElementById('pageSelector');
+        const selectedValue = dropdown.options[dropdown.selectedIndex].value;
+        return selectedValue;
+    }
+
+    function fillPage() {
+        const selectedValue = updateSelectedPage();
+        document.getElementById('fileContents').src = selectedValue + "/Instructions";
+    }
+
+    function viewImage() {
+        const selectedValue = updateSelectedPage();
+        document.getElementById('fileContents').src = selectedValue + "/DrawingCanvas";
+    }
+
+    // Initialize the iframe with the "About" page
+    window.onload = updateIframeDefault;
+</script>
+
+<style>
+body {
+    font-family: "Frank Ruhl Libre", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4F80B0; /* Winter */
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdown-container button {
+    display: inline-block;
+    color: #EBEDEC; //#FFC; //#FF6;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Old Standard TT", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #4F80B0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+li a:hover, .dropdown-container button:hover {
+    background-color: #99CC99; /* Winter */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.dropdown-container {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+.custom-dropdown {
+    background-color: #4F80B0;
+    color: #EBEDEC;
+    font-family: "Old Standard TT", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px; 
+}
+
+.custom-dropdown option {
+    background-color: #4F80B0;
+    color: #EBEDEC;
+    padding: 12px 16px;
+    font-size: 18px; 
+}
+
+iframe#fileContents {
+    width: 100%;
+    height: calc(100vh - 60px);
+    border: none;
+    z-index: 1;
+    position: relative;
+}
+</style>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" />
+<link HREF="{{site.baseurl}}/assets/css/drawingcanvas.css" REL="stylesheet" TYPE="text/css" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+</head>
+
+<body>
+<table width="100%" BORDER="0" CELLSPACING="0" CELLPADDING="4">
+  <tr> 
+    <td COLSPAN="9" class="topLevelBody"> 
+      <div ALIGN="center">
+          <span style="font-size:24px;"><strong>Pixel Pandemonium</strong></span> - an &ldquo;unplugged&rdquo; activity for illustrating Computer Science Principles<br>
+          <strong>Jeffrey L. Popyack/Drexel University, William M. Mongan/Ursinus College</strong>
+      </div>
+    </td>
+  </tr>
+</table>
+<ul>
+    <li>
+        <div class="dropdown-container">
+            <select id="pageSelector" class="custom-dropdown" onchange="updateIframeDefault()">
+                <option value="./Replay">Demo (Tetris)</option>
+                <option value="./CS4AllPA-2022/Replay">CS4AllPA-2022</option>
+                <option value="./CS4Philly-2021/Replay">CS4Philly-2021</option>
+                <option value="./CS4Philly-2022/Replay">CS4Philly-2022</option>
+                <option value="./CSTA-2022/Replay">CSTA-2022</option>
+                <option value="./Eagles/Replay">Eagles</option>
+                <option value="./Eagles2/Replay">Eagles2</option>
+                <option value="./GHopper/Replay">GHopper</option>
+                <option value="./LoveStatue/Replay">LoveStatue</option>
+                <option value="./MikeWazowski/Replay">MikeWazowski</option>
+                <option value="./PhillySciFest-2022/Replay">PhillySciFest-2022</option>
+                <option value="./Pixar-2022/Replay">Pixar-2022</option>
+                <option value="./RobotSpringboard/Replay">RobotSpringboard</option>
+                <option value="./RobotSpringboard-2022/Replay">RobotSpringboard-2022</option>
+                <option value="./Rocky-2022/Replay">Rocky-2022</option>
+                <option value="./YellowSubmarine/Replay">YellowSubmarine</option>
+                <option value="./YellowSubmarine-2022/Replay">YellowSubmarine-2022</option>
+            </select>
+            <button onclick="updateIframeDefault()">About Pixel Pandemonium</button>
+            <button onclick="fillPage()">Fill In a Page</button>
+            <button onclick="viewImage()">View Full Image</button>
+        </div>
+    </li>
+</ul>
+
+<iframe id="fileContents" src="./Replay/About"></iframe>
+</body>
