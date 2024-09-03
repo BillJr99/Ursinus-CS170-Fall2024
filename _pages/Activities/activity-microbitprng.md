@@ -53,7 +53,7 @@ info:
         - How might video games generate a seed?
     - title: "Introduction to the micro:bit"
       model: |
-        <a href="https://en.wikipedia.org/wiki/File:Micro-bit_v1_%26_v2.JPG#/media/File:Micro-bit_v1_&amp;_v2.JPG"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Micro-bit_v1_%26_v2.JPG/1200px-Micro-bit_v1_%26_v2.JPG" alt="Micro-bit v1 &amp; v2.JPG: Creative Commons Zero, Public Domain Dedication"></a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Micro-bit_v1_%26_v2.JPG"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Micro-bit_v1_%26_v2.JPG" alt="Micro-bit v1 &amp; v2.JPG: Creative Commons Zero, Public Domain Dedication"></a>
         <br>
         <div style="text-align: left;">
         micro:bit devices are &quot;programmable units&quot; that have:
