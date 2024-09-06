@@ -55,7 +55,7 @@ Notice the `#` character on each line: this is called a **comment**, and we can 
 
 1. First, create a new project.  Create a new Python text file, and name it `turtlemaze.py`.  **Do NOT name it `turtle.py` since we are using a library called turtle!**
 
-2. On the [https://www.pythonclassroom.com/turtle-graphics/turtle-maze](https://www.pythonclassroom.com/turtle-graphics/turtle-maze) website, download the **Problem 1** maze and save it into your new project folder.
+2. On the [https://www.pythonclassroom.com/turtle-graphics/turtle-maze](https://www.pythonclassroom.com/turtle-graphics/turtle-maze) website, download the **Problem 1** maze and save it into your new project folder.  The maze can be downloaded from [here](../images/maze1.png).
 
 3. **Write down and describe the steps you think your turtle would need to make to move from the arrow at the top of the maze to the arrow at the bottom of the maze, without going through any walls.** You can use the `forward`, `right`, and `left` steps to do this.  Don't worry if you don't get it right - we'll write a program to try out our steps and revise them later!  Compare your steps with a partner, and discuss until you agree.
 
@@ -63,7 +63,7 @@ Notice the `#` character on each line: this is called a **comment**, and we can 
 
 5. Run your program.  Did it work?  Compare your result with your partner, and decide on any changes you need to make as a pair.  Then, implement those changes together on one of your projects until you get it right.  Once you do, go ahead and make the revisions on the other partner's program.
 
-6. Create a new Python file in the same project, and repeat the process with the mazes in problems 2, 3, and 4.  Save the maze image as `maze2.png`, `maze3.png`, and `maze4.png`, and update your code to open this file instead of `maze1.png`.
+6. Create a new Python file in the same project, and repeat the process with the mazes in problems 2, 3, and 4.  Save the maze image as `maze2.png`, `maze3.png`, and `maze4.png`, and update your code to open this file instead of `maze1.png`.  Here are links to [maze2](../images/maze2.png), [maze3](../images/maze3.png), and [maze4](../images/maze4.png).
 
 ### Extra Credit (10%): Generating Your Own Maze
 
