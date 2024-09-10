@@ -51,11 +51,15 @@ wps = input("Enter the number of words per sentence:")
 wps = float(wps) # convert from text to a floating point number
 ```
 
-Calculate the Flesch-Kincaid reading level and display it as output.
+Calculate the Flesch-Kincaid reading level and display it as output.  To do this, you can first calculate a variable `gradeLevel` (just like the `wps` variable above), and set it equal to the formula given above.  The `+` and `-` operators exist in Python, and multiplication is performed using the `*` character.  Otherwise, you can enter this formula just as you see it on this page!
 
-**What inputs would give you a grade level between 4 and 5?**
+You can print the variable and some descriptive text by typing `print("The answer is: ", gradeLevel)`.  Feel free to revise this to something that makes sense to you! 
 
-**What grade level do you think a typical newspaper targets?  Count a few sentences of a news article and try it out!  Write down which article you used and what results you obtained.**
+#### Questions to Answer in your README
+
+1. **What inputs would give you a grade level between 4 and 5?**
+
+2. **What grade level do you think a typical newspaper targets?  Count a few sentences of a news article and try it out!  Write down which article you used and what results you obtained.**
 
 ### Extra Credit (10%): Calling the Program with Real Text
 These functions will count the number of words per sentence and syllables per word of a text variable.  Paste these into your python program and modify your program to input a few sentences of text from the keyboard to compute the reading level.
