@@ -62,7 +62,7 @@ You can print the variable and some descriptive text by typing `print("The answe
 2. **What grade level do you think a typical newspaper targets?  Count a few sentences of a news article and try it out!  Write down which article you used and what results you obtained.**
 
 ### Extra Credit (10%): Calling the Program with Real Text
-These functions will count the number of words per sentence and syllables per word of a text variable.  Paste these into your python program and modify your program to input a few sentences of text from the keyboard to compute the reading level.
+These functions will count the number of words per sentence and syllables per word of a text variable.  Paste these into your python program and modify your program to input a few sentences of text from the keyboard to compute the reading level.  Specifically, you can compute the `wps` and `spw` values by setting them equal to `numWordsPerSentence(text)` and `numSyllablesPerWord(text)`, respectively (instead of setting them to `input` commands which obtain the values from the keyboard!).  You can create and set a new variable `text` equal to an input that allows you to type some text of your own to measure.
 
 ```python
 def numSyllables(s):
