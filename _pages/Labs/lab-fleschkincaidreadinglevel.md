@@ -41,7 +41,7 @@ The Flesch-Kincaid Reading Level is a measurement of the writing level of text. 
 Where `wps` is the number of words per sentence, and `spw` is the number of syllables per word in the text.  In this lab, you will write a program either in Python or using the micro:bit to implement this formula.
 
 ## What to Do
-Write a program to input the `wps` and `spw` variables and implement the formula using micro:bit or Python.  
+Write a program to input the `wps` and `spw` variables and implement the formula using Python.  
 
 ### If you are Using Python
 In python, you can input a floating point value (a decimal value like `4.5`) like this:
@@ -51,16 +51,11 @@ wps = input("Enter the number of words per sentence:")
 wps = float(wps) # convert from text to a floating point number
 ```
 
-With the micro:bit, you can enter the values as variables in the `on start` block.
-
 Calculate the Flesch-Kincaid reading level and display it as output.
 
 **What inputs would give you a grade level between 4 and 5?**
 
 **What grade level do you think a typical newspaper targets?  Count a few sentences of a news article and try it out!  Write down which article you used and what results you obtained.**
-
-### Extra Credit (10%): Write the Other Version
-For extra credit, implement your program using both Python and the micro:bit!  Be sure to submit both versions.
 
 ### Extra Credit (10%): Calling the Program with Real Text
 These functions will count the number of words per sentence and syllables per word of a text variable.  Paste these into your python program and modify your program to input a few sentences of text from the keyboard to compute the reading level.
@@ -91,6 +86,9 @@ def numSyllablesPerWord(s):
 
   return syllables / numWords(s)
 ```
+
+### Extra Credit (10%): Re-Write this Program Using micro:bit
+For extra credit, implement your program using the micro:bit language!  With the micro:bit, you can enter the values as variables in the `on start` block.  Be sure to submit both versions.
 
 ## What to Turn In
 
