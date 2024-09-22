@@ -78,7 +78,7 @@ info:
         ]]></script>      
       title: "Compound <code>if</code> conditionals"
       questions: 
-        - What text should go into the <code>println</code> statement to indicate whether the person can vote (at least age 18) but also is too young to run for president (at least age 35)?
+        - What text should go into the <code>print</code> statement to indicate whether the person can vote (at least age 18) but also is too young to run for president (at least age 35)?
         - "Can you switch the order of the checks inside the <code>if</code> statement?  Why or why not?"
         - "Consider the letter grade breakdown table on our <a href=\"../#grading\">course syllabus</a>.  Write a series of compound <code>if</code> statements that determines if your grade is an A+, an A, or an A-."
     - model: |
