@@ -150,7 +150,7 @@ Using these frequency combinations, try writing a program that plays the tones f
 **If you looked at an audio sound graph like you might find on a stereo system, and saw the following output, what digit would you guess is being dialed on the phone?**
 
 <p align="center">
-<img src="https://i.stack.imgur.com/vUTh0.png" style="max-width:100%;" alt="DTMF Spectrogram">
+<img src="https://sparse-plex.readthedocs.io/en/latest/_images/dtmf_4507_periodogram.png" style="max-width:100%;" alt="DTMF Spectrogram">
 </p>
 
 ## What to Turn In
