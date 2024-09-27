@@ -73,7 +73,7 @@ info:
         <script type="syntaxhighlighter" class="brush: python"><![CDATA[
         age = 25
         
-        if age >= 18 and age < 35: { # Why < 35 and not <= 35?
+        if age >= 18 and age < 35: # Why < 35 and not <= 35?
             print("???") # What should we say here?
         ]]></script>      
       title: "Compound <code>if</code> conditionals"
