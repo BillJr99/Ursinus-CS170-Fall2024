@@ -80,6 +80,8 @@ In your terminal window (**not** in your code!), type this command and press ent
 python3 -m pip install scipy pyaudio
 ```
 
+**If you have a Mac computer, please see my note below about a few commands you can run to install some software required by this command.**
+
 ### Play the Note
 
 Download [this file](../files/asmt-semitone/sounds.py) which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  At the top of your program, add this line:
@@ -163,8 +165,8 @@ If you get an error while trying to install pyaudio using the `pip` command abov
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/opt/homebrew/brew install portaudio
-CFLAGS="-I/opt/homebrew/include -L/opt/homebrew/lib" python3 -m pip install pyaudio
+/opt/homebrew/brew install portaudio gfortran
+CFLAGS="-I/opt/homebrew/include -L/opt/homebrew/lib" python3 -m pip install scipy pyaudio
 ```
 
 You may be prompted to enter your password and press enter once or twice by the first command - this is OK!
