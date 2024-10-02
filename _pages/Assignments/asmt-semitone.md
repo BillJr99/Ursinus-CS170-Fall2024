@@ -54,7 +54,7 @@ In this assignment, you will write a program to execute a mathematical formula t
 
 <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = base \times 1.05946309436^{step}\\)</span>
 
-For example, one half step above A4 is A#4 ("A sharp 4"), and its frequency of 466.16 is obtained by calculating <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{1} = 466.16\\)</span>.  Two half-steps above A4 is B4, whose frequency of 493.88 can be obtained by computing <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{2} = 493.88\\)</span>.  One half-step below A4 is G#4, whose frequency of 392 is computed via <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{-1} = 415.3\\)</span>.  You can find a table of notes and frequencies [here](https://pages.mtu.edu/~suits/notefreqs.html).
+For example, one half step above A4 is A#4 ("A sharp 4"), and its frequency of 466.16 is obtained by calculating <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{1} = 466.16\\)</span>.  Two half-steps above A4 is B4, whose frequency of 493.88 can be obtained by computing <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{2} = 493.88\\)</span>.  One half-step below A4 is G#4, whose frequency of 392 is computed via <span>\\(pitch = base \times (2^{\frac{1}{12}})^{step} = 440 \times (2^{\frac{1}{12}})^{-1} = 415.3\\)</span>.  You can find a table of notes and frequencies [here](https://web.archive.org/web/20170720171942/https://pages.mtu.edu/~suits/notefreqs.html).
 
 ## What to Do
 
@@ -69,7 +69,7 @@ base = input("Please enter the base frequency as a whole number (example: 440):"
 base = int(base)
 ```
 
-Calculate the new frequency and print that value to the screen.  Call your variable `frequency`.  Verify that it is correct on the [table of frequencies](https://pages.mtu.edu/~suits/notefreqs.html), and play the notes on the [Online Tone Generator](https://www.szynalski.com/tone-generator/) to hear what they would sound like when played on an instrument.
+Calculate the new frequency and print that value to the screen.  Call your variable `frequency`.  Verify that it is correct on the [table of frequencies](https://web.archive.org/web/20170720171942/https://pages.mtu.edu/~suits/notefreqs.html), and play the notes on the [Online Tone Generator](https://www.szynalski.com/tone-generator/) to hear what they would sound like when played on an instrument.
 
 As a hint, the mathematical operators are: `*` to multiply, `/` to divide, `+` to add, `-` to subtract, and `**` to raise a number to an exponent power.
 
