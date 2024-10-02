@@ -102,7 +102,7 @@ Re-run your program and try it for a few different notes.  Verify that they're c
 **As the frequency increases, what happens to the pitch of the sound?**
 
 ### Play a Song
-Create a new Python file within your project.  Using the `sounds.sine_tone` function, play several frequency notes to put together a song.  You can make up your own song, or use the [table of frequencies](https://pages.mtu.edu/~suits/notefreqs.html) to play a known song.  For example, here's the "alphabet song" (based on [Twinkle Twinkle Little Star](https://en.wikipedia.org/wiki/Twinkle,_Twinkle,_Little_Star)):
+Create a new Python file within your project.  Using the `sounds.sine_tone` function, play several frequency notes to put together a song.  You can make up your own song, or use the [table of frequencies](https://web.archive.org/web/20170815053408/https://pages.mtu.edu/~suits/notefreqs.html) to play a known song.  For example, here's the "alphabet song" (based on [Twinkle Twinkle Little Star](https://en.wikipedia.org/wiki/Twinkle,_Twinkle,_Little_Star)):
 
 ```
 C4 C4 G4 G4 A4 A4 G4(1/2 note)
