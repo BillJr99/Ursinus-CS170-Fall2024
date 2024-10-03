@@ -84,7 +84,7 @@ python3 -m pip install scipy pyaudio
 
 ### Play the Note
 
-Download [this file](../files/asmt-semitone/sounds.py) which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  At the top of your program, add this line:
+Download [this file](../files/asmt-semitone/sounds.py) which contains code to play a note on your computer given its frequency.  You can save it into your project folder to use it.  **Be sure that you see the `sounds.py` file in your project!**  At the top of your program, add this line:
 
 ```python
 # import code into my program that I can use
@@ -167,6 +167,8 @@ If you get an error while trying to install pyaudio using the `pip` command abov
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 /opt/homebrew/brew install portaudio gfortran
 CFLAGS="-I/opt/homebrew/include -L/opt/homebrew/lib" python3 -m pip install scipy pyaudio
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 You may be prompted to enter your password and press enter once or twice by the first command - this is OK!
