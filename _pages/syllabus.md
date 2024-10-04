@@ -440,6 +440,10 @@ schedule:
     dlink: "./Assignments/ComputerArt"
     points: 100      
     rubricpath: "_pages/Assignments/asmt-computerart.md"
+  - dtitle: "Programming Assignment: Cryptography Due"
+    dlink: "./Assignments/MiniCrypto"
+    points: 100   
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"  
 - week: "8"
   date: "3"
   title: "Functions in Python"
@@ -460,11 +464,7 @@ schedule:
   - dtitle: "Lab: Credit Card Validator Handed Out"
     dlink: "./Labs/CreditCardValidator"
     points: 100 
-    rubricpath: "_pages/Labs/lab-creditcardvalidator.md"
-  - dtitle: "Programming Assignment: Cryptography Due"
-    dlink: "./Assignments/MiniCrypto"
-    points: 100   
-    rubricpath: "_pages/Assignments/asmt-minicrypto.md"   
+    rubricpath: "_pages/Labs/lab-creditcardvalidator.md" 
 - week: "9"
   date: "2"
   title: "Social Vicinity Tracker with micro:bit Using Arrays" 
