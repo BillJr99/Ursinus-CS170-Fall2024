@@ -26,7 +26,7 @@ info:
             randVal = random.random() # 0 to 1
             minutes = round(randVal * 20) # whole numbers 0 to 20
         
-            System.out.println("Play outside for " + minutes + " minutes!");
+            print("Play outside for " + minutes + " minutes!");
             raining = checkIfRaining() # made up function!
         ]]></script>        
       title: The <code>while</code> Loop
