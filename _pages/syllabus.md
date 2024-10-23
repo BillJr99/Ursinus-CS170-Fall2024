@@ -429,15 +429,6 @@ schedule:
 - week: "8"
   date: "2"
   title: "Functions in Python"
-  deliverables:
-  - dtitle: "Programming Assignment: Computer Art Handed Out"
-    dlink: "./Assignments/ComputerArt"
-    points: 100      
-    rubricpath: "_pages/Assignments/asmt-computerart.md"
-  - dtitle: "Programming Assignment: Cryptography Due"
-    dlink: "./Assignments/MiniCrypto"
-    points: 100   
-    rubricpath: "_pages/Assignments/asmt-minicrypto.md"  
 - week: "8"
   date: "3"
   title: "Functions in Python"
@@ -455,7 +446,16 @@ schedule:
     rubricpath: "_pages/Labs/lab-creditcardvalidator.md" 
 - week: "9"
   date: "2"
-  title: "Social Vicinity Tracker with micro:bit Using Arrays" 
+  title: "Social Vicinity Tracker with micro:bit Using Arrays"
+  deliverables:
+  - dtitle: "Programming Assignment: Computer Art Handed Out"
+    dlink: "./Assignments/ComputerArt"
+    points: 100      
+    rubricpath: "_pages/Assignments/asmt-computerart.md"
+  - dtitle: "Programming Assignment: Cryptography Due"
+    dlink: "./Assignments/MiniCrypto"
+    points: 100   
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"    
 - week: "9"
   date: "3"  
   title: "Lists in Python"
