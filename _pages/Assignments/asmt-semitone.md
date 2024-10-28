@@ -165,7 +165,7 @@ If you get an error while trying to install pyaudio using the `pip` command abov
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/opt/homebrew/brew install portaudio gfortran
+/opt/homebrew/bin/brew install portaudio gfortran
 CFLAGS="-I/opt/homebrew/include -L/opt/homebrew/lib" python3 -m pip install scipy pyaudio
 python3 -m venv .venv
 source .venv/bin/activate
