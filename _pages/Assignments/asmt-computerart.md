@@ -84,7 +84,7 @@ On Mac, you can run these commands if the above command does not work:
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m venv activate venv
-.venv/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
+activate/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
 ```
 
 ## What to Do
