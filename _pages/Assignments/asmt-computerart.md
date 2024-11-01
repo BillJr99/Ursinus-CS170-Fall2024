@@ -87,6 +87,17 @@ python3 -m venv activate venv
 activate/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
 ```
 
+On Chromebook, these similar commands work instead:
+
+```
+```
+python3 -m venv .venv
+source .venv/Scripts/activate
+python3 -m venv activate venv
+activate/Scripts/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
+```
+```
+
 ## What to Do
 Begin by defining a window width and height.  a 4:3 ratio is common, so a width of 640 and a height of 480, or a width of 800 and a height of 600, are typical window sizes.  You can choose anything you like!
 
