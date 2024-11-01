@@ -100,7 +100,7 @@ Here is an outline of your program:
 # In this loop:
 #    convert the digit character to an int
 
-#    if your index counter i is odd, then double the digit
+#    if your index counter i is odd (i.e., if i mod 2 is 1), then double the digit
 
 #    add this to a running total
 
