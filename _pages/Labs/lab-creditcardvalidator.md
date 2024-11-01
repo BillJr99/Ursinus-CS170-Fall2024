@@ -95,12 +95,14 @@ Here is an outline of your program:
 ```python
 # Input the user's credit card number
 
+# Initialize a running total variable to 0, which you'll compute later inside your loop
+
 # Loop over each digit of the credit card number EXCEPT the last one (don't go up to the length of the credit card number, but one fewer!)
 
 # In this loop:
 #    convert the digit character to an int
 
-#    if your index counter i is odd (i.e., if i mod 2 is 1), then double the digit
+#    if your index counter i is odd (i.e., if i mod 2 is 1), then double the digit; otherwise leave it alone
 
 #    add this to a running total
 
