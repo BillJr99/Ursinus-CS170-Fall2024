@@ -71,11 +71,11 @@ Adding these values together, we get 114.  Take this number and mod it by 10, wh
 
 #### Looping over a string with its index
 
-You can loop over each character of a string called `str` like this:
+You can loop over each character of a string called `mystr` like this:
 
 ```python
-for i in range(len(str)):
-    ch = str[i]
+for i in range(len(mystr)):
+    ch = mystr[i]
     # i is the position number of the character (the index)
     # ch is the character itself
 ```
