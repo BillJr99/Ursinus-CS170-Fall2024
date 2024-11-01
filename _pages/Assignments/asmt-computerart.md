@@ -71,10 +71,20 @@ canvas.drawRectangle(200, 200, 150, 50) # top, left, width, height
 win.wait()
 ``` 
 
+### Installing the EZGraphics Library
 You can install the EzGraphics library in your shell by typing this command:
 
 ```
 python3 -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
+```
+
+On Mac, you can run these commands if the above command does not work:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m venv activate venv
+.venv/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
 ```
 
 ## What to Do
