@@ -81,6 +81,7 @@ python3 -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgra
 On Mac, you can run these commands if the above command does not work:
 
 ```
+brew install python-tk
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m venv activate venv
