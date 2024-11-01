@@ -88,6 +88,30 @@ You can convert a character to an integer using the `int` function:
 x = int(x)
 ```
 
+### Program Structure
+
+Here is an outline of your program:
+
+```python
+# Input the user's credit card number
+
+# Loop over each digit of the credit card number EXCEPT the last one (don't go up to the length of the credit card number, but one fewer!)
+
+# In this loop:
+#    convert the digit character to an int
+
+#    if your index counter i is odd, then double the digit
+
+#    add this to a running total
+
+# After the loop, mod that total by 10.  This is your checksum!
+
+# Convert the last digit of the credit card number to an int, like this (assuming your string is called ccnumber
+lastdigit = int(ccnumber[-1])
+
+# Check that this lastdigit matches the checksum you calculated by computing the mod earlier!  Print out whether it matches or not.
+```
+
 ### Extra Credit (10%): Adding the Individual Digits
 Some credit cards add the individual digits together.  So, after multiplying by 2, if you get 12, you add 1 + 2 instead of 12.  To do this, convert the value back to a string using:
 
