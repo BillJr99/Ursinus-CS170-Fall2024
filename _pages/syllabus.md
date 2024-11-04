@@ -484,10 +484,6 @@ schedule:
     points: 20
     submission_types: "written"
     rubricpath: "_pages/Projects/proj-final.md"
-  - dtitle: "Lab: Credit Card Validator Due"
-    dlink: "./Labs/CreditCardValidator"
-    points: 100 
-    rubricpath: "_pages/Labs/lab-creditcardvalidator.md"
 - week: "10"
   date: "1"
   title: "Lab: Unit Testing"
@@ -521,10 +517,10 @@ schedule:
   date: "0"
   title: "Dictionaries in Python"
   deliverables:
-  - dtitle: "Lab: Unit Testing Due"
-    dlink: "./Labs/UnitTesting"
-    points: 100     
-    rubricpath: "_pages/Labs/lab-unittesting.md"
+  - dtitle: "Lab: Credit Card Validator Due"
+    dlink: "./Labs/CreditCardValidator"
+    points: 100 
+    rubricpath: "_pages/Labs/lab-creditcardvalidator.md"
 - week: "11"
   date: "1"
   title: "Lab: Story Telling"   
@@ -536,7 +532,12 @@ schedule:
 - week: "11"
   date: "2"
   title: "Graphics and Sound"      
-  link: "./Activities/GraphicsSound" 
+  link: "./Activities/GraphicsSound"
+  deliverables:
+  - dtitle: "Lab: Unit Testing Due"
+    dlink: "./Labs/UnitTesting"
+    points: 100     
+    rubricpath: "_pages/Labs/lab-unittesting.md"
 - week: "11"
   date: "3"
   title: "Graphics and Sound"       
