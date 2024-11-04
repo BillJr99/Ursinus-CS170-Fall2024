@@ -42,7 +42,7 @@ The ones digit of this sum should be equal to the last digit in the credit card 
 
 ### Example
 
-For example, suppose our credit card number is `5555555555554444`.  We can loop over each character in this string.  If it is in an odd position (like the second `5`, which is in index position `1`), we can double it.  Convert each digit to an `int` so you can double the values!  From this, we get the following numbers:
+For example, suppose our credit card number is `5555555555554446`.  We can loop over each character in this string.  If it is in an odd position (like the second `5`, which is in index position `1`), we can double it.  Convert each digit to an `int` so you can double the values!  From this, we get the following numbers:
 
 Add these values together.  For two digit values (like 16), we can convert the value back to a string, loop over its characters, convert them to `int`, and add them up.  From these, we get the following values:
 
@@ -62,10 +62,10 @@ Add these values together.  For two digit values (like 16), we can convert the v
 4
 8
 4
-8
+(skip the last digit)
 ```
 
-Adding these values together, we get 114.  Take this number and mod it by 10, which obtains 4.  This should match the last digit of the string, which it does!  You can compare your calculated check digit and the last digit of the credit card string using an `if` statement.  Just be sure to convert the last character of the credit card number to an `int` before you compare, so that you can compare it to your calculated integer value.
+Adding these values together, we get 106.  Take this number and mod it by 10, which obtains 6.  This should match the last digit of the string, which it does!  You can compare your calculated check digit and the last digit of the credit card string using an `if` statement.  Just be sure to convert the last character of the credit card number to an `int` before you compare, so that you can compare it to your calculated integer value.
 
 ### Helpful Functions
 
