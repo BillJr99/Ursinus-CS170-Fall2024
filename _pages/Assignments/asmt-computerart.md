@@ -91,12 +91,10 @@ activate/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Do
 On Chromebook, these similar commands work instead:
 
 ```
-```
 python3 -m venv .venv
 source .venv/Scripts/activate
 python3 -m venv activate venv
 activate/Scripts/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
-```
 ```
 
 ## What to Do
