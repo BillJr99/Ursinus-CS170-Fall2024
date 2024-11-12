@@ -84,7 +84,7 @@ On Mac, you can run these commands if the above command does not work:
 brew install python-tk
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m venv activate venv
+python3 -m venv activate .venv
 activate/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
 ```
 
@@ -92,7 +92,7 @@ On Chromebook or other machines, the last command might look slightly different,
 
 ```
 activate/Scripts/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
-venv/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
+.venv/bin/python -m pip install http://www.ezgraphics.org/uploads/Software/Download/ezgraphics-2.2.tar.gz
 ```
 
 ## What to Do
