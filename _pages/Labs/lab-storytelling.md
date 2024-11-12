@@ -51,17 +51,17 @@ story['start'] = {} # the starting room is also a dictionary! it will contain th
 Within this dictionary, have a key called `story` whose value is a narration of your story upon entering that location:
 
 ```python
-story['start']['story'] = "It was a dark and stormy night..."
+story['start']['narrative'] = "It was a dark and stormy night..."
 ``` 
 
 Now, add another key to `story['start']` called `next` that is a list.  In this list, add the names of the rooms you can go to next.
 
 ### Telling the Story
-Set the starting room to `start`.  Print `story[room]['story']` to the screen, as well as `story[room]['next']` so that the user knows where they can go next.  Input the next room until it is equal to one of the choices in `story[room]['next']`, and repeat until the story is done!  You can check if the choice the user entered is in the dictionary using this `if` statement: `if nextroom in story[room]['next']`, where `nextroom` is what the user inputs as part of the loop to ask for the next destination.
+Set the starting room to `start`.  Print `story[room]['narrative']` to the screen, as well as `story[room]['next']` so that the user knows where they can go next.  Input the next room until it is equal to one of the choices in `story[room]['next']`, and repeat until the story is done!  You can check if the choice the user entered is in the dictionary using this `if` statement: `if nextroom in story[room]['next']`, where `nextroom` is what the user inputs as part of the loop to ask for the next destination.
 
 Here is an example dictionary value:
 
-|    room   |            story           |            moves               |
+|    room   |        narrative           |            moves               |
 |:---------:|:--------------------------:|:------------------------------:|
 | start     | This is the starting room! | "classroom", "courtyard"       |
 | classroom | I am in a classroom!       | "start", "courtyard", "end"    |
@@ -74,9 +74,17 @@ Here is an example dictionary value:
 
 You can decide how to end the story.  One idea is to add another key to the `story` dictionary called `end` which is `True` if this ends the story and `False` otherwise.  Another way is to have `moves` be an empty list for ending rooms, and check if the length of the list is 0 to end the loop.  You get to decide!
 
-**What happens if you call `story[room]` with a room that doesn't exist in your program?**
+**What happens if you call `story[room]` with a room that doesn't exist in your program?  How can you ensure that the user keeps entering a room until they enter a valid one?  Hint: you can check if a string is in a list by asking if `newroom in story[room]['moves'] - and loop while this is false!**
 
 **In your README, include a graph (either a drawing or in text is fine!) that shows the progression of your rooms from one to the next.**
+
+#### Multiple Endings
+
+You'll want each room in your story to have a unique key (i.e., don't have two places called `forest` - call them `forest1` and `forest2` instead).  But, you might have multiple endings by having places called `end1`, `end2`, and `end3`.  You could have your `while` loop terminate when the room begins with the word `end`.  To do this, your while loop might look like this:
+
+```python
+while !room.startswith("end"):
+```
 
 ### Getting Started Template
 Here is a template to help you begin:
