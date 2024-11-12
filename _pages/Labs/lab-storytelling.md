@@ -92,12 +92,12 @@ Here is a template to help you begin:
 ```python
 story = {}
 story['start'] = {}
-story['start']['story'] = "It was a dark and stormy night..."
+story['start']['narrative'] = "It was a dark and stormy night..."
 story['start']['next'] = ['forest', 'diner']
 
 room = 'start'
 
-print(story[room]['story'])
+print(story[room]['narrative'])
 print("Where to next? {}".format(story[room]['next']))
 ```
 
