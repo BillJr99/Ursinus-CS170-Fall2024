@@ -577,10 +577,10 @@ schedule:
   date: "0"
   title: "File I/O in Python"
   deliverables:
-  - dtitle: "Programming Assignment: The Federalist Papers Handed Out"
-    dlink: "./Assignments/FederalistPapers"
+  - dtitle: "Programming Assignment: Retirement Simulator Handed Out"
+    dlink: "./Assignments/RetirementSimulator"
     points: 100         
-    rubricpath: "_pages/Assignments/asmt-federalist.md"
+    rubricpath: "_pages/Assignments/asmt-retirementsimulator.md"
 - week: "13"
   date: "1"
   title: "File I/O in Python"
@@ -617,10 +617,10 @@ schedule:
   date: "3"
   title: "Data Encodings: Telling Time with WWVB" 
   deliverables:
-  - dtitle: "Programming Assignment: The Federalist Papers Due"
-    dlink: "./Assignments/FederalistPapers"
-    points: 100  
-    rubricpath: "_pages/Assignments/asmt-federalist.md"    
+  - dtitle: "Programming Assignment: Retirement Simulator Handed Out"
+    dlink: "./Assignments/RetirementSimulator"
+    points: 100         
+    rubricpath: "_pages/Assignments/asmt-retirementsimulator.md"   
 university:
   semester: "Fall"
   academicyear: "2024-25"
