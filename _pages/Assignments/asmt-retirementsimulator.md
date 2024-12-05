@@ -181,6 +181,14 @@ In this experiment, you will simulate the effect of daily market fluctuations on
      ```
    - After building your `portfolio_history` list, pass it as an argument to this function to create the plot.
 
+To install `matplotlib`, you can execute:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+.venv/bin/python3 -m pip install matplotlib
+```
+
 ### Example Steps for Tracking Portfolio History
 
 1. **Inside the Loop for Each Trial**:
