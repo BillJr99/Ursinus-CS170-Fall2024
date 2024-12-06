@@ -77,7 +77,9 @@ See [this article](https://academo.org/demos/estimating-pi-monte-carlo/) for an 
    - Multiply the result by 4 to approximate <span>\\(\pi\\)</span>.
 
 4. **Calculate Error**:
-   - Print the approximate value of π, the absolute error (`abs_error`): <span>\\(\text{abs\_error} = \left| \text{approximation} - \pi \right|\\)</span>
+   - Print the approximate value of <span>\\(\pi\\)</span>, the absolute error (`abs_error`): <span>\\(\text{abs\_error} = \left| \text{approximation} - \pi \right|\\)</span>
+   - To get the value of <span>\\(\pi\\)</span>, you can `import math` and use `math.pi`
+   - To calculate the absolute value of `abs_error`, you can `import math` and then execute `abs_error = math.abs(abs_error)`
    - Calculate and print the percentage error (`percent_error`): <span>\\(\text{percent\_error} = \frac{\text{abs\_error}}{\pi} \times 100\\)</span>
 
 5. **Run the Experiment**:
