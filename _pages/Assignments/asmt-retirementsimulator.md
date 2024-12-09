@@ -191,6 +191,12 @@ source .venv/bin/activate
 .venv/bin/python3 -m pip install matplotlib
 ```
 
+On some computers, the last command will be:
+
+```
+.venv/Scripts/python -m pip install matplotlib
+```
+
 ### Example Steps for Tracking Portfolio History
 
 1. **Inside the Loop for Each Trial**:
