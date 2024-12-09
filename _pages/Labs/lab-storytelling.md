@@ -83,7 +83,7 @@ You can decide how to end the story.  One idea is to add another key to the `sto
 You'll want each room in your story to have a unique key (i.e., don't have two places called `forest` - call them `forest1` and `forest2` instead).  But, you might have multiple endings by having places called `end1`, `end2`, and `end3`.  You could have your `while` loop terminate when the room begins with the word `end`.  To do this, your while loop might look like this:
 
 ```python
-while !room.startswith("end"):
+while not room.startswith("end"):
 ```
 
 ### Getting Started Template
